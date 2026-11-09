@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:22:51+07:00",
+  "updated_at": "2026-11-10T03:22:55+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.1288",
     "Ch.1293"
   ],
-  "cpu_percent": 7.4,
+  "cpu_percent": 8.9,
   "ram_percent": 49.5,
-  "speed_per_min": 13.4,
-  "speed_per_hour": 806,
+  "speed_per_min": 13.0,
+  "speed_per_hour": 778,
   "eta_text": "~15 นาที (จบ ~03:37 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1311 (แปลเสร็จจริง 1309/1510 ตอน)",
