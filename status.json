@@ -1,17 +1,16 @@
 {
-  "updated_at": "2026-11-10T02:23:08+07:00",
+  "updated_at": "2026-11-10T02:23:27+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 42,
-  "cpu_percent": 19.4,
-  "ram_percent": 47.9,
+  "cpu_percent": 12.7,
+  "ram_percent": 47.8,
   "speed_per_min": 0.0,
   "current_project": "苟在女魔头身边偷偷修炼 (ซุ่มฝึกตนลับๆ ข้างกายจอมมารหญิง)",
   "current_step": "กำลังรันแปลอัตโนมัติ Worker x20 (แปลเสร็จ 110/1,510 ตอน)",
   "completed_count": 110,
   "total_count": 1510,
   "recent_logs": [
-    "[02:19:32] AGY Workers: 42 | Progress: 110/1510 | CPU: 6.5% RAM: 47.2%",
     "[02:19:52] AGY Workers: 42 | Progress: 110/1510 | CPU: 4.9% RAM: 47.3%",
     "[02:20:11] AGY Workers: 42 | Progress: 110/1510 | CPU: 11.2% RAM: 47.4%",
     "[02:20:31] AGY Workers: 42 | Progress: 110/1510 | CPU: 6.6% RAM: 47.5%",
@@ -22,6 +21,7 @@
     "[02:22:09] AGY Workers: 42 | Progress: 110/1510 | CPU: 7.9% RAM: 47.1%",
     "[02:22:28] AGY Workers: 42 | Progress: 110/1510 | CPU: 10.3% RAM: 47.8%",
     "[02:22:48] AGY Workers: 42 | Progress: 110/1510 | CPU: 14.6% RAM: 48.1%",
-    "[02:23:08] AGY Workers: 42 | Progress: 110/1510 | CPU: 19.4% RAM: 47.9%"
+    "[02:23:08] AGY Workers: 42 | Progress: 110/1510 | CPU: 19.4% RAM: 47.9%",
+    "[02:23:27] AGY Workers: 42 | Progress: 110/1510 | CPU: 12.7% RAM: 47.8%"
   ]
 }
