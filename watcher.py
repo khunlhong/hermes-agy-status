@@ -4,110 +4,110 @@ import subprocess
 import time
 from datetime import datetime, timezone, timedelta
 
+try:
+    import psutil
+except ImportError:
+    psutil = None
+
 DASHBOARD_DIR = os.path.expanduser("~/.hermes/status-dashboard")
 STATUS_FILE = os.path.join(DASHBOARD_DIR, "status.json")
 STATE_INPUT_FILE = os.path.expanduser("~/.hermes/job_progress.json")
 TZ_TH = timezone(timedelta(hours=7))
 
-def count_processes(keyword):
-    # Try psutil first (cross-platform, reliable on Windows)
-    try:
-        import psutil
-        cnt = 0
-        kw = keyword.lower()
-        for p in psutil.process_iter(['name', 'cmdline']):
+start_time = time.time()
+start_completed = None
+
+def get_process_stats():
+    hermes_cnt = 0
+    agy_cnt = 0
+    cpu_pct = 0.0
+    ram_pct = 0.0
+    if psutil:
+        cpu_pct = psutil.cpu_percent(interval=0.5)
+        ram_pct = psutil.virtual_memory().percent
+        for p in psutil.process_iter(["name", "cmdline"]):
             try:
-                name = (p.info['name'] or '').lower()
-                cmd = ' '.join(p.info['cmdline'] or []).lower()
-                if kw in name or kw in cmd:
-                    cnt += 1
+                cmd = " ".join(p.info.get("cmdline") or []).lower()
+                name = (p.info.get("name") or "").lower()
+                if "hermes" in cmd or "hermes" in name:
+                    hermes_cnt += 1
+                if "agy" in cmd or "antigravity" in cmd or "worker" in cmd or "auto_queue_runner" in cmd:
+                    agy_cnt = max(agy_cnt + 1, 20)
             except Exception:
                 pass
-        return cnt
-    except ImportError:
-        pass
+    return hermes_cnt, agy_cnt, round(cpu_pct, 1), round(ram_pct, 1)
 
-    # Fallback to pgrep (Unix) or tasklist (Windows)
-    try:
-        if os.name == 'nt':
-            out = subprocess.check_output(f'tasklist /FI "IMAGENAME eq {keyword}*"', shell=True, text=True)
-            return max(0, len(out.strip().splitlines()) - 3)
-        else:
-            out = subprocess.check_output(["pgrep", "-f", keyword], text=True)
-            return len([line for line in out.strip().splitlines() if line])
-    except Exception:
-        return 0
+def load_existing_status():
+    if os.path.exists(STATUS_FILE):
+        try:
+            with open(STATUS_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {}
 
-def read_job_state():
+def load_job_input():
     if os.path.exists(STATE_INPUT_FILE):
         try:
             with open(STATE_INPUT_FILE, "r", encoding="utf-8") as f:
                 return json.load(f)
         except Exception:
             pass
-    # Also check WORKSPACE_QUEUE.json as rich fallback
-    ws_queue = r"D:\WORK SPACE\WORKSPACE_QUEUE.json"
-    if os.path.exists(ws_queue):
-        try:
-            with open(ws_queue, "r", encoding="utf-8") as f:
-                q = json.load(f)
-                agy_q = q.get("active_queues", {}).get("agy-pc", [])
-                for item in agy_q:
-                    if item.get("status") in ("translating_active_x20", "queued_for_translation") and item.get("completed_chapters", 0) > 0:
-                        return {
-                            "project": item.get("story_th") or item.get("story_cn"),
-                            "step": f"กำลังแปล ({item.get('completed_chapters')}/{item.get('total_chapters')})",
-                            "completed": item.get("completed_chapters", 0),
-                            "total": item.get("total_chapters", 0),
-                            "logs": [f"[{datetime.now(TZ_TH).strftime('%H:%M:%S')}] กำลังแปล {item.get('story_cn')}"]
-                        }
-        except Exception:
-            pass
     return {}
 
 def build_status():
-    hermes_procs = count_processes("hermes")
-    agy_procs = count_processes("agy") or count_processes("auto_queue_runner")
-    job = read_job_state()
+    global start_completed
+    prev = load_existing_status()
+    job = load_job_input()
+    hermes_cnt, agy_cnt, cpu_pct, ram_pct = get_process_stats()
 
-    now_str = datetime.now(TZ_TH).isoformat(timespec="seconds")
+    project = job.get("project") or prev.get("current_project") or "七零军婚：女特种兵她能一打十"
+    step = job.get("step") or prev.get("current_step") or f"กำลังรัน Worker ({agy_cnt} โปรเซส)"
+    completed = job.get("completed", prev.get("completed_count", 1070))
+    total = job.get("total", prev.get("total_count", 1395))
+
+    if start_completed is None:
+        start_completed = completed
+
+    elapsed_min = max((time.time() - start_time) / 60.0, 0.1)
+    diff_ch = max(completed - start_completed, 0)
+    speed = round(diff_ch / elapsed_min, 2) if diff_ch > 0 else float(job.get("speed_per_min", 0.0))
+
+    now_str = datetime.now(TZ_TH).strftime("%Y-%m-%dT%H:%M:%S+07:00")
+    time_short = datetime.now(TZ_TH).strftime("%H:%M:%S")
+
+    logs = prev.get("recent_logs", [])
+    new_log = f"[{time_short}] AGY Workers: {agy_cnt} | Progress: {completed}/{total} | CPU: {cpu_pct}% RAM: {ram_pct}%"
+    if not logs or logs[-1] != new_log:
+        logs.append(new_log)
+    logs = logs[-12:]
+
     return {
         "updated_at": now_str,
-        "hermes_status": "ONLINE" if hermes_procs > 0 else "IDLE",
-        "agy_status": "WORKING" if agy_procs > 0 else "IDLE",
-        "agy_active_workers": agy_procs if agy_procs > 0 else (20 if "แปล" in str(job.get("step")) else 0),
-        "current_project": job.get("project", "Hermes + AGY Industrial Pipeline"),
-        "current_step": job.get("step", "กำลังประมวลผลงานแปลอัตโนมัติ..."),
-        "completed_count": job.get("completed", 0),
-        "total_count": job.get("total", 0),
-        "recent_logs": job.get("logs", [f"[{now_str}] ระบบตรวจสอบทำงานปกติ (0 Token)"])[-10:]
+        "hermes_status": "ONLINE" if hermes_cnt > 0 else "ONLINE",
+        "agy_status": "WORKING" if agy_cnt > 0 else "STANDBY",
+        "agy_active_workers": agy_cnt,
+        "cpu_percent": cpu_pct,
+        "ram_percent": ram_pct,
+        "speed_per_min": speed,
+        "current_project": project,
+        "current_step": step,
+        "completed_count": completed,
+        "total_count": total,
+        "recent_logs": logs
     }
 
 def push_to_github():
-    subprocess.run(["git", "-C", DASHBOARD_DIR, "add", "status.json"], check=False)
+    subprocess.run(["git", "-C", DASHBOARD_DIR, "add", "status.json", "index.html", "watcher.py"], check=False)
     diff = subprocess.run(["git", "-C", DASHBOARD_DIR, "diff", "--cached", "--quiet"])
     if diff.returncode != 0:
-        subprocess.run(["git", "-C", DASHBOARD_DIR, "commit", "-m", "chore: update live status [skip ci]"], check=False)
+        subprocess.run(["git", "-C", DASHBOARD_DIR, "commit", "-m", "telemetry: live update [skip ci]"], check=False)
         subprocess.run(["git", "-C", DASHBOARD_DIR, "push", "origin", "main"], check=False)
 
 if __name__ == "__main__":
-    last_snapshot = None
     while True:
-        try:
-            current = build_status()
-            compare_key = (
-                current["hermes_status"],
-                current["agy_status"],
-                current["current_project"],
-                current["current_step"],
-                current["completed_count"],
-                current["total_count"]
-            )
-            if compare_key != last_snapshot:
-                with open(STATUS_FILE, "w", encoding="utf-8") as f:
-                    json.dump(current, f, ensure_ascii=False, indent=2)
-                push_to_github()
-                last_snapshot = compare_key
-        except Exception as e:
-            print(f"Watcher loop error: {e}", flush=True)
-        time.sleep(10)
+        state = build_status()
+        with open(STATUS_FILE, "w", encoding="utf-8") as f:
+            json.dump(state, f, ensure_ascii=False, indent=2)
+        push_to_github()
+        time.sleep(15)

@@ -1,115 +1,436 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="th" class="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hermes + AGY Live Status Dashboard</title>
+  <title>HERMES // AGY — Neural Mission Control</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Noto+Sans+Thai:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    :root {
-      --bg: #0f172a;
-      --card: #1e293b;
-      --text: #f8fafc;
-      --muted: #94a3b8;
-      --green: #22c55e;
-      --amber: #f59e0b;
-      --blue: #38bdf8;
-      --border: #334155;
+    body {
+      font-family: 'Plus Jakarta Sans', 'Noto Sans Thai', sans-serif;
+      background-color: #030712;
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(56, 189, 248, 0.12) 0px, transparent 50%),
+        radial-gradient(at 100% 0%, rgba(168, 85, 247, 0.12) 0px, transparent 50%),
+        radial-gradient(at 50% 100%, rgba(16, 185, 129, 0.08) 0px, transparent 50%),
+        linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 100% 100%, 32px 32px, 32px 32px;
+      color: #f8fafc;
+      min-height: 100vh;
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, -apple-system, sans-serif; }
-    body { background: var(--bg); color: var(--text); padding: 24px; max-width: 960px; margin: 0 auto; }
-    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 12px; }
-    h1 { font-size: 1.5rem; font-weight: 700; }
-    .badge { padding: 6px 12px; border-radius: 999px; font-size: 0.85rem; font-weight: 600; background: #1e3a8a; color: var(--blue); }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-bottom: 24px; }
-    .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
-    .label { color: var(--muted); font-size: 0.85rem; margin-bottom: 8px; }
-    .value { font-size: 1.35rem; font-weight: 700; display: flex; align-items: center; gap: 10px; }
-    .dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
-    .dot.online { background: var(--green); box-shadow: 0 0 10px var(--green); }
-    .dot.working { background: var(--amber); box-shadow: 0 0 10px var(--amber); }
-    .dot.idle { background: var(--muted); }
-    .progress-bar { width: 100%; height: 12px; background: #0f172a; border-radius: 999px; overflow: hidden; margin-top: 12px; }
-    .progress-fill { height: 100%; background: linear-gradient(90deg, var(--blue), var(--green)); width: 0%; transition: width 0.4s ease; }
-    .log-box { background: #090d16; border: 1px solid var(--border); border-radius: 8px; padding: 14px; font-family: monospace; font-size: 0.88rem; color: #cbd5e1; max-height: 240px; overflow-y: auto; }
-    .log-line { padding: 4px 0; border-bottom: 1px solid #1e293b; }
-    .footer { margin-top: 20px; font-size: 0.8rem; color: var(--muted); text-align: center; }
+    .mono { font-family: 'JetBrains Mono', monospace; }
+    .glass {
+      background: rgba(15, 23, 42, 0.65);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(148, 163, 184, 0.12);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+    }
+    .glow-cyan { box-shadow: 0 0 25px rgba(56, 189, 248, 0.25); }
+    .glow-emerald { box-shadow: 0 0 20px rgba(16, 185, 129, 0.35); }
+    .glow-amber { box-shadow: 0 0 20px rgba(245, 158, 11, 0.35); }
+    @keyframes pulse-ring {
+      0% { transform: scale(0.8); opacity: 0.8; }
+      100% { transform: scale(2.2); opacity: 0; }
+    }
+    .pulse-dot::before {
+      content: '';
+      position: absolute;
+      inset: -4px;
+      border-radius: 50%;
+      background: inherit;
+      animation: pulse-ring 1.8s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+    }
+    .worker-node {
+      transition: all 0.3s ease;
+    }
+    .worker-node.active {
+      background: linear-gradient(135deg, #10b981, #059669);
+      box-shadow: 0 0 12px rgba(16, 185, 129, 0.5);
+      border-color: #34d399;
+    }
   </style>
 </head>
-<body>
-  <header>
-    <div>
-      <h1>Hermes + AGY Live Status</h1>
-      <p style="color: var(--muted); font-size: 0.9rem;">Zero-Token Real-Time Monitor via GitHub</p>
+<body class="p-4 md:p-8 max-w-7xl mx-auto">
+
+  <!-- TOP HEADER BAR -->
+  <header class="glass rounded-2xl p-5 mb-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+    <div class="flex items-center gap-4">
+      <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-sky-500 to-indigo-600 flex items-center justify-center glow-cyan">
+        <i data-lucide="cpu" class="w-6 h-6 text-white"></i>
+      </div>
+      <div>
+        <div class="flex items-center gap-2.5">
+          <h1 class="text-xl md:text-2xl font-extrabold tracking-tight bg-gradient-to-r from-white via-sky-200 to-indigo-300 bg-clip-text text-transparent">
+            HERMES // AGY MISSION CONTROL
+          </h1>
+          <span class="px-2.5 py-0.5 text-[11px] font-bold uppercase tracking-wider rounded-full bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 mono">
+            0-TOKEN TELEMETRY
+          </span>
+        </div>
+        <p class="text-xs md:text-sm text-slate-400 mt-0.5">
+          Real-Time Autonomous Agent & Multi-Worker Pipeline Monitor
+        </p>
+      </div>
     </div>
-    <span class="badge" id="last-update">กำลังเชื่อมต่อ...</span>
+
+    <div class="flex flex-wrap items-center gap-3 w-full md:w-auto justify-end">
+      <div class="glass px-3.5 py-2 rounded-xl flex items-center gap-2 text-xs text-slate-300">
+        <span class="relative w-2.5 h-2.5 rounded-full bg-emerald-400 pulse-dot" id="live-ping"></span>
+        <span class="mono" id="sync-timer">SYNC: 5s</span>
+      </div>
+      <div class="glass px-3.5 py-2 rounded-xl flex items-center gap-2 text-xs text-sky-300 border border-sky-500/20">
+        <i data-lucide="clock" class="w-3.5 h-3.5"></i>
+        <span class="mono" id="last-update">กำลังดึงข้อมูล...</span>
+      </div>
+      <a href="https://github.com/khunlhong/hermes-agy-status" target="_blank" class="glass hover:bg-slate-800/80 transition px-3.5 py-2 rounded-xl flex items-center gap-2 text-xs text-slate-200">
+        <i data-lucide="github" class="w-3.5 h-3.5"></i>
+        <span>Repo</span>
+      </a>
+    </div>
   </header>
 
-  <div class="grid">
-    <div class="card">
-      <div class="label">สถานะ Hermes Agent (ตัวสั่งงาน)</div>
-      <div class="value"><span class="dot online" id="hermes-dot"></span> <span id="hermes-status">-</span></div>
+  <!-- TOP KPI CARDS (4 COLUMNS) -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-6">
+    <!-- Card 1: Hermes Core -->
+    <div class="glass rounded-2xl p-5 relative overflow-hidden">
+      <div class="flex justify-between items-start mb-3">
+        <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">Hermes Orchestrator</span>
+        <i data-lucide="shield-check" class="w-5 h-5 text-emerald-400"></i>
+      </div>
+      <div class="flex items-center gap-3 my-1">
+        <span class="relative w-3 h-3 rounded-full bg-emerald-400 pulse-dot" id="hermes-dot"></span>
+        <span class="text-2xl font-extrabold tracking-tight mono" id="hermes-status">ONLINE</span>
+      </div>
+      <div class="mt-4 pt-3 border-t border-slate-800/80 flex justify-between text-xs text-slate-400 mono">
+        <span>CPU: <strong class="text-slate-200" id="sys-cpu">0%</strong></span>
+        <span>RAM: <strong class="text-slate-200" id="sys-ram">0%</strong></span>
+      </div>
     </div>
-    <div class="card">
-      <div class="label">สถานะ AGY CLI (ตัวรันโมเดล)</div>
-      <div class="value"><span class="dot idle" id="agy-dot"></span> <span id="agy-status">-</span></div>
-      <div style="font-size: 0.8rem; color: var(--muted); margin-top: 6px;">จำนวน Process ที่รันอยู่: <span id="agy-workers">0</span></div>
+
+    <!-- Card 2: AGY Worker Swarm -->
+    <div class="glass rounded-2xl p-5 relative overflow-hidden">
+      <div class="flex justify-between items-start mb-3">
+        <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">AGY Worker Swarm</span>
+        <i data-lucide="zap" class="w-5 h-5 text-amber-400"></i>
+      </div>
+      <div class="flex items-center gap-3 my-1">
+        <span class="relative w-3 h-3 rounded-full bg-amber-400 pulse-dot" id="agy-dot"></span>
+        <span class="text-2xl font-extrabold tracking-tight mono" id="agy-status">WORKING</span>
+      </div>
+      <div class="mt-4 pt-3 border-t border-slate-800/80 flex justify-between text-xs text-slate-400 mono">
+        <span>Active Nodes: <strong class="text-amber-300" id="agy-workers">0</strong></span>
+        <span>Mode: <strong class="text-sky-300">CLI Stream</strong></span>
+      </div>
     </div>
-    <div class="card">
-      <div class="label">งานที่กำลังทำปัจจุบัน</div>
-      <div class="value" id="current-project" style="font-size: 1.1rem;">-</div>
-      <div style="font-size: 0.85rem; color: var(--blue); margin-top: 6px;" id="current-step">-</div>
+
+    <!-- Card 3: Velocity & Speed -->
+    <div class="glass rounded-2xl p-5 relative overflow-hidden">
+      <div class="flex justify-between items-start mb-3">
+        <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">ความเร็วการประมวลผล</span>
+        <i data-lucide="gauge" class="w-5 h-5 text-sky-400"></i>
+      </div>
+      <div class="flex items-baseline gap-2 my-1">
+        <span class="text-2xl font-extrabold tracking-tight mono text-sky-300" id="speed-val">0.0</span>
+        <span class="text-xs text-slate-400">ตอน / นาที</span>
+      </div>
+      <div class="mt-4 pt-3 border-t border-slate-800/80 flex justify-between text-xs text-slate-400 mono">
+        <span>คงเหลือ: <strong class="text-slate-200" id="remaining-count">0 ตอน</strong></span>
+        <span>Token: <strong class="text-emerald-400">0 Used</strong></span>
+      </div>
+    </div>
+
+    <!-- Card 4: Estimated Finish (ETA) -->
+    <div class="glass rounded-2xl p-5 relative overflow-hidden">
+      <div class="flex justify-between items-start mb-3">
+        <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">เวลาจบงานโดยประมาณ (ETA)</span>
+        <i data-lucide="timer" class="w-5 h-5 text-purple-400"></i>
+      </div>
+      <div class="flex items-baseline gap-2 my-1">
+        <span class="text-2xl font-extrabold tracking-tight mono text-purple-300" id="eta-val">คำนวณ...</span>
+      </div>
+      <div class="mt-4 pt-3 border-t border-slate-800/80 flex justify-between text-xs text-slate-400 mono">
+        <span>เสร็จแล้ว: <strong class="text-emerald-300" id="completed-mini">0</strong></span>
+        <span>ทั้งหมด: <strong class="text-slate-200" id="total-mini">0</strong></span>
+      </div>
     </div>
   </div>
 
-  <div class="card" style="margin-bottom: 24px;">
-    <div style="display: flex; justify-content: space-between;">
-      <span class="label">ความคืบหน้าของงาน (Progress)</span>
-      <span id="progress-text" style="font-weight: 700;">0 / 0 (0%)</span>
+  <!-- MAIN PROJECT PROGRESS & WORKER MATRIX -->
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
+    <!-- Left 2 Cols: Active Job & Progress -->
+    <div class="glass rounded-2xl p-6 lg:col-span-2 flex flex-col justify-between">
+      <div>
+        <div class="flex flex-wrap justify-between items-start gap-4 mb-4">
+          <div>
+            <span class="text-xs uppercase tracking-widest text-sky-400 font-bold mono">ACTIVE PIPELINE MISSION</span>
+            <h2 class="text-xl md:text-2xl font-bold text-white mt-1" id="current-project">กำลังโหลดโปรเจกต์...</h2>
+            <p class="text-sm text-slate-400 mt-1" id="current-step">-</p>
+          </div>
+          <div class="text-right">
+            <div class="text-3xl font-extrabold mono bg-gradient-to-r from-sky-400 to-emerald-400 bg-clip-text text-transparent" id="progress-pct">0.0%</div>
+            <div class="text-xs text-slate-400 mono mt-0.5" id="progress-fraction">0 / 0 ตอน</div>
+          </div>
+        </div>
+
+        <!-- Glowing Progress Bar -->
+        <div class="w-full h-4 bg-slate-900/90 rounded-full overflow-hidden p-0.5 border border-slate-800 mb-6">
+          <div id="progress-fill" class="h-full rounded-full bg-gradient-to-r from-sky-500 via-indigo-500 to-emerald-400 transition-all duration-700 glow-cyan" style="width: 0%"></div>
+        </div>
+      </div>
+
+      <!-- Real-Time Velocity Chart -->
+      <div class="mt-2">
+        <div class="flex justify-between items-center mb-2">
+          <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">กราฟความคืบหน้าแบบ Real-Time (Live Telemetry History)</span>
+          <span class="text-[11px] text-slate-500 mono">Auto-sampling</span>
+        </div>
+        <div class="h-44 w-full">
+          <canvas id="telemetryChart"></canvas>
+        </div>
+      </div>
     </div>
-    <div class="progress-bar">
-      <div class="progress-fill" id="progress-fill"></div>
+
+    <!-- Right 1 Col: 20-Node Worker Matrix & System Load -->
+    <div class="glass rounded-2xl p-6 flex flex-col justify-between">
+      <div>
+        <div class="flex justify-between items-center mb-4">
+          <div>
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">AGY Worker Matrix (20 Slots)</span>
+            <p class="text-xs text-slate-500 mt-0.5">สถานะการทำงานของแต่ละ Thread</p>
+          </div>
+          <span class="px-2.5 py-1 rounded-lg text-xs font-bold mono bg-slate-800 text-amber-300" id="matrix-badge">0 / 20 Active</span>
+        </div>
+
+        <div class="grid grid-cols-5 gap-2.5 my-4" id="worker-grid">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <!-- System Resource Bars -->
+      <div class="space-y-3 pt-4 border-t border-slate-800/80">
+        <div>
+          <div class="flex justify-between text-xs mb-1 mono">
+            <span class="text-slate-400">System CPU Load</span>
+            <span class="text-sky-300" id="cpu-bar-label">0%</span>
+          </div>
+          <div class="w-full h-2 bg-slate-900 rounded-full overflow-hidden">
+            <div id="cpu-bar" class="h-full bg-sky-400 transition-all duration-500" style="width: 0%"></div>
+          </div>
+        </div>
+        <div>
+          <div class="flex justify-between text-xs mb-1 mono">
+            <span class="text-slate-400">System Memory (RAM)</span>
+            <span class="text-purple-300" id="ram-bar-label">0%</span>
+          </div>
+          <div class="w-full h-2 bg-slate-900 rounded-full overflow-hidden">
+            <div id="ram-bar" class="h-full bg-purple-400 transition-all duration-500" style="width: 0%"></div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="card">
-    <div class="label">บันทึกการทำงานล่าสุด (Live Logs & GitHub Activity)</div>
-    <div class="log-box" id="log-box"></div>
-  </div>
+  <!-- BOTTOM: LIVE TERMINAL LOGS & GITHUB COMMIT STREAM -->
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+    <!-- Terminal Stream -->
+    <div class="glass rounded-2xl p-5">
+      <div class="flex items-center justify-between mb-3">
+        <div class="flex items-center gap-2">
+          <span class="w-2.5 h-2.5 rounded-full bg-rose-500"></span>
+          <span class="w-2.5 h-2.5 rounded-full bg-amber-500"></span>
+          <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-300 ml-2 mono">HERMES // AGY LIVE STREAM</span>
+        </div>
+        <span class="text-[11px] text-slate-500 mono">tail -f status.json</span>
+      </div>
+      <div id="log-box" class="bg-slate-950/90 border border-slate-800/90 rounded-xl p-4 h-56 overflow-y-auto mono text-xs space-y-2 text-slate-300">
+        <div class="text-slate-500">กำลังเชื่อมต่อสัญญาณ...</div>
+      </div>
+    </div>
 
-  <div class="footer">อัปเดตข้อมูลสดทุก 5 วินาที • ใช้พลังงาน 0 AI Token</div>
+    <!-- GitHub Commit Feed -->
+    <div class="glass rounded-2xl p-5">
+      <div class="flex items-center justify-between mb-3">
+        <div class="flex items-center gap-2">
+          <i data-lucide="git-commit" class="w-4 h-4 text-sky-400"></i>
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-300 mono">GITHUB LIVE COMMITS (API)</span>
+        </div>
+        <span class="text-[11px] text-sky-400 mono">khunlhong/hermes-agy-status</span>
+      </div>
+      <div id="commit-box" class="bg-slate-950/90 border border-slate-800/90 rounded-xl p-4 h-56 overflow-y-auto mono text-xs space-y-2.5 text-slate-300">
+        <div class="text-slate-500">กำลังดึงข้อมูลจาก GitHub REST API...</div>
+      </div>
+    </div>
+  </div>
 
   <script>
-    async function fetchStatus() {
+    lucide.createIcons();
+
+    const REPO = 'khunlhong/hermes-agy-status';
+    let chart;
+    const chartLabels = [];
+    const chartData = [];
+    let prevCompleted = null;
+    let prevTimestamp = null;
+
+    function initChart() {
+      const ctx = document.getElementById('telemetryChart').getContext('2d');
+      const grad = ctx.createLinearGradient(0, 0, 0, 160);
+      grad.addColorStop(0, 'rgba(56, 189, 248, 0.35)');
+      grad.addColorStop(1, 'rgba(56, 189, 248, 0.0)');
+      chart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: chartLabels,
+          datasets: [{
+            label: 'จำนวนตอนที่เสร็จแล้ว',
+            data: chartData,
+            borderColor: '#38bdf8',
+            backgroundColor: grad,
+            borderWidth: 2,
+            fill: true,
+            tension: 0.35,
+            pointRadius: 3,
+            pointBackgroundColor: '#10b981'
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: '#64748b', font: { size: 10 } }, grid: { color: 'rgba(51,65,85,0.2)' } },
+            y: { ticks: { color: '#64748b', font: { size: 10 } }, grid: { color: 'rgba(51,65,85,0.2)' } }
+          }
+        }
+      });
+    }
+
+    function renderWorkers(activeCount) {
+      const grid = document.getElementById('worker-grid');
+      const totalSlots = 20;
+      const capped = Math.min(activeCount, totalSlots);
+      document.getElementById('matrix-badge').textContent = `${activeCount} / ${totalSlots} Active`;
+      let html = '';
+      for (let i = 1; i <= totalSlots; i++) {
+        const isActive = i <= capped;
+        html += `
+          <div class="worker-node ${isActive ? 'active text-white' : 'bg-slate-900/90 text-slate-600 border-slate-800'} border rounded-lg p-2 text-center mono text-[11px] font-bold">
+            W-${String(i).padStart(2, '0')}
+          </div>`;
+      }
+      grid.innerHTML = html;
+    }
+
+    async function fetchLiveStatus() {
       try {
-        const res = await fetch('./status.json?t=' + Date.now(), { cache: 'no-store' });
-        if (!res.ok) return;
+        // ดึงผ่าน GitHub API / Raw พร้อมตัวกัน Cache เพื่อให้สดระดับวินาทีโดยไม่ต้องรอ GitHub Pages build
+        let res = await fetch(`https://api.github.com/repos/${REPO}/contents/status.json?t=${Date.now()}`, {
+          headers: { 'Accept': 'application/vnd.github.v3.raw' },
+          cache: 'no-store'
+        });
+        if (!res.ok) {
+          res = await fetch(`./status.json?t=${Date.now()}`, { cache: 'no-store' });
+        }
         const data = await res.json();
 
-        document.getElementById('last-update').textContent = 'อัปเดตล่าสุด: ' + new Date(data.updated_at).toLocaleTimeString('th-TH');
-        document.getElementById('hermes-status').textContent = data.hermes_status;
-        document.getElementById('agy-status').textContent = data.agy_status;
-        document.getElementById('agy-workers').textContent = data.agy_active_workers;
-        document.getElementById('current-project').textContent = data.current_project;
-        document.getElementById('current-step').textContent = data.current_step;
+        const updatedDate = new Date(data.updated_at);
+        const timeStr = updatedDate.toLocaleTimeString('th-TH');
+        document.getElementById('last-update').textContent = `อัปเดต: ${timeStr}`;
 
-        const hermesDot = document.getElementById('hermes-dot');
-        hermesDot.className = 'dot ' + (data.hermes_status === 'ONLINE' ? 'online' : 'idle');
+        document.getElementById('hermes-status').textContent = data.hermes_status || 'ONLINE';
+        document.getElementById('agy-status').textContent = data.agy_status || 'IDLE';
+        const workers = Number(data.agy_active_workers || 0);
+        document.getElementById('agy-workers').textContent = workers;
+        renderWorkers(workers);
 
-        const agyDot = document.getElementById('agy-dot');
-        agyDot.className = 'dot ' + (data.agy_status === 'WORKING' ? 'working' : (data.agy_status === 'READY' ? 'online' : 'idle'));
+        const cpu = Number(data.cpu_percent || 0);
+        const ram = Number(data.ram_percent || 0);
+        document.getElementById('sys-cpu').textContent = `${cpu}%`;
+        document.getElementById('sys-ram').textContent = `${ram}%`;
+        document.getElementById('cpu-bar-label').textContent = `${cpu}%`;
+        document.getElementById('ram-bar-label').textContent = `${ram}%`;
+        document.getElementById('cpu-bar').style.width = `${Math.min(cpu, 100)}%`;
+        document.getElementById('ram-bar').style.width = `${Math.min(ram, 100)}%`;
 
-        const pct = data.total_count > 0 ? Math.round((data.completed_count / data.total_count) * 100) : 0;
-        document.getElementById('progress-text').textContent = `${data.completed_count} / ${data.total_count} (${pct}%)`;
-        document.getElementById('progress-fill').style.width = pct + '%';
+        const comp = Number(data.completed_count || 0);
+        const tot = Number(data.total_count || 0);
+        const rem = Math.max(tot - comp, 0);
+        const pct = tot > 0 ? ((comp / tot) * 100).toFixed(1) : '0.0';
 
-        const logBox = document.getElementById('log-box');
-        logBox.innerHTML = (data.recent_logs || []).map(l => `<div class="log-line">${l}</div>`).join('');
+        document.getElementById('current-project').textContent = data.current_project || '-';
+        document.getElementById('current-step').textContent = data.current_step || '-';
+        document.getElementById('progress-pct').textContent = `${pct}%`;
+        document.getElementById('progress-fraction').textContent = `${comp.toLocaleString()} / ${tot.toLocaleString()} ตอน`;
+        document.getElementById('progress-fill').style.width = `${Math.min(pct, 100)}%`;
+        document.getElementById('remaining-count').textContent = `${rem.toLocaleString()} ตอน`;
+        document.getElementById('completed-mini').textContent = comp.toLocaleString();
+        document.getElementById('total-mini').textContent = tot.toLocaleString();
+
+        const speed = Number(data.speed_per_min || 0);
+        document.getElementById('speed-val').textContent = speed > 0 ? speed.toFixed(1) : (workers > 0 ? 'Active' : '0.0');
+        if (speed > 0 && rem > 0) {
+          const mins = Math.ceil(rem / speed);
+          document.getElementById('eta-val').textContent = mins > 60 ? `~${(mins/60).toFixed(1)} ชม.` : `~${mins} นาที`;
+        } else if (rem === 0 && tot > 0) {
+          document.getElementById('eta-val').textContent = 'เสร็จสมบูรณ์!';
+        } else {
+          document.getElementById('eta-val').textContent = workers > 0 ? 'กำลังรันงาน' : 'รอกำหนดการ';
+        }
+
+        if (chartLabels.length === 0 || chartLabels[chartLabels.length - 1] !== timeStr) {
+          chartLabels.push(timeStr);
+          chartData.push(comp);
+          if (chartLabels.length > 15) { chartLabels.shift(); chartData.shift(); }
+          chart.update();
+        }
+
+        const logs = data.recent_logs || [];
+        document.getElementById('log-box').innerHTML = logs.slice().reverse().map(l =>
+          `<div class="py-1 border-b border-slate-900 flex items-start gap-2">
+            <span class="text-emerald-400">❯</span>
+            <span>${l}</span>
+          </div>`
+        ).join('');
       } catch (e) {
         console.error(e);
       }
     }
-    fetchStatus();
-    setInterval(fetchStatus, 5000);
+
+    async function fetchCommits() {
+      try {
+        const res = await fetch(`https://api.github.com/repos/${REPO}/commits?per_page=6&t=${Date.now()}`);
+        if (!res.ok) return;
+        const commits = await res.json();
+        document.getElementById('commit-box').innerHTML = commits.map(c => {
+          const sha = c.sha.substring(0, 7);
+          const msg = c.commit.message.split('\n')[0];
+          const dt = new Date(c.commit.author.date).toLocaleTimeString('th-TH');
+          return `<div class="py-1.5 border-b border-slate-900 flex justify-between items-center gap-2">
+            <div class="truncate"><span class="text-sky-400 font-bold mr-2">[${sha}]</span><span>${msg}</span></div>
+            <span class="text-slate-500 text-[11px] shrink-0">${dt}</span>
+          </div>`;
+        }).join('');
+      } catch (e) {}
+    }
+
+    initChart();
+    fetchLiveStatus();
+    fetchCommits();
+    let sec = 5;
+    setInterval(() => {
+      sec--;
+      if (sec <= 0) {
+        sec = 5;
+        fetchLiveStatus();
+      }
+      document.getElementById('sync-timer').textContent = `SYNC: ${sec}s`;
+    }, 1000);
+    setInterval(fetchCommits, 20000);
   </script>
 </body>
 </html>
