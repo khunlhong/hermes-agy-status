@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:25:19+07:00",
+  "updated_at": "2026-11-10T03:25:23+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1329",
     "Ch.1325"
   ],
-  "cpu_percent": 9.8,
-  "ram_percent": 50.4,
-  "speed_per_min": 13.8,
-  "speed_per_hour": 829,
-  "eta_text": "~12 นาที (จบ ~03:37 น.)",
+  "cpu_percent": 2.9,
+  "ram_percent": 50.5,
+  "speed_per_min": 13.2,
+  "speed_per_hour": 795,
+  "eta_text": "~13 นาที (จบ ~03:38 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1345 (แปลเสร็จจริง 1342/1510 ตอน)",
   "completed_count": 1342,
