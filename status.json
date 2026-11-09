@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:29:34+07:00",
+  "updated_at": "2026-11-10T03:29:38+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.1384",
     "Ch.1385"
   ],
-  "cpu_percent": 4.3,
-  "ram_percent": 49.1,
-  "speed_per_min": 15.2,
-  "speed_per_hour": 911,
+  "cpu_percent": 17.2,
+  "ram_percent": 49.8,
+  "speed_per_min": 14.7,
+  "speed_per_hour": 879,
   "eta_text": "~7 นาที (จบ ~03:36 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1403 (แปลเสร็จจริง 1402/1510 ตอน)",
@@ -134,7 +134,7 @@
     {
       "time": "03:29",
       "completed": 1402,
-      "ts": 1794256174.4884014
+      "ts": 1794256174.506795
     }
   ],
   "recent_chapters": [
