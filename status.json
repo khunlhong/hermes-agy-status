@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:28:47+07:00",
+  "updated_at": "2026-11-10T03:28:51+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.1368",
     "Ch.1369"
   ],
-  "cpu_percent": 6.5,
-  "ram_percent": 49.0,
-  "speed_per_min": 12.8,
-  "speed_per_hour": 767,
+  "cpu_percent": 25.2,
+  "ram_percent": 49.6,
+  "speed_per_min": 12.3,
+  "speed_per_hour": 740,
   "eta_text": "~10 นาที (จบ ~03:38 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1391 (แปลเสร็จจริง 1387/1510 ตอน)",
@@ -216,7 +216,7 @@
     {
       "title": "苟在女魔头身边偷偷修炼",
       "genre": "ตลก โปก ฮา",
-      "progress": "1387/1510",
+      "progress": "1388/1510",
       "percentage": "91.9%",
       "status": "กำลังแปล"
     },
