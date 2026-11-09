@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T03:40:50+07:00",
+  "updated_at": "2026-11-10T03:40:54+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 20,
+  "agy_active_workers": 19,
   "worker_slots": [
     "Ch.1509",
     "Ch.1510",
@@ -23,15 +23,15 @@
     "Ch.1500",
     "Ch.1490",
     "Ch.1487",
-    "Ch.1498"
+    "IDLE"
   ],
-  "cpu_percent": 3.0,
+  "cpu_percent": 2.0,
   "ram_percent": 50.0,
   "speed_per_min": 2.9,
-  "speed_per_hour": 175,
+  "speed_per_hour": 173,
   "eta_text": "~0 นาที (จบ ~03:40 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
-  "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1510 (แปลเสร็จจริง 1509/1510 ตอน)",
+  "current_step": "กำลังรันแปล Worker (19 สล็อต) | ล่าสุด: ตอนที่ 1510 (แปลเสร็จจริง 1509/1510 ตอน)",
   "completed_count": 1509,
   "latest_chapter": 1510,
   "total_count": 1510,
