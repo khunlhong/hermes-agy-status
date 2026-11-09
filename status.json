@@ -1,13 +1,15 @@
 {
-  "updated_at": "2026-11-10T02:06:47+07:00",
+  "updated_at": "2026-11-10T02:08:30+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 1,
-  "current_project": "Hermes + AGY Industrial Pipeline",
-  "current_step": "กำลังประมวลผลงานแปลอัตโนมัติ...",
-  "completed_count": 0,
-  "total_count": 0,
+  "current_project": "苟在女魔头身边偷偷修炼 (ซุ่มฝึกตนลับๆ ข้างกายจอมมารหญิง)",
+  "current_step": "กำลังรันแปลอัตโนมัติ Worker x20 (แปลเสร็จ 110/1,510 ตอน)",
+  "completed_count": 110,
+  "total_count": 1510,
   "recent_logs": [
-    "[2026-11-10T02:06:47+07:00] ระบบตรวจสอบทำงานปกติ (0 Token)"
+    "ขึ้นนิยาย 《胎穿七零：我靠读书带全家致富》 (1,171 ตอน) สู่ MyNovel สำเร็จ (pending review)",
+    "แปลจบ 100% เรื่อง 《七零军婚：女特种兵她能一打十》 (1,395 ตอน)",
+    "เริ่มแปลเรื่องใหม่ 《苟在女魔头身边偷偷修炼》 (1,510 ตอน) ด้วยสปีด ~840 ตอน/ชม."
   ]
 }
