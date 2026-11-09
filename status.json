@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:25:59+07:00",
+  "updated_at": "2026-11-10T03:26:03+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1331",
     "Ch.1337"
   ],
-  "cpu_percent": 15.6,
+  "cpu_percent": 8.5,
   "ram_percent": 49.4,
-  "speed_per_min": 13.2,
-  "speed_per_hour": 792,
-  "eta_text": "~12 นาที (จบ ~03:37 น.)",
+  "speed_per_min": 12.7,
+  "speed_per_hour": 761,
+  "eta_text": "~13 นาที (จบ ~03:39 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1352 (แปลเสร็จจริง 1351/1510 ตอน)",
   "completed_count": 1351,
