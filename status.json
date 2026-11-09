@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-10T02:19:13+07:00",
+  "updated_at": "2026-11-10T02:19:32+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 42,
-  "cpu_percent": 6.4,
-  "ram_percent": 46.7,
+  "cpu_percent": 6.5,
+  "ram_percent": 47.2,
   "speed_per_min": 0.0,
   "current_project": "苟在女魔头身边偷偷修炼 (ซุ่มฝึกตนลับๆ ข้างกายจอมมารหญิง)",
   "current_step": "กำลังรันแปลอัตโนมัติ Worker x20 (แปลเสร็จ 110/1,510 ตอน)",
@@ -14,6 +14,7 @@
     "ขึ้นนิยาย 《胎穿七零：我靠读书带全家致富》 (1,171 ตอน) สู่ MyNovel สำเร็จ (pending review)",
     "แปลจบ 100% เรื่อง 《七零军婚：女特种兵她能一打十》 (1,395 ตอน)",
     "เริ่มแปลเรื่องใหม่ 《苟在女魔头身边偷偷修炼》 (1,510 ตอน) ด้วยสปีด ~840 ตอน/ชม.",
-    "[02:19:13] AGY Workers: 42 | Progress: 110/1510 | CPU: 6.4% RAM: 46.7%"
+    "[02:19:13] AGY Workers: 42 | Progress: 110/1510 | CPU: 6.4% RAM: 46.7%",
+    "[02:19:32] AGY Workers: 42 | Progress: 110/1510 | CPU: 6.5% RAM: 47.2%"
   ]
 }
