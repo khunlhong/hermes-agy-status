@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:42:22+07:00",
+  "updated_at": "2026-11-10T03:42:26+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 2,
@@ -25,10 +25,10 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 0.0,
-  "ram_percent": 47.2,
-  "speed_per_min": 1.9,
-  "speed_per_hour": 115,
+  "cpu_percent": 7.8,
+  "ram_percent": 47.1,
+  "speed_per_min": 1.8,
+  "speed_per_hour": 105,
   "eta_text": "~1 นาที (จบ ~03:43 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
   "current_step": "กำลังรันแปล Worker (2 สล็อต) | ล่าสุด: ตอนที่ 1510 (แปลเสร็จจริง 1509/1510 ตอน)",
@@ -36,11 +36,6 @@
   "latest_chapter": 1510,
   "total_count": 1510,
   "history": [
-    {
-      "time": "03:36",
-      "completed": 1497,
-      "ts": 1794256566.903258
-    },
     {
       "time": "03:36",
       "completed": 1498,
@@ -135,6 +130,11 @@
       "time": "03:41",
       "completed": 1509,
       "ts": 1794256912.594105
+    },
+    {
+      "time": "03:42",
+      "completed": 1509,
+      "ts": 1794256943.360041
     }
   ],
   "recent_chapters": [
