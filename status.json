@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:19:14+07:00",
+  "updated_at": "2026-11-10T03:19:18+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.1242",
     "Ch.1241"
   ],
-  "cpu_percent": 14.9,
-  "ram_percent": 49.0,
-  "speed_per_min": 14.3,
-  "speed_per_hour": 861,
+  "cpu_percent": 10.6,
+  "ram_percent": 48.9,
+  "speed_per_min": 13.8,
+  "speed_per_hour": 825,
   "eta_text": "~18 นาที (จบ ~03:37 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1260 (แปลเสร็จจริง 1259/1510 ตอน)",
