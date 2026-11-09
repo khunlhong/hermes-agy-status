@@ -99,11 +99,12 @@ def build_status():
     }
 
 def push_to_github():
-    subprocess.run(["git", "-C", DASHBOARD_DIR, "add", "status.json", "index.html", "watcher.py"], check=False)
-    diff = subprocess.run(["git", "-C", DASHBOARD_DIR, "diff", "--cached", "--quiet"])
+    flags = 0x08000000 if sys.platform == "win32" else 0  # CREATE_NO_WINDOW
+    subprocess.run(["git", "-C", DASHBOARD_DIR, "add", "status.json"], check=False, creationflags=flags)
+    diff = subprocess.run(["git", "-C", DASHBOARD_DIR, "diff", "--cached", "--quiet"], creationflags=flags)
     if diff.returncode != 0:
-        subprocess.run(["git", "-C", DASHBOARD_DIR, "commit", "-m", "telemetry: live update [skip ci]"], check=False)
-        subprocess.run(["git", "-C", DASHBOARD_DIR, "push", "origin", "main"], check=False)
+        subprocess.run(["git", "-C", DASHBOARD_DIR, "commit", "-m", "telemetry: live update [skip ci]"], check=False, creationflags=flags)
+        subprocess.run(["git", "-C", DASHBOARD_DIR, "push", "origin", "main"], check=False, creationflags=flags)
 
 if __name__ == "__main__":
     while True:
