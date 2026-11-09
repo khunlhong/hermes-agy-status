@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:26:23+07:00",
+  "updated_at": "2026-11-10T03:26:27+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.1338",
     "Ch.1336"
   ],
-  "cpu_percent": 4.2,
-  "ram_percent": 49.9,
-  "speed_per_min": 13.0,
-  "speed_per_hour": 779,
+  "cpu_percent": 9.7,
+  "ram_percent": 49.2,
+  "speed_per_min": 12.5,
+  "speed_per_hour": 749,
   "eta_text": "~12 นาที (จบ ~03:38 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1355 (แปลเสร็จจริง 1354/1510 ตอน)",
