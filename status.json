@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:20:36+07:00",
+  "updated_at": "2026-11-10T03:20:40+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1261",
     "Ch.1259"
   ],
-  "cpu_percent": 2.8,
-  "ram_percent": 49.5,
-  "speed_per_min": 13.3,
-  "speed_per_hour": 799,
-  "eta_text": "~17 นาที (จบ ~03:37 น.)",
+  "cpu_percent": 16.6,
+  "ram_percent": 49.2,
+  "speed_per_min": 12.9,
+  "speed_per_hour": 771,
+  "eta_text": "~18 นาที (จบ ~03:38 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1287 (แปลเสร็จจริง 1278/1510 ตอน)",
   "completed_count": 1278,
