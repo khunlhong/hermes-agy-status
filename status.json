@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:11:10+07:00",
+  "updated_at": "2026-11-10T03:11:14+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1121",
     "Ch.1123"
   ],
-  "cpu_percent": 4.6,
+  "cpu_percent": 2.3,
   "ram_percent": 47.9,
-  "speed_per_min": 17.7,
-  "speed_per_hour": 1063,
-  "eta_text": "~21 นาที (จบ ~03:32 น.)",
+  "speed_per_min": 17.0,
+  "speed_per_hour": 1022,
+  "eta_text": "~22 นาที (จบ ~03:33 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1143 (แปลเสร็จจริง 1139/1510 ตอน)",
   "completed_count": 1139,
