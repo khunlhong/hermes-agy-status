@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:26:50+07:00",
+  "updated_at": "2026-11-10T03:26:55+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.1344",
     "Ch.1343"
   ],
-  "cpu_percent": 15.0,
-  "ram_percent": 49.1,
-  "speed_per_min": 13.7,
-  "speed_per_hour": 824,
+  "cpu_percent": 13.6,
+  "ram_percent": 49.3,
+  "speed_per_min": 13.1,
+  "speed_per_hour": 787,
   "eta_text": "~11 นาที (จบ ~03:37 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1363 (แปลเสร็จจริง 1362/1510 ตอน)",
