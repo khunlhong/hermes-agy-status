@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:32:19+07:00",
+  "updated_at": "2026-11-10T03:32:24+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.1422",
     "Ch.1417"
   ],
-  "cpu_percent": 19.9,
-  "ram_percent": 49.6,
-  "speed_per_min": 10.8,
-  "speed_per_hour": 649,
+  "cpu_percent": 17.8,
+  "ram_percent": 49.7,
+  "speed_per_min": 10.4,
+  "speed_per_hour": 623,
   "eta_text": "~7 นาที (จบ ~03:39 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1441 (แปลเสร็จจริง 1436/1510 ตอน)",
