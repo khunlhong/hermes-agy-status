@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:12:24+07:00",
+  "updated_at": "2026-11-10T03:12:28+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1146",
     "Ch.1137"
   ],
-  "cpu_percent": 3.2,
-  "ram_percent": 47.8,
-  "speed_per_min": 16.8,
-  "speed_per_hour": 1009,
-  "eta_text": "~21 นาที (จบ ~03:33 น.)",
+  "cpu_percent": 0.6,
+  "ram_percent": 47.9,
+  "speed_per_min": 16.3,
+  "speed_per_hour": 977,
+  "eta_text": "~22 นาที (จบ ~03:34 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1165 (แปลเสร็จจริง 1159/1510 ตอน)",
   "completed_count": 1159,
