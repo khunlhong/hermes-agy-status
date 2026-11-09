@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:10:40+07:00",
+  "updated_at": "2026-11-10T03:10:44+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1108",
     "Ch.1109"
   ],
-  "cpu_percent": 13.7,
-  "ram_percent": 47.7,
-  "speed_per_min": 12.9,
-  "speed_per_hour": 773,
-  "eta_text": "~30 นาที (จบ ~03:40 น.)",
+  "cpu_percent": 3.2,
+  "ram_percent": 47.8,
+  "speed_per_min": 12.5,
+  "speed_per_hour": 750,
+  "eta_text": "~31 นาที (จบ ~03:41 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1132 (แปลเสร็จจริง 1127/1510 ตอน)",
   "completed_count": 1127,
