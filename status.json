@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:09:01+07:00",
+  "updated_at": "2026-11-10T03:09:06+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1096",
     "Ch.1103"
   ],
-  "cpu_percent": 12.5,
-  "ram_percent": 48.2,
-  "speed_per_min": 16.5,
-  "speed_per_hour": 989,
-  "eta_text": "~25 นาที (จบ ~03:34 น.)",
+  "cpu_percent": 17.3,
+  "ram_percent": 48.3,
+  "speed_per_min": 15.8,
+  "speed_per_hour": 946,
+  "eta_text": "~26 นาที (จบ ~03:35 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1107 (แปลเสร็จจริง 1104/1510 ตอน)",
   "completed_count": 1104,
