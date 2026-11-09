@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:26:43+07:00",
+  "updated_at": "2026-11-10T03:26:47+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1342",
     "Ch.1339"
   ],
-  "cpu_percent": 2.9,
-  "ram_percent": 49.1,
-  "speed_per_min": 14.6,
-  "speed_per_hour": 878,
-  "eta_text": "~10 นาที (จบ ~03:36 น.)",
+  "cpu_percent": 3.9,
+  "ram_percent": 49.0,
+  "speed_per_min": 14.0,
+  "speed_per_hour": 840,
+  "eta_text": "~11 นาที (จบ ~03:37 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1362 (แปลเสร็จจริง 1360/1510 ตอน)",
   "completed_count": 1360,
