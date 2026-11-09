@@ -173,6 +173,7 @@
           <div class="text-right">
             <div class="text-3xl font-extrabold mono bg-gradient-to-r from-sky-400 to-emerald-400 bg-clip-text text-transparent" id="progress-pct">0.0%</div>
             <div class="text-xs text-slate-400 mono mt-0.5" id="progress-fraction">0 / 0 ตอน</div>
+            <div class="text-xs text-emerald-400 font-bold mono mt-1" id="latest-chapter-badge">ตอนล่าสุด: -</div>
           </div>
         </div>
 
@@ -364,6 +365,9 @@
 
         document.getElementById('current-project').textContent = data.current_project || '-';
         document.getElementById('current-step').textContent = data.current_step || '-';
+        if (data.latest_chapter) {
+          document.getElementById('latest-chapter-badge').textContent = `ตอนล่าสุด: ตอนที่ ${data.latest_chapter}`;
+        }
         document.getElementById('progress-pct').textContent = `${pct}%`;
         document.getElementById('progress-fraction').textContent = `${comp.toLocaleString()} / ${tot.toLocaleString()} ตอน`;
         document.getElementById('progress-fill').style.width = `${Math.min(pct, 100)}%`;
