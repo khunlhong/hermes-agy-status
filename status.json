@@ -1,15 +1,13 @@
 {
-  "updated_at": "2026-11-10T01:55:00+07:00",
+  "updated_at": "2026-11-10T02:06:47+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 20,
-  "current_project": "七零军婚：女特种兵她能一打十",
-  "current_step": "กำลังแปล Worker x20 (ใกล้จบเรื่อง)",
-  "completed_count": 1070,
-  "total_count": 1395,
+  "agy_active_workers": 1,
+  "current_project": "Hermes + AGY Industrial Pipeline",
+  "current_step": "กำลังประมวลผลงานแปลอัตโนมัติ...",
+  "completed_count": 0,
+  "total_count": 0,
   "recent_logs": [
-    "ติดตั้งระบบ Zero-Token Dashboard สำเร็จ",
-    "ขึ้นนิยาย 《胎穿七零：我靠读书带全家致富》 (1,171 ตอน) สู่ MyNovel สำเร็จ",
-    "กำลังรันแปล 《七零军婚：女特种兵她能一打十》 1070/1395 ตอน"
+    "[2026-11-10T02:06:47+07:00] ระบบตรวจสอบทำงานปกติ (0 Token)"
   ]
 }
