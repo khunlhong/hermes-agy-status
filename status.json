@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-10T02:19:52+07:00",
+  "updated_at": "2026-11-10T02:20:11+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 42,
-  "cpu_percent": 4.9,
-  "ram_percent": 47.3,
+  "cpu_percent": 11.2,
+  "ram_percent": 47.4,
   "speed_per_min": 0.0,
   "current_project": "苟在女魔头身边偷偷修炼 (ซุ่มฝึกตนลับๆ ข้างกายจอมมารหญิง)",
   "current_step": "กำลังรันแปลอัตโนมัติ Worker x20 (แปลเสร็จ 110/1,510 ตอน)",
@@ -16,6 +16,7 @@
     "เริ่มแปลเรื่องใหม่ 《苟在女魔头身边偷偷修炼》 (1,510 ตอน) ด้วยสปีด ~840 ตอน/ชม.",
     "[02:19:13] AGY Workers: 42 | Progress: 110/1510 | CPU: 6.4% RAM: 46.7%",
     "[02:19:32] AGY Workers: 42 | Progress: 110/1510 | CPU: 6.5% RAM: 47.2%",
-    "[02:19:52] AGY Workers: 42 | Progress: 110/1510 | CPU: 4.9% RAM: 47.3%"
+    "[02:19:52] AGY Workers: 42 | Progress: 110/1510 | CPU: 4.9% RAM: 47.3%",
+    "[02:20:11] AGY Workers: 42 | Progress: 110/1510 | CPU: 11.2% RAM: 47.4%"
   ]
 }
