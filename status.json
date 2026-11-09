@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:16:41+07:00",
+  "updated_at": "2026-11-10T03:16:46+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1207",
     "Ch.1204"
   ],
-  "cpu_percent": 5.2,
-  "ram_percent": 49.1,
-  "speed_per_min": 13.5,
-  "speed_per_hour": 811,
-  "eta_text": "~21 นาที (จบ ~03:37 น.)",
+  "cpu_percent": 9.6,
+  "ram_percent": 48.9,
+  "speed_per_min": 13.0,
+  "speed_per_hour": 781,
+  "eta_text": "~22 นาที (จบ ~03:38 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1223 (แปลเสร็จจริง 1222/1510 ตอน)",
   "completed_count": 1222,
