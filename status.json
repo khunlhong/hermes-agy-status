@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:13:16+07:00",
+  "updated_at": "2026-11-10T03:13:20+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.1165",
     "Ch.1164"
   ],
-  "cpu_percent": 9.8,
+  "cpu_percent": 10.5,
   "ram_percent": 48.4,
-  "speed_per_min": 18.0,
-  "speed_per_hour": 1081,
+  "speed_per_min": 17.4,
+  "speed_per_hour": 1044,
   "eta_text": "~19 นาที (จบ ~03:32 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1182 (แปลเสร็จจริง 1175/1510 ตอน)",
