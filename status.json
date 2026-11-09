@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T03:31:26+07:00",
+  "updated_at": "2026-11-10T03:31:30+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.1407",
     "Ch.1410"
   ],
-  "cpu_percent": 8.6,
-  "ram_percent": 49.8,
-  "speed_per_min": 12.6,
-  "speed_per_hour": 754,
+  "cpu_percent": 15.7,
+  "ram_percent": 49.3,
+  "speed_per_min": 12.1,
+  "speed_per_hour": 724,
   "eta_text": "~7 นาที (จบ ~03:38 น.)",
   "current_project": "苟在女魔头身边偷偷修炼",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1429 (แปลเสร็จจริง 1425/1510 ตอน)",
