@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hermes + AGY Live Status Dashboard</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --green: #22c55e;
+      --amber: #f59e0b;
+      --blue: #38bdf8;
+      --border: #334155;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, -apple-system, sans-serif; }
+    body { background: var(--bg); color: var(--text); padding: 24px; max-width: 960px; margin: 0 auto; }
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 12px; }
+    h1 { font-size: 1.5rem; font-weight: 700; }
+    .badge { padding: 6px 12px; border-radius: 999px; font-size: 0.85rem; font-weight: 600; background: #1e3a8a; color: var(--blue); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-bottom: 24px; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+    .label { color: var(--muted); font-size: 0.85rem; margin-bottom: 8px; }
+    .value { font-size: 1.35rem; font-weight: 700; display: flex; align-items: center; gap: 10px; }
+    .dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+    .dot.online { background: var(--green); box-shadow: 0 0 10px var(--green); }
+    .dot.working { background: var(--amber); box-shadow: 0 0 10px var(--amber); }
+    .dot.idle { background: var(--muted); }
+    .progress-bar { width: 100%; height: 12px; background: #0f172a; border-radius: 999px; overflow: hidden; margin-top: 12px; }
+    .progress-fill { height: 100%; background: linear-gradient(90deg, var(--blue), var(--green)); width: 0%; transition: width 0.4s ease; }
+    .log-box { background: #090d16; border: 1px solid var(--border); border-radius: 8px; padding: 14px; font-family: monospace; font-size: 0.88rem; color: #cbd5e1; max-height: 240px; overflow-y: auto; }
+    .log-line { padding: 4px 0; border-bottom: 1px solid #1e293b; }
+    .footer { margin-top: 20px; font-size: 0.8rem; color: var(--muted); text-align: center; }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Hermes + AGY Live Status</h1>
+      <p style="color: var(--muted); font-size: 0.9rem;">Zero-Token Real-Time Monitor via GitHub</p>
+    </div>
+    <span class="badge" id="last-update">กำลังเชื่อมต่อ...</span>
+  </header>
+
+  <div class="grid">
+    <div class="card">
+      <div class="label">สถานะ Hermes Agent (ตัวสั่งงาน)</div>
+      <div class="value"><span class="dot online" id="hermes-dot"></span> <span id="hermes-status">-</span></div>
+    </div>
+    <div class="card">
+      <div class="label">สถานะ AGY CLI (ตัวรันโมเดล)</div>
+      <div class="value"><span class="dot idle" id="agy-dot"></span> <span id="agy-status">-</span></div>
+      <div style="font-size: 0.8rem; color: var(--muted); margin-top: 6px;">จำนวน Process ที่รันอยู่: <span id="agy-workers">0</span></div>
+    </div>
+    <div class="card">
+      <div class="label">งานที่กำลังทำปัจจุบัน</div>
+      <div class="value" id="current-project" style="font-size: 1.1rem;">-</div>
+      <div style="font-size: 0.85rem; color: var(--blue); margin-top: 6px;" id="current-step">-</div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-bottom: 24px;">
+    <div style="display: flex; justify-content: space-between;">
+      <span class="label">ความคืบหน้าของงาน (Progress)</span>
+      <span id="progress-text" style="font-weight: 700;">0 / 0 (0%)</span>
+    </div>
+    <div class="progress-bar">
+      <div class="progress-fill" id="progress-fill"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="label">บันทึกการทำงานล่าสุด (Live Logs & GitHub Activity)</div>
+    <div class="log-box" id="log-box"></div>
+  </div>
+
+  <div class="footer">อัปเดตข้อมูลสดทุก 5 วินาที • ใช้พลังงาน 0 AI Token</div>
+
+  <script>
+    async function fetchStatus() {
+      try {
+        const res = await fetch('./status.json?t=' + Date.now(), { cache: 'no-store' });
+        if (!res.ok) return;
+        const data = await res.json();
+
+        document.getElementById('last-update').textContent = 'อัปเดตล่าสุด: ' + new Date(data.updated_at).toLocaleTimeString('th-TH');
+        document.getElementById('hermes-status').textContent = data.hermes_status;
+        document.getElementById('agy-status').textContent = data.agy_status;
+        document.getElementById('agy-workers').textContent = data.agy_active_workers;
+        document.getElementById('current-project').textContent = data.current_project;
+        document.getElementById('current-step').textContent = data.current_step;
+
+        const hermesDot = document.getElementById('hermes-dot');
+        hermesDot.className = 'dot ' + (data.hermes_status === 'ONLINE' ? 'online' : 'idle');
+
+        const agyDot = document.getElementById('agy-dot');
+        agyDot.className = 'dot ' + (data.agy_status === 'WORKING' ? 'working' : (data.agy_status === 'READY' ? 'online' : 'idle'));
+
+        const pct = data.total_count > 0 ? Math.round((data.completed_count / data.total_count) * 100) : 0;
+        document.getElementById('progress-text').textContent = `${data.completed_count} / ${data.total_count} (${pct}%)`;
+        document.getElementById('progress-fill').style.width = pct + '%';
+
+        const logBox = document.getElementById('log-box');
+        logBox.innerHTML = (data.recent_logs || []).map(l => `<div class="log-line">${l}</div>`).join('');
+      } catch (e) {
+        console.error(e);
+      }
+    }
+    fetchStatus();
+    setInterval(fetchStatus, 5000);
+  </script>
+</body>
+</html>
