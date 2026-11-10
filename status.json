@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:29:10+07:00",
+  "updated_at": "2026-11-10T21:29:17+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1309",
     "Ch.1312"
   ],
-  "cpu_percent": 5.3,
-  "ram_percent": 57.9,
-  "speed_per_min": 6.5,
-  "speed_per_hour": 387,
-  "eta_text": "~1 ชม. 3 นาที (จบ ~22:32 น.)",
+  "cpu_percent": 6.2,
+  "ram_percent": 58.0,
+  "speed_per_min": 6.2,
+  "speed_per_hour": 374,
+  "eta_text": "~1 ชม. 6 นาที (จบ ~22:35 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1336 (แปลเสร็จจริง 1327/1739 ตอน)",
   "completed_count": 1327,
