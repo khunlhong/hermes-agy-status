@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T02:55:07+07:00",
+  "updated_at": "2026-11-11T02:55:14+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.1093",
     "Ch.1081"
   ],
-  "cpu_percent": 36.6,
+  "cpu_percent": 11.4,
   "ram_percent": 57.1,
-  "speed_per_min": 37.0,
-  "speed_per_hour": 2218,
+  "speed_per_min": 33.1,
+  "speed_per_hour": 1984,
   "eta_text": "~3 นาที (จบ ~02:58 น.)",
   "current_project": "七零，抢婆婆空间后不再当窝囊媳",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1108 (แปลเสร็จจริง 1102/1207 ตอน)",
