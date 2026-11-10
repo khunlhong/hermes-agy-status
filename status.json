@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T06:05:27+07:00",
+  "updated_at": "2026-11-11T06:05:34+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 0,
@@ -25,10 +25,10 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 5.3,
-  "ram_percent": 63.6,
-  "speed_per_min": 0.9,
-  "speed_per_hour": 54,
+  "cpu_percent": 4.2,
+  "ram_percent": 63.4,
+  "speed_per_min": 0.6,
+  "speed_per_hour": 38,
   "eta_text": "เสร็จสมบูรณ์ 100%!",
   "current_project": "穿成六零炮灰，跟亲爹随军成团宠",
   "current_step": "แปลเสร็จสมบูรณ์ 100% (118/118 ตอน)",
@@ -36,11 +36,6 @@
   "latest_chapter": 118,
   "total_count": 118,
   "history": [
-    {
-      "time": "05:57",
-      "completed": 111,
-      "ts": 1794351460.371114
-    },
     {
       "time": "05:57",
       "completed": 113,
@@ -135,6 +130,11 @@
       "time": "06:05",
       "completed": 118,
       "ts": 1794351900.1347985
+    },
+    {
+      "time": "06:05",
+      "completed": 118,
+      "ts": 1794351930.9525883
     }
   ],
   "recent_chapters": [
