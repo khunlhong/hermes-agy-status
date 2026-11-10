@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T01:39:48+07:00",
+  "updated_at": "2026-11-11T01:39:55+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.23",
     "Ch.27"
   ],
-  "cpu_percent": 10.5,
+  "cpu_percent": 11.0,
   "ram_percent": 61.9,
-  "speed_per_min": 13.4,
-  "speed_per_hour": 806,
-  "eta_text": "~38 นาที (จบ ~02:17 น.)",
+  "speed_per_min": 12.7,
+  "speed_per_hour": 764,
+  "eta_text": "~40 นาที (จบ ~02:19 น.)",
   "current_project": "开局一碗蛋炒饭，馋哭全宗门",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 55 (แปลเสร็จจริง 48/561 ตอน)",
   "completed_count": 48,
