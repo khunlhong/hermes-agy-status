@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:28:28+07:00",
+  "updated_at": "2026-11-10T21:28:35+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1106",
     "Ch.1112"
   ],
-  "cpu_percent": 9.2,
-  "ram_percent": 58.2,
-  "speed_per_min": 6.0,
-  "speed_per_hour": 361,
-  "eta_text": "~1 ชม. 9 นาที (จบ ~22:37 น.)",
+  "cpu_percent": 4.3,
+  "ram_percent": 58.1,
+  "speed_per_min": 5.8,
+  "speed_per_hour": 351,
+  "eta_text": "~1 ชม. 12 นาที (จบ ~22:40 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1328 (แปลเสร็จจริง 1323/1739 ตอน)",
   "completed_count": 1323,
