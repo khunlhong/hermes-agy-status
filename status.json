@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T22:02:24+07:00",
+  "updated_at": "2026-11-10T22:02:32+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,22 +25,17 @@
     "Ch.1657",
     "Ch.1310"
   ],
-  "cpu_percent": 6.1,
-  "ram_percent": 61.6,
-  "speed_per_min": 7.1,
-  "speed_per_hour": 428,
-  "eta_text": "~11 นาที (จบ ~22:13 น.)",
+  "cpu_percent": 3.6,
+  "ram_percent": 61.4,
+  "speed_per_min": 6.4,
+  "speed_per_hour": 385,
+  "eta_text": "~12 นาที (จบ ~22:14 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1674 (แปลเสร็จจริง 1664/1739 ตอน)",
   "completed_count": 1664,
   "latest_chapter": 1674,
   "total_count": 1739,
   "history": [
-    {
-      "time": "21:59",
-      "completed": 1641,
-      "ts": 1794322750.8764656
-    },
     {
       "time": "21:59",
       "completed": 1644,
@@ -135,6 +130,11 @@
       "time": "22:01",
       "completed": 1664,
       "ts": 1794322917.5097132
+    },
+    {
+      "time": "22:02",
+      "completed": 1664,
+      "ts": 1794322948.444501
     }
   ],
   "recent_chapters": [
