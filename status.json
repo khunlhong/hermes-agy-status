@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T04:52:10+07:00",
+  "updated_at": "2026-11-11T04:52:17+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.273",
     "Ch.272"
   ],
-  "cpu_percent": 19.3,
+  "cpu_percent": 9.8,
   "ram_percent": 56.5,
-  "speed_per_min": 26.7,
-  "speed_per_hour": 1604,
-  "eta_text": "~17 นาที (จบ ~05:09 น.)",
+  "speed_per_min": 24.2,
+  "speed_per_hour": 1454,
+  "eta_text": "~18 นาที (จบ ~05:10 น.)",
   "current_project": "修仙：恶仆开局，逃入宗门当杂役",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 290 (แปลเสร็จจริง 288/735 ตอน)",
   "completed_count": 288,
