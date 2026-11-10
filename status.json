@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-11T00:42:01+07:00",
+  "updated_at": "2026-11-11T00:42:08+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 0,
+  "agy_active_workers": 1,
   "worker_slots": [
-    "IDLE",
+    "Ch.6",
     "IDLE",
     "IDLE",
     "IDLE",
@@ -25,27 +25,17 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 34.3,
-  "ram_percent": 60.1,
+  "cpu_percent": 28.4,
+  "ram_percent": 60.2,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "你们惹她干嘛，小师妹有天道宠着",
-  "current_step": "กำลังรันแปล Worker (0 สล็อต) | ล่าสุด: ตอนที่ 0 (แปลเสร็จจริง 0/237 ตอน)",
-  "completed_count": 0,
-  "latest_chapter": 0,
+  "current_step": "กำลังรันแปล Worker (1 สล็อต) | ล่าสุด: ตอนที่ 6 (แปลเสร็จจริง 1/237 ตอน)",
+  "completed_count": 1,
+  "latest_chapter": 6,
   "total_count": 237,
   "history": [
-    {
-      "time": "00:40",
-      "completed": 208,
-      "ts": 1794332455.536424
-    },
-    {
-      "time": "00:40",
-      "completed": 210,
-      "ts": 1794332457.9190323
-    },
     {
       "time": "00:41",
       "completed": 212,
@@ -135,9 +125,21 @@
       "time": "00:41",
       "completed": 0,
       "ts": 1794332493.617835
+    },
+    {
+      "time": "00:42",
+      "completed": 0,
+      "ts": 1794332524.4572327
+    },
+    {
+      "time": "00:42",
+      "completed": 1,
+      "ts": 1794332528.0302799
     }
   ],
-  "recent_chapters": [],
+  "recent_chapters": [
+    "✓ ตอนที่ 6 แปลเสร็จสมบูรณ์ (00:42:07)"
+  ],
   "novel_queue": [
     {
       "title": "七零闪婚不见面，带娃炸翻家属院",
