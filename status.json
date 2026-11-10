@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T06:01:10+07:00",
+  "updated_at": "2026-11-11T06:01:17+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.89",
     "Ch.104"
   ],
-  "cpu_percent": 26.3,
-  "ram_percent": 64.0,
-  "speed_per_min": 5.5,
-  "speed_per_hour": 331,
+  "cpu_percent": 5.4,
+  "ram_percent": 63.9,
+  "speed_per_min": 5.4,
+  "speed_per_hour": 321,
   "eta_text": "เสร็จสมบูรณ์ 100%!",
   "current_project": "穿成六零炮灰，跟亲爹随军成团宠",
   "current_step": "แปลเสร็จสมบูรณ์ 100% (118/118 ตอน)",
