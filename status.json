@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T00:18:16+07:00",
+  "updated_at": "2026-11-11T00:18:23+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.146",
     "Ch.144"
   ],
-  "cpu_percent": 17.4,
-  "ram_percent": 61.3,
-  "speed_per_min": 24.9,
-  "speed_per_hour": 1494,
-  "eta_text": "~6 นาที (จบ ~00:24 น.)",
+  "cpu_percent": 29.7,
+  "ram_percent": 61.4,
+  "speed_per_min": 22.7,
+  "speed_per_hour": 1363,
+  "eta_text": "~7 นาที (จบ ~00:25 น.)",
   "current_project": "七零退婚嫌我瞎？我嫁军少旺全家",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 166 (แปลเสร็จจริง 164/323 ตอน)",
   "completed_count": 164,
