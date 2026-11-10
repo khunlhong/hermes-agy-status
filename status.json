@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:19:27+07:00",
+  "updated_at": "2026-11-10T20:19:29+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 17,
@@ -25,8 +25,8 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 14.6,
-  "ram_percent": 63.8,
+  "cpu_percent": 32.5,
+  "ram_percent": 63.7,
   "speed_per_min": 0.4,
   "speed_per_hour": 26,
   "eta_text": "~35 ชม. 40 นาที (จบ ~07:59 น.)",
@@ -134,7 +134,7 @@
     {
       "time": "20:19",
       "completed": 883,
-      "ts": 1794316767.4219346
+      "ts": 1794316767.7414794
     }
   ],
   "recent_chapters": [
