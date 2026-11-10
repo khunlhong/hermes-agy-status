@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T23:30:08+07:00",
+  "updated_at": "2026-11-10T23:30:15+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.127",
     "Ch.98"
   ],
-  "cpu_percent": 7.8,
-  "ram_percent": 60.1,
-  "speed_per_min": 8.5,
-  "speed_per_hour": 508,
-  "eta_text": "~3 ชม. 8 นาที (จบ ~02:38 น.)",
+  "cpu_percent": 3.2,
+  "ram_percent": 59.9,
+  "speed_per_min": 8.1,
+  "speed_per_hour": 485,
+  "eta_text": "~3 ชม. 18 นาที (จบ ~02:48 น.)",
   "current_project": "穿成反派他弟，靠沙雕苟成团宠",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 155 (แปลเสร็จจริง 139/1739 ตอน)",
   "completed_count": 139,
@@ -134,7 +134,7 @@
     {
       "time": "23:30",
       "completed": 139,
-      "ts": 1794328208.1249523
+      "ts": 1794328207.923195
     }
   ],
   "recent_chapters": [
