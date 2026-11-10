@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:53:31+07:00",
+  "updated_at": "2026-11-11T03:53:38+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.831",
     "Ch.822"
   ],
-  "cpu_percent": 26.7,
-  "ram_percent": 56.0,
-  "speed_per_min": 29.6,
-  "speed_per_hour": 1774,
+  "cpu_percent": 11.8,
+  "ram_percent": 55.8,
+  "speed_per_min": 23.8,
+  "speed_per_hour": 1428,
   "eta_text": "~1 นาที (จบ ~03:54 น.)",
   "current_project": "全身瘫痪，系统让我每天五公里",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 847 (แปลเสร็จจริง 846/862 ตอน)",
