@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-11T04:01:25+07:00",
+  "updated_at": "2026-11-11T04:01:32+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 4,
+  "agy_active_workers": 3,
   "worker_slots": [
     "Ch.854",
     "Ch.781",
     "Ch.715",
-    "Ch.622",
+    "IDLE",
     "IDLE",
     "IDLE",
     "IDLE",
@@ -25,7 +25,7 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 1.6,
+  "cpu_percent": 3.2,
   "ram_percent": 55.4,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
