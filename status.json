@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:18:42+07:00",
+  "updated_at": "2026-11-10T20:18:46+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,7 +25,7 @@
     "Ch.902",
     "Ch.898"
   ],
-  "cpu_percent": 17.5,
+  "cpu_percent": 16.0,
   "ram_percent": 63.0,
   "speed_per_min": 0.5,
   "speed_per_hour": 28,
