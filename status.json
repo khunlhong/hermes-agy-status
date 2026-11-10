@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:37:31+07:00",
+  "updated_at": "2026-11-10T21:37:38+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1420",
     "Ch.1423"
   ],
-  "cpu_percent": 6.0,
-  "ram_percent": 57.0,
-  "speed_per_min": 13.7,
-  "speed_per_hour": 823,
-  "eta_text": "~22 นาที (จบ ~21:59 น.)",
+  "cpu_percent": 14.1,
+  "ram_percent": 57.1,
+  "speed_per_min": 12.7,
+  "speed_per_hour": 761,
+  "eta_text": "~24 นาที (จบ ~22:01 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1443 (แปลเสร็จจริง 1436/1739 ตอน)",
   "completed_count": 1436,
