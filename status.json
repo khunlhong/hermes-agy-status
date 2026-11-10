@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T00:14:59+07:00",
+  "updated_at": "2026-11-11T00:15:06+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.65",
     "Ch.62"
   ],
-  "cpu_percent": 18.2,
+  "cpu_percent": 16.2,
   "ram_percent": 60.9,
-  "speed_per_min": 0.0,
-  "speed_per_hour": 0,
-  "eta_text": "กำลังคำนวณสปีด...",
+  "speed_per_min": 18.0,
+  "speed_per_hour": 1078,
+  "eta_text": "~14 นาที (จบ ~00:29 น.)",
   "current_project": "七零退婚嫌我瞎？我嫁军少旺全家",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 81 (แปลเสร็จจริง 78/323 ตอน)",
   "completed_count": 78,
