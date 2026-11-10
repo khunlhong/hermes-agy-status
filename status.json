@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:30:35+07:00",
+  "updated_at": "2026-11-11T05:30:42+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.196",
     "Ch.198"
   ],
-  "cpu_percent": 14.0,
-  "ram_percent": 55.5,
-  "speed_per_min": 37.4,
-  "speed_per_hour": 2242,
+  "cpu_percent": 9.9,
+  "ram_percent": 55.4,
+  "speed_per_min": 32.9,
+  "speed_per_hour": 1975,
   "eta_text": "~0 นาที (จบ ~05:30 น.)",
   "current_project": "词条修仙：从凡女开始叩仙门",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 213 (แปลเสร็จจริง 213/218 ตอน)",
