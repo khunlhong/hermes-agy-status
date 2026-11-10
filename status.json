@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-10T22:16:23+07:00",
+  "updated_at": "2026-11-10T22:16:30+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 14,
+  "agy_active_workers": 13,
   "worker_slots": [
     "Ch.1739",
     "Ch.1717",
@@ -17,7 +17,7 @@
     "Ch.1730",
     "Ch.1725",
     "Ch.1724",
-    "Ch.1735",
+    "IDLE",
     "IDLE",
     "IDLE",
     "IDLE",
@@ -25,22 +25,17 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 3.2,
-  "ram_percent": 61.7,
-  "speed_per_min": 3.1,
-  "speed_per_hour": 186,
+  "cpu_percent": 3.3,
+  "ram_percent": 61.5,
+  "speed_per_min": 2.9,
+  "speed_per_hour": 173,
   "eta_text": "~4 นาที (จบ ~22:20 น.)",
   "current_project": "无敌天命",
-  "current_step": "กำลังรันแปล Worker (14 สล็อต) | ล่าสุด: ตอนที่ 1739 (แปลเสร็จจริง 1728/1739 ตอน)",
+  "current_step": "กำลังรันแปล Worker (13 สล็อต) | ล่าสุด: ตอนที่ 1739 (แปลเสร็จจริง 1728/1739 ตอน)",
   "completed_count": 1728,
   "latest_chapter": 1739,
   "total_count": 1739,
   "history": [
-    {
-      "time": "22:11",
-      "completed": 1712,
-      "ts": 1794323474.5884275
-    },
     {
       "time": "22:11",
       "completed": 1713,
@@ -135,6 +130,11 @@
       "time": "22:15",
       "completed": 1728,
       "ts": 1794323755.0234482
+    },
+    {
+      "time": "22:16",
+      "completed": 1728,
+      "ts": 1794323786.384957
     }
   ],
   "recent_chapters": [
