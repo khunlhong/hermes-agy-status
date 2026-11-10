@@ -1,9 +1,11 @@
 {
-  "updated_at": "2026-11-11T04:25:04+07:00",
+  "updated_at": "2026-11-11T04:25:11+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 2,
+  "agy_active_workers": 4,
   "worker_slots": [
+    "Ch.12",
+    "Ch.8",
     "Ch.13",
     "Ch.14",
     "IDLE",
@@ -21,31 +23,19 @@
     "IDLE",
     "IDLE",
     "IDLE",
-    "IDLE",
-    "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 15.2,
-  "ram_percent": 55.5,
+  "cpu_percent": 19.2,
+  "ram_percent": 55.6,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "军婚超甜！闪婚后成了首长的心尖宠",
-  "current_step": "กำลังรันแปล Worker (2 สล็อต) | ล่าสุด: ตอนที่ 14 (แปลเสร็จจริง 2/322 ตอน)",
-  "completed_count": 2,
+  "current_step": "กำลังรันแปล Worker (4 สล็อต) | ล่าสุด: ตอนที่ 14 (แปลเสร็จจริง 4/322 ตอน)",
+  "completed_count": 4,
   "latest_chapter": 14,
   "total_count": 322,
   "history": [
-    {
-      "time": "04:22",
-      "completed": 303,
-      "ts": 1794345753.0386045
-    },
-    {
-      "time": "04:22",
-      "completed": 305,
-      "ts": 1794345753.830715
-    },
     {
       "time": "04:22",
       "completed": 306,
@@ -135,9 +125,21 @@
       "time": "04:25",
       "completed": 2,
       "ts": 1794345902.0696168
+    },
+    {
+      "time": "04:25",
+      "completed": 3,
+      "ts": 1794345908.3320348
+    },
+    {
+      "time": "04:25",
+      "completed": 4,
+      "ts": 1794345911.2103522
     }
   ],
   "recent_chapters": [
+    "✓ ตอนที่ 12 แปลเสร็จสมบูรณ์ (04:25:11)",
+    "✓ ตอนที่ 8 แปลเสร็จสมบูรณ์ (04:25:08)",
     "✓ ตอนที่ 13 แปลเสร็จสมบูรณ์ (04:25:01)",
     "✓ ตอนที่ 14 แปลเสร็จสมบูรณ์ (04:24:48)"
   ],
