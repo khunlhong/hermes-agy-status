@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:52:28+07:00",
+  "updated_at": "2026-11-10T21:52:35+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1563",
     "Ch.1554"
   ],
-  "cpu_percent": 8.1,
+  "cpu_percent": 3.5,
   "ram_percent": 57.9,
-  "speed_per_min": 10.4,
-  "speed_per_hour": 623,
-  "eta_text": "~16 นาที (จบ ~22:08 น.)",
+  "speed_per_min": 9.9,
+  "speed_per_hour": 594,
+  "eta_text": "~17 นาที (จบ ~22:09 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1580 (แปลเสร็จจริง 1571/1739 ตอน)",
   "completed_count": 1571,
