@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T01:39:06+07:00",
+  "updated_at": "2026-11-11T01:39:13+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,8 +25,8 @@
     "Ch.7",
     "Ch.26"
   ],
-  "cpu_percent": 17.4,
-  "ram_percent": 62.4,
+  "cpu_percent": 20.3,
+  "ram_percent": 62.3,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
