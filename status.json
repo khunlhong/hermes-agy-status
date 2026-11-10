@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T01:00:59+07:00",
+  "updated_at": "2026-11-11T01:01:06+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.138",
     "Ch.131"
   ],
-  "cpu_percent": 25.1,
-  "ram_percent": 60.9,
-  "speed_per_min": 17.1,
-  "speed_per_hour": 1028,
-  "eta_text": "~18 นาที (จบ ~01:18 น.)",
+  "cpu_percent": 16.4,
+  "ram_percent": 61.0,
+  "speed_per_min": 15.9,
+  "speed_per_hour": 955,
+  "eta_text": "~19 นาที (จบ ~01:20 น.)",
   "current_project": "全宗门假失踪，我修成无上神通",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 153 (แปลเสร็จจริง 147/453 ตอน)",
   "completed_count": 147,
