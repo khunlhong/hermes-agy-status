@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T00:26:20+07:00",
+  "updated_at": "2026-11-11T00:26:28+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.281",
     "Ch.296"
   ],
-  "cpu_percent": 3.5,
-  "ram_percent": 60.0,
-  "speed_per_min": 13.5,
-  "speed_per_hour": 808,
+  "cpu_percent": 6.6,
+  "ram_percent": 60.6,
+  "speed_per_min": 12.8,
+  "speed_per_hour": 767,
   "eta_text": "~1 นาที (จบ ~00:27 น.)",
   "current_project": "七零退婚嫌我瞎？我嫁军少旺全家",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 316 (แปลเสร็จจริง 308/323 ตอน)",
