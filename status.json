@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T04:54:41+07:00",
+  "updated_at": "2026-11-11T04:54:48+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.365",
     "Ch.367"
   ],
-  "cpu_percent": 4.0,
-  "ram_percent": 56.3,
-  "speed_per_min": 35.0,
-  "speed_per_hour": 2099,
-  "eta_text": "~10 นาที (จบ ~05:04 น.)",
+  "cpu_percent": 10.4,
+  "ram_percent": 56.4,
+  "speed_per_min": 30.7,
+  "speed_per_hour": 1843,
+  "eta_text": "~12 นาที (จบ ~05:06 น.)",
   "current_project": "修仙：恶仆开局，逃入宗门当杂役",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 377 (แปลเสร็จจริง 377/735 ตอน)",
   "completed_count": 377,
