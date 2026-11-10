@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:17:12+07:00",
+  "updated_at": "2026-11-11T05:17:19+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.233",
     "Ch.232"
   ],
-  "cpu_percent": 21.0,
-  "ram_percent": 56.0,
-  "speed_per_min": 28.7,
-  "speed_per_hour": 1720,
+  "cpu_percent": 4.8,
+  "ram_percent": 55.9,
+  "speed_per_min": 25.3,
+  "speed_per_hour": 1519,
   "eta_text": "~0 นาที (จบ ~05:17 น.)",
   "current_project": "失踪十年，小师妹让全宗门跪下迎接",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 256 (แปลเสร็จจริง 255/256 ตอน)",
