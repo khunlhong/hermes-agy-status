@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T22:36:01+07:00",
+  "updated_at": "2026-11-10T22:36:08+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 0,
@@ -25,11 +25,11 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 7.3,
+  "cpu_percent": 10.4,
   "ram_percent": 61.3,
-  "speed_per_min": 1.4,
-  "speed_per_hour": 82,
-  "eta_text": "~1 นาที (จบ ~22:37 น.)",
+  "speed_per_min": 1.3,
+  "speed_per_hour": 81,
+  "eta_text": "~2 นาที (จบ ~22:38 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (0 สล็อต) | ล่าสุด: ตอนที่ 1739 (แปลเสร็จจริง 1737/1739 ตอน)",
   "completed_count": 1737,
