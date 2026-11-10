@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:59:17+07:00",
+  "updated_at": "2026-11-10T21:59:24+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1633",
     "Ch.1285"
   ],
-  "cpu_percent": 25.1,
-  "ram_percent": 62.8,
-  "speed_per_min": 9.8,
-  "speed_per_hour": 589,
-  "eta_text": "~10 นาที (จบ ~22:09 น.)",
+  "cpu_percent": 26.0,
+  "ram_percent": 62.6,
+  "speed_per_min": 9.3,
+  "speed_per_hour": 560,
+  "eta_text": "~11 นาที (จบ ~22:10 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1656 (แปลเสร็จจริง 1641/1739 ตอน)",
   "completed_count": 1641,
