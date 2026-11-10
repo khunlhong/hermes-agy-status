@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:50:03+07:00",
+  "updated_at": "2026-11-10T20:50:10+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1212",
     "Ch.1217"
   ],
-  "cpu_percent": 11.4,
-  "ram_percent": 64.5,
-  "speed_per_min": 13.2,
-  "speed_per_hour": 792,
-  "eta_text": "~42 นาที (จบ ~21:32 น.)",
+  "cpu_percent": 16.1,
+  "ram_percent": 64.4,
+  "speed_per_min": 12.2,
+  "speed_per_hour": 733,
+  "eta_text": "~45 นาที (จบ ~21:35 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1234 (แปลเสร็จจริง 1186/1739 ตอน)",
   "completed_count": 1186,
