@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T00:04:00+07:00",
+  "updated_at": "2026-11-11T00:04:08+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 12,
@@ -25,7 +25,7 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 10.1,
+  "cpu_percent": 1.9,
   "ram_percent": 60.4,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
@@ -60,6 +60,11 @@
       "time": "00:03",
       "completed": 334,
       "ts": 1794330213.8382895
+    },
+    {
+      "time": "00:04",
+      "completed": 334,
+      "ts": 1794330244.5879803
     }
   ],
   "recent_chapters": [
