@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:21:38+07:00",
+  "updated_at": "2026-11-10T21:21:45+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.837",
     "Ch.841"
   ],
-  "cpu_percent": 10.8,
-  "ram_percent": 57.5,
-  "speed_per_min": 7.4,
-  "speed_per_hour": 443,
-  "eta_text": "~1 ชม. 0 นาที (จบ ~22:21 น.)",
+  "cpu_percent": 35.2,
+  "ram_percent": 57.9,
+  "speed_per_min": 6.6,
+  "speed_per_hour": 394,
+  "eta_text": "~1 ชม. 7 นาที (จบ ~22:28 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1311 (แปลเสร็จจริง 1296/1739 ตอน)",
   "completed_count": 1296,
@@ -79,7 +79,7 @@
     {
       "time": "21:21",
       "completed": 1296,
-      "ts": 1794320498.6911557
+      "ts": 1794320498.703153
     }
   ],
   "recent_chapters": [
