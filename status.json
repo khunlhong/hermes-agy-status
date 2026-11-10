@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:52:24+07:00",
+  "updated_at": "2026-11-11T05:52:31+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.52",
     "Ch.50"
   ],
-  "cpu_percent": 28.4,
-  "ram_percent": 60.0,
-  "speed_per_min": 44.0,
-  "speed_per_hour": 2640,
-  "eta_text": "~1 นาที (จบ ~05:53 น.)",
+  "cpu_percent": 24.4,
+  "ram_percent": 59.7,
+  "speed_per_min": 37.7,
+  "speed_per_hour": 2261,
+  "eta_text": "~2 นาที (จบ ~05:54 น.)",
   "current_project": "古代娇娘穿七零，冷面军官沦陷了",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 83 (แปลเสร็จจริง 70/128 ตอน)",
   "completed_count": 70,
