@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:56:10+07:00",
+  "updated_at": "2026-11-10T20:56:17+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1279",
     "Ch.1267"
   ],
-  "cpu_percent": 8.6,
-  "ram_percent": 63.1,
-  "speed_per_min": 9.3,
-  "speed_per_hour": 561,
-  "eta_text": "~54 นาที (จบ ~21:50 น.)",
+  "cpu_percent": 7.6,
+  "ram_percent": 63.0,
+  "speed_per_min": 8.9,
+  "speed_per_hour": 534,
+  "eta_text": "~57 นาที (จบ ~21:53 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1296 (แปลเสร็จจริง 1235/1739 ตอน)",
   "completed_count": 1235,
