@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:54:27+07:00",
+  "updated_at": "2026-11-11T03:54:35+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.836",
     "Ch.838"
   ],
-  "cpu_percent": 17.7,
-  "ram_percent": 56.2,
-  "speed_per_min": 19.7,
-  "speed_per_hour": 1183,
+  "cpu_percent": 13.2,
+  "ram_percent": 56.1,
+  "speed_per_min": 18.2,
+  "speed_per_hour": 1091,
   "eta_text": "~0 นาที (จบ ~03:54 น.)",
   "current_project": "全身瘫痪，系统让我每天五公里",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 862 (แปลเสร็จจริง 860/862 ตอน)",
