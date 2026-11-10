@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:04:22+07:00",
+  "updated_at": "2026-11-11T05:04:29+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.633",
     "Ch.635"
   ],
-  "cpu_percent": 3.3,
+  "cpu_percent": 14.9,
   "ram_percent": 55.9,
-  "speed_per_min": 17.3,
-  "speed_per_hour": 1040,
+  "speed_per_min": 16.2,
+  "speed_per_hour": 972,
   "eta_text": "~5 นาที (จบ ~05:09 น.)",
   "current_project": "修仙：恶仆开局，逃入宗门当杂役",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 652 (แปลเสร็จจริง 651/735 ตอน)",
