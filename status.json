@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T04:50:52+07:00",
+  "updated_at": "2026-11-11T04:50:58+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.232",
     "Ch.229"
   ],
-  "cpu_percent": 5.3,
-  "ram_percent": 56.3,
-  "speed_per_min": 32.3,
-  "speed_per_hour": 1940,
-  "eta_text": "~15 นาที (จบ ~05:05 น.)",
+  "cpu_percent": 55.9,
+  "ram_percent": 56.6,
+  "speed_per_min": 28.8,
+  "speed_per_hour": 1725,
+  "eta_text": "~17 นาที (จบ ~05:07 น.)",
   "current_project": "修仙：恶仆开局，逃入宗门当杂役",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 260 (แปลเสร็จจริง 255/735 ตอน)",
   "completed_count": 255,
