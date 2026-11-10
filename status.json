@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:42:19+07:00",
+  "updated_at": "2026-11-10T20:42:26+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1090",
     "Ch.1094"
   ],
-  "cpu_percent": 10.9,
+  "cpu_percent": 3.8,
   "ram_percent": 62.3,
-  "speed_per_min": 7.5,
-  "speed_per_hour": 447,
-  "eta_text": "~1 ชม. 29 นาที (จบ ~22:11 น.)",
+  "speed_per_min": 7.1,
+  "speed_per_hour": 426,
+  "eta_text": "~1 ชม. 34 นาที (จบ ~22:16 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1118 (แปลเสร็จจริง 1073/1739 ตอน)",
   "completed_count": 1073,
