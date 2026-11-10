@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T01:45:13+07:00",
+  "updated_at": "2026-11-11T01:45:20+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.398",
     "Ch.399"
   ],
-  "cpu_percent": 24.8,
-  "ram_percent": 62.3,
-  "speed_per_min": 150.4,
-  "speed_per_hour": 9021,
+  "cpu_percent": 30.5,
+  "ram_percent": 62.4,
+  "speed_per_min": 142.8,
+  "speed_per_hour": 8570,
   "eta_text": "~1 นาที (จบ ~01:46 น.)",
   "current_project": "十天后穿越：举国帮我伪造宗门令",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 416 (แปลเสร็จจริง 415/561 ตอน)",
