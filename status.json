@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T22:49:59+07:00",
+  "updated_at": "2026-11-10T22:50:08+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,7 +25,7 @@
     "Ch.982",
     "Ch.981"
   ],
-  "cpu_percent": 15.4,
+  "cpu_percent": 10.0,
   "ram_percent": 60.9,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
@@ -70,6 +70,11 @@
       "time": "22:49",
       "completed": 1737,
       "ts": 1794325772.6903212
+    },
+    {
+      "time": "22:50",
+      "completed": 1737,
+      "ts": 1794325803.6572318
     }
   ],
   "recent_chapters": [
