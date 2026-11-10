@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T00:22:27+07:00",
+  "updated_at": "2026-11-11T00:22:34+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.222",
     "Ch.209"
   ],
-  "cpu_percent": 15.1,
-  "ram_percent": 60.7,
-  "speed_per_min": 13.8,
-  "speed_per_hour": 829,
-  "eta_text": "~6 นาที (จบ ~00:28 น.)",
+  "cpu_percent": 32.2,
+  "ram_percent": 61.0,
+  "speed_per_min": 13.0,
+  "speed_per_hour": 782,
+  "eta_text": "~7 นาที (จบ ~00:29 น.)",
   "current_project": "七零退婚嫌我瞎？我嫁军少旺全家",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 249 (แปลเสร็จจริง 238/323 ตอน)",
   "completed_count": 238,
