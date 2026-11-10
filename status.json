@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T23:05:45+07:00",
+  "updated_at": "2026-11-10T23:05:52+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 0,
@@ -25,7 +25,7 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 5.9,
+  "cpu_percent": 7.2,
   "ram_percent": 62.6,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
@@ -37,24 +37,9 @@
   "total_count": 1739,
   "history": [
     {
-      "time": "23:03",
-      "completed": 1738,
-      "ts": 1794326626.5814545
-    },
-    {
-      "time": "23:04",
-      "completed": 1738,
-      "ts": 1794326657.5230596
-    },
-    {
-      "time": "23:04",
-      "completed": 1738,
-      "ts": 1794326688.4767642
-    },
-    {
       "time": "23:05",
       "completed": 1738,
-      "ts": 1794326719.3250897
+      "ts": 1794326752.9836943
     }
   ],
   "recent_chapters": [
