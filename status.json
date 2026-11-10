@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:23:02+07:00",
+  "updated_at": "2026-11-10T21:23:09+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.982",
     "Ch.831"
   ],
-  "cpu_percent": 7.3,
+  "cpu_percent": 2.6,
   "ram_percent": 57.4,
-  "speed_per_min": 3.8,
-  "speed_per_hour": 230,
-  "eta_text": "~1 ชม. 56 นาที (จบ ~23:19 น.)",
+  "speed_per_min": 3.7,
+  "speed_per_hour": 219,
+  "eta_text": "~1 ชม. 59 นาที (จบ ~23:22 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1311 (แปลเสร็จจริง 1298/1739 ตอน)",
   "completed_count": 1298,
