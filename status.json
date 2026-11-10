@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-11-11T04:12:59+07:00",
+  "updated_at": "2026-11-11T04:13:05+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 0,
+  "agy_active_workers": 8,
   "worker_slots": [
-    "IDLE",
-    "IDLE",
-    "IDLE",
-    "IDLE",
-    "IDLE",
-    "IDLE",
-    "IDLE",
-    "IDLE",
+    "Ch.7",
+    "Ch.12",
+    "Ch.8",
+    "Ch.3",
+    "Ch.18",
+    "Ch.1",
+    "Ch.6",
+    "Ch.14",
     "IDLE",
     "IDLE",
     "IDLE",
@@ -25,15 +25,15 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 25.7,
-  "ram_percent": 55.2,
+  "cpu_percent": 15.4,
+  "ram_percent": 55.1,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "七零美人空间在手，首长老公宠妻无度",
-  "current_step": "กำลังรันแปล Worker (0 สล็อต) | ล่าสุด: ตอนที่ 0 (แปลเสร็จจริง 0/862 ตอน)",
-  "completed_count": 0,
-  "latest_chapter": 0,
+  "current_step": "กำลังรันแปล Worker (8 สล็อต) | ล่าสุด: ตอนที่ 18 (แปลเสร็จจริง 8/862 ตอน)",
+  "completed_count": 8,
+  "latest_chapter": 18,
   "total_count": 862,
   "history": [
     {
@@ -55,9 +55,38 @@
       "time": "04:12",
       "completed": 0,
       "ts": 1794345151.520255
+    },
+    {
+      "time": "04:13",
+      "completed": 0,
+      "ts": 1794345182.341291
+    },
+    {
+      "time": "04:13",
+      "completed": 3,
+      "ts": 1794345184.7153306
+    },
+    {
+      "time": "04:13",
+      "completed": 4,
+      "ts": 1794345185.039805
+    },
+    {
+      "time": "04:13",
+      "completed": 8,
+      "ts": 1794345185.8798435
     }
   ],
-  "recent_chapters": [],
+  "recent_chapters": [
+    "✓ ตอนที่ 7 แปลเสร็จสมบูรณ์ (04:13:05)",
+    "✓ ตอนที่ 12 แปลเสร็จสมบูรณ์ (04:13:05)",
+    "✓ ตอนที่ 8 แปลเสร็จสมบูรณ์ (04:13:05)",
+    "✓ ตอนที่ 3 แปลเสร็จสมบูรณ์ (04:13:05)",
+    "✓ ตอนที่ 18 แปลเสร็จสมบูรณ์ (04:13:04)",
+    "✓ ตอนที่ 1 แปลเสร็จสมบูรณ์ (04:13:03)",
+    "✓ ตอนที่ 6 แปลเสร็จสมบูรณ์ (04:13:03)",
+    "✓ ตอนที่ 14 แปลเสร็จสมบูรณ์ (04:13:03)"
+  ],
   "novel_queue": [
     {
       "title": "七零闪婚不见面，带娃炸翻家属院",
