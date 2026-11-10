@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:44:00+07:00",
+  "updated_at": "2026-11-10T21:44:07+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1469",
     "Ch.1476"
   ],
-  "cpu_percent": 5.2,
-  "ram_percent": 57.6,
-  "speed_per_min": 11.2,
-  "speed_per_hour": 673,
-  "eta_text": "~23 นาที (จบ ~22:07 น.)",
+  "cpu_percent": 12.8,
+  "ram_percent": 57.7,
+  "speed_per_min": 9.2,
+  "speed_per_hour": 553,
+  "eta_text": "~28 นาที (จบ ~22:12 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1502 (แปลเสร็จจริง 1486/1739 ตอน)",
   "completed_count": 1486,
