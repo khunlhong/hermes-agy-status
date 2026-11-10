@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:16:29+07:00",
+  "updated_at": "2026-11-10T20:16:33+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.890",
     "Ch.893"
   ],
-  "cpu_percent": 24.3,
+  "cpu_percent": 15.5,
   "ram_percent": 62.8,
-  "speed_per_min": 7.8,
-  "speed_per_hour": 466,
-  "eta_text": "~1 ชม. 49 นาที (จบ ~22:05 น.)",
+  "speed_per_min": 7.6,
+  "speed_per_hour": 455,
+  "eta_text": "~1 ชม. 52 นาที (จบ ~22:08 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 911 (แปลเสร็จจริง 887/1739 ตอน)",
   "completed_count": 887,
