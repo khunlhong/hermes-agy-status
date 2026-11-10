@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T22:01:47+07:00",
+  "updated_at": "2026-11-10T22:01:54+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1648",
     "Ch.1638"
   ],
-  "cpu_percent": 6.0,
+  "cpu_percent": 19.0,
   "ram_percent": 62.0,
-  "speed_per_min": 8.2,
-  "speed_per_hour": 494,
-  "eta_text": "~9 นาที (จบ ~22:10 น.)",
+  "speed_per_min": 7.9,
+  "speed_per_hour": 475,
+  "eta_text": "~10 นาที (จบ ~22:11 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1674 (แปลเสร็จจริง 1662/1739 ตอน)",
   "completed_count": 1662,
@@ -134,7 +134,7 @@
     {
       "time": "22:01",
       "completed": 1662,
-      "ts": 1794322907.9175441
+      "ts": 1794322907.9957333
     }
   ],
   "recent_chapters": [
