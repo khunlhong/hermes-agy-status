@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:24:20+07:00",
+  "updated_at": "2026-11-10T21:24:27+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,8 +25,8 @@
     "Ch.982",
     "Ch.831"
   ],
-  "cpu_percent": 7.8,
-  "ram_percent": 57.4,
+  "cpu_percent": 13.0,
+  "ram_percent": 57.5,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
@@ -45,6 +45,11 @@
       "time": "21:23",
       "completed": 1298,
       "ts": 1794320634.2196507
+    },
+    {
+      "time": "21:24",
+      "completed": 1298,
+      "ts": 1794320665.0159519
     }
   ],
   "recent_chapters": [
