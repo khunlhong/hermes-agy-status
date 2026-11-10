@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T22:05:53+07:00",
+  "updated_at": "2026-11-10T22:06:00+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1665",
     "Ch.1672"
   ],
-  "cpu_percent": 6.7,
-  "ram_percent": 61.7,
-  "speed_per_min": 4.8,
-  "speed_per_hour": 290,
-  "eta_text": "~12 นาที (จบ ~22:17 น.)",
+  "cpu_percent": 6.4,
+  "ram_percent": 61.6,
+  "speed_per_min": 4.7,
+  "speed_per_hour": 282,
+  "eta_text": "~12 นาที (จบ ~22:18 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1690 (แปลเสร็จจริง 1683/1739 ตอน)",
   "completed_count": 1683,
