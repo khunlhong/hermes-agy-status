@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:48:17+07:00",
+  "updated_at": "2026-11-10T20:48:24+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1181",
     "Ch.1178"
   ],
-  "cpu_percent": 5.2,
-  "ram_percent": 63.8,
-  "speed_per_min": 17.4,
-  "speed_per_hour": 1046,
-  "eta_text": "~33 นาที (จบ ~21:21 น.)",
+  "cpu_percent": 20.4,
+  "ram_percent": 64.0,
+  "speed_per_min": 16.2,
+  "speed_per_hour": 975,
+  "eta_text": "~36 นาที (จบ ~21:24 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1214 (แปลเสร็จจริง 1163/1739 ตอน)",
   "completed_count": 1163,
