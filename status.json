@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:23:52+07:00",
+  "updated_at": "2026-11-11T03:23:59+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.664",
     "Ch.670"
   ],
-  "cpu_percent": 35.0,
-  "ram_percent": 56.2,
-  "speed_per_min": 30.7,
-  "speed_per_hour": 1843,
-  "eta_text": "~11 นาที (จบ ~03:34 น.)",
+  "cpu_percent": 10.2,
+  "ram_percent": 55.9,
+  "speed_per_min": 27.6,
+  "speed_per_hour": 1655,
+  "eta_text": "~12 นาที (จบ ~03:35 น.)",
   "current_project": "七零，踹白月光后下乡发家娶村花",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 691 (แปลเสร็จจริง 681/1020 ตอน)",
   "completed_count": 681,
