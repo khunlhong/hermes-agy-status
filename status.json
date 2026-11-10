@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:23:16+07:00",
+  "updated_at": "2026-11-10T21:23:23+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.982",
     "Ch.831"
   ],
-  "cpu_percent": 18.8,
-  "ram_percent": 57.5,
-  "speed_per_min": 3.5,
-  "speed_per_hour": 209,
-  "eta_text": "~2 ชม. 6 นาที (จบ ~23:29 น.)",
+  "cpu_percent": 18.7,
+  "ram_percent": 57.3,
+  "speed_per_min": 0.0,
+  "speed_per_hour": 0,
+  "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1311 (แปลเสร็จจริง 1298/1739 ตอน)",
   "completed_count": 1298,
@@ -37,69 +37,9 @@
   "total_count": 1739,
   "history": [
     {
-      "time": "21:20",
-      "completed": 1289,
-      "ts": 1794320441.7544785
-    },
-    {
-      "time": "21:20",
-      "completed": 1290,
-      "ts": 1794320444.077667
-    },
-    {
-      "time": "21:20",
-      "completed": 1291,
-      "ts": 1794320445.8921602
-    },
-    {
-      "time": "21:20",
-      "completed": 1292,
-      "ts": 1794320447.8969142
-    },
-    {
-      "time": "21:20",
-      "completed": 1293,
-      "ts": 1794320451.2027614
-    },
-    {
-      "time": "21:20",
-      "completed": 1294,
-      "ts": 1794320453.5737133
-    },
-    {
-      "time": "21:21",
-      "completed": 1295,
-      "ts": 1794320465.4554229
-    },
-    {
-      "time": "21:21",
-      "completed": 1295,
-      "ts": 1794320495.503227
-    },
-    {
-      "time": "21:21",
-      "completed": 1296,
-      "ts": 1794320498.703153
-    },
-    {
-      "time": "21:22",
-      "completed": 1296,
-      "ts": 1794320529.5940776
-    },
-    {
-      "time": "21:22",
-      "completed": 1297,
-      "ts": 1794320536.8864512
-    },
-    {
-      "time": "21:22",
+      "time": "21:23",
       "completed": 1298,
-      "ts": 1794320539.109604
-    },
-    {
-      "time": "21:22",
-      "completed": 1298,
-      "ts": 1794320570.0332284
+      "ts": 1794320603.6626093
     }
   ],
   "recent_chapters": [
