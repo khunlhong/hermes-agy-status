@@ -1,9 +1,10 @@
 {
-  "updated_at": "2026-11-11T00:11:21+07:00",
+  "updated_at": "2026-11-11T00:11:29+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 2,
+  "agy_active_workers": 3,
   "worker_slots": [
+    "Ch.12",
     "Ch.6",
     "Ch.18",
     "IDLE",
@@ -22,17 +23,16 @@
     "IDLE",
     "IDLE",
     "IDLE",
-    "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 17.8,
-  "ram_percent": 60.1,
+  "cpu_percent": 33.2,
+  "ram_percent": 60.5,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "七零退婚嫌我瞎？我嫁军少旺全家",
-  "current_step": "กำลังรันแปล Worker (2 สล็อต) | ล่าสุด: ตอนที่ 18 (แปลเสร็จจริง 2/336 ตอน)",
-  "completed_count": 2,
+  "current_step": "กำลังรันแปล Worker (3 สล็อต) | ล่าสุด: ตอนที่ 18 (แปลเสร็จจริง 3/336 ตอน)",
+  "completed_count": 3,
   "latest_chapter": 18,
   "total_count": 336,
   "history": [
@@ -120,9 +120,15 @@
       "time": "00:11",
       "completed": 2,
       "ts": 1794330681.7305548
+    },
+    {
+      "time": "00:11",
+      "completed": 3,
+      "ts": 1794330689.3641436
     }
   ],
   "recent_chapters": [
+    "✓ ตอนที่ 12 แปลเสร็จสมบูรณ์ (00:11:29)",
     "✓ ตอนที่ 6 แปลเสร็จสมบูรณ์ (00:11:21)",
     "✓ ตอนที่ 18 แปลเสร็จสมบูรณ์ (00:11:14)"
   ],
