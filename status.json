@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-11T02:03:40+07:00",
+  "updated_at": "2026-11-11T02:03:47+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 0,
+  "agy_active_workers": 2,
   "worker_slots": [
-    "IDLE",
-    "IDLE",
+    "Ch.12",
+    "Ch.15",
     "IDLE",
     "IDLE",
     "IDLE",
@@ -25,27 +25,17 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 18.9,
-  "ram_percent": 58.6,
+  "cpu_percent": 21.6,
+  "ram_percent": 58.3,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "苟在宗门：我靠复制词条成仙了",
-  "current_step": "กำลังรันแปล Worker (0 สล็อต) | ล่าสุด: ตอนที่ 0 (แปลเสร็จจริง 0/561 ตอน)",
-  "completed_count": 0,
-  "latest_chapter": 0,
+  "current_step": "กำลังรันแปล Worker (2 สล็อต) | ล่าสุด: ตอนที่ 15 (แปลเสร็จจริง 2/561 ตอน)",
+  "completed_count": 2,
+  "latest_chapter": 15,
   "total_count": 561,
   "history": [
-    {
-      "time": "02:02",
-      "completed": 618,
-      "ts": 1794337328.441292
-    },
-    {
-      "time": "02:02",
-      "completed": 620,
-      "ts": 1794337330.3720562
-    },
     {
       "time": "02:02",
       "completed": 622,
@@ -135,9 +125,22 @@
       "time": "02:03",
       "completed": 0,
       "ts": 1794337402.161633
+    },
+    {
+      "time": "02:03",
+      "completed": 1,
+      "ts": 1794337425.8879588
+    },
+    {
+      "time": "02:03",
+      "completed": 2,
+      "ts": 1794337427.0805898
     }
   ],
-  "recent_chapters": [],
+  "recent_chapters": [
+    "✓ ตอนที่ 12 แปลเสร็จสมบูรณ์ (02:03:46)",
+    "✓ ตอนที่ 15 แปลเสร็จสมบูรณ์ (02:03:45)"
+  ],
   "novel_queue": [
     {
       "title": "七零闪婚不见面，带娃炸翻家属院",
