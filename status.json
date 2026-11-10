@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:48:56+07:00",
+  "updated_at": "2026-11-11T03:49:03+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.652",
     "Ch.662"
   ],
-  "cpu_percent": 31.9,
-  "ram_percent": 55.8,
-  "speed_per_min": 45.4,
-  "speed_per_hour": 2721,
-  "eta_text": "~4 นาที (จบ ~03:52 น.)",
+  "cpu_percent": 10.8,
+  "ram_percent": 56.3,
+  "speed_per_min": 38.9,
+  "speed_per_hour": 2331,
+  "eta_text": "~5 นาที (จบ ~03:54 น.)",
   "current_project": "全身瘫痪，系统让我每天五公里",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 688 (แปลเสร็จจริง 683/862 ตอน)",
   "completed_count": 683,
