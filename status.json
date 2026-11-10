@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T00:27:39+07:00",
+  "updated_at": "2026-11-11T00:27:46+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.290",
     "Ch.300"
   ],
-  "cpu_percent": 18.6,
-  "ram_percent": 60.3,
-  "speed_per_min": 9.0,
-  "speed_per_hour": 541,
+  "cpu_percent": 21.8,
+  "ram_percent": 60.5,
+  "speed_per_min": 8.7,
+  "speed_per_hour": 522,
   "eta_text": "~1 นาที (จบ ~00:28 น.)",
   "current_project": "七零退婚嫌我瞎？我嫁军少旺全家",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 318 (แปลเสร็จจริง 310/323 ตอน)",
