@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:34:38+07:00",
+  "updated_at": "2026-11-11T03:34:44+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.44",
     "Ch.43"
   ],
-  "cpu_percent": 10.7,
-  "ram_percent": 56.3,
-  "speed_per_min": 38.3,
-  "speed_per_hour": 2300,
-  "eta_text": "~30 นาที (จบ ~04:04 น.)",
+  "cpu_percent": 9.9,
+  "ram_percent": 56.4,
+  "speed_per_min": 34.6,
+  "speed_per_hour": 2076,
+  "eta_text": "~33 นาที (จบ ~04:07 น.)",
   "current_project": "全身瘫痪，系统让我每天五公里",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 64 (แปลเสร็จจริง 61/1207 ตอน)",
   "completed_count": 61,
