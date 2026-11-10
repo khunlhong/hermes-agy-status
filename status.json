@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T04:04:33+07:00",
+  "updated_at": "2026-11-11T04:04:40+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 0,
@@ -25,8 +25,8 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 16.7,
-  "ram_percent": 54.4,
+  "cpu_percent": 4.8,
+  "ram_percent": 54.5,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "เสร็จสมบูรณ์ 100%!",
