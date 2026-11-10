@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T23:50:36+07:00",
+  "updated_at": "2026-11-10T23:50:45+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 10,
@@ -25,11 +25,11 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 11.4,
-  "ram_percent": 58.1,
-  "speed_per_min": 3.1,
-  "speed_per_hour": 185,
-  "eta_text": "~28 นาที (จบ ~00:18 น.)",
+  "cpu_percent": 1.7,
+  "ram_percent": 58.2,
+  "speed_per_min": 3.0,
+  "speed_per_hour": 180,
+  "eta_text": "~29 นาที (จบ ~00:19 น.)",
   "current_project": "穿成反派他弟，靠沙雕苟成团宠",
   "current_step": "กำลังรันแปล Worker (10 สล็อต) | ล่าสุด: ตอนที่ 336 (แปลเสร็จจริง 249/336 ตอน)",
   "completed_count": 249,
