@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-11T00:55:08+07:00",
+  "updated_at": "2026-11-11T00:55:15+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 0,
+  "agy_active_workers": 3,
   "worker_slots": [
-    "IDLE",
-    "IDLE",
-    "IDLE",
+    "Ch.9",
+    "Ch.16",
+    "Ch.4",
     "IDLE",
     "IDLE",
     "IDLE",
@@ -25,32 +25,17 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 29.0,
-  "ram_percent": 60.5,
+  "cpu_percent": 15.9,
+  "ram_percent": 60.8,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "全宗门假失踪，我修成无上神通",
-  "current_step": "กำลังรันแปล Worker (0 สล็อต) | ล่าสุด: ตอนที่ 0 (แปลเสร็จจริง 0/453 ตอน)",
-  "completed_count": 0,
-  "latest_chapter": 0,
+  "current_step": "กำลังรันแปล Worker (3 สล็อต) | ล่าสุด: ตอนที่ 16 (แปลเสร็จจริง 3/453 ตอน)",
+  "completed_count": 3,
+  "latest_chapter": 16,
   "total_count": 453,
   "history": [
-    {
-      "time": "00:53",
-      "completed": 433,
-      "ts": 1794333237.2659059
-    },
-    {
-      "time": "00:53",
-      "completed": 435,
-      "ts": 1794333238.737683
-    },
-    {
-      "time": "00:54",
-      "completed": 436,
-      "ts": 1794333241.1100893
-    },
     {
       "time": "00:54",
       "completed": 437,
@@ -135,9 +120,28 @@
       "time": "00:55",
       "completed": 0,
       "ts": 1794333300.4479964
+    },
+    {
+      "time": "00:55",
+      "completed": 1,
+      "ts": 1794333311.063833
+    },
+    {
+      "time": "00:55",
+      "completed": 2,
+      "ts": 1794333312.4017847
+    },
+    {
+      "time": "00:55",
+      "completed": 3,
+      "ts": 1794333313.1245387
     }
   ],
-  "recent_chapters": [],
+  "recent_chapters": [
+    "✓ ตอนที่ 9 แปลเสร็จสมบูรณ์ (00:55:12)",
+    "✓ ตอนที่ 16 แปลเสร็จสมบูรณ์ (00:55:12)",
+    "✓ ตอนที่ 4 แปลเสร็จสมบูรณ์ (00:55:10)"
+  ],
   "novel_queue": [
     {
       "title": "七零闪婚不见面，带娃炸翻家属院",
