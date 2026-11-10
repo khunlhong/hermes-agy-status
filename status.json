@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:38:07+07:00",
+  "updated_at": "2026-11-11T03:38:14+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.179",
     "Ch.163"
   ],
-  "cpu_percent": 13.4,
-  "ram_percent": 55.8,
-  "speed_per_min": 38.0,
-  "speed_per_hour": 2279,
-  "eta_text": "~18 นาที (จบ ~03:56 น.)",
+  "cpu_percent": 10.6,
+  "ram_percent": 56.0,
+  "speed_per_min": 33.5,
+  "speed_per_hour": 2010,
+  "eta_text": "~20 นาที (จบ ~03:58 น.)",
   "current_project": "全身瘫痪，系统让我每天五公里",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 193 (แปลเสร็จจริง 191/862 ตอน)",
   "completed_count": 191,
