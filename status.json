@@ -1,9 +1,11 @@
 {
-  "updated_at": "2026-11-10T23:21:30+07:00",
+  "updated_at": "2026-11-10T23:21:37+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 5,
+  "agy_active_workers": 7,
   "worker_slots": [
+    "Ch.1",
+    "Ch.8",
     "Ch.19",
     "Ch.9",
     "Ch.12",
@@ -21,26 +23,19 @@
     "IDLE",
     "IDLE",
     "IDLE",
-    "IDLE",
-    "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 22.8,
-  "ram_percent": 59.9,
+  "cpu_percent": 10.2,
+  "ram_percent": 59.5,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "穿成反派他弟，靠沙雕苟成团宠",
-  "current_step": "กำลังรันแปล Worker (5 สล็อต) | ล่าสุด: ตอนที่ 20 (แปลเสร็จจริง 5/1739 ตอน)",
-  "completed_count": 5,
+  "current_step": "กำลังรันแปล Worker (7 สล็อต) | ล่าสุด: ตอนที่ 20 (แปลเสร็จจริง 7/1739 ตอน)",
+  "completed_count": 7,
   "latest_chapter": 20,
   "total_count": 1739,
   "history": [
-    {
-      "time": "23:20",
-      "completed": 680,
-      "ts": 1794327621.676242
-    },
     {
       "time": "23:20",
       "completed": 409,
@@ -135,9 +130,16 @@
       "time": "23:21",
       "completed": 5,
       "ts": 1794327683.1609018
+    },
+    {
+      "time": "23:21",
+      "completed": 7,
+      "ts": 1794327697.3439012
     }
   ],
   "recent_chapters": [
+    "✓ ตอนที่ 1 แปลเสร็จสมบูรณ์ (23:21:37)",
+    "✓ ตอนที่ 8 แปลเสร็จสมบูรณ์ (23:21:35)",
     "✓ ตอนที่ 19 แปลเสร็จสมบูรณ์ (23:21:22)",
     "✓ ตอนที่ 9 แปลเสร็จสมบูรณ์ (23:21:21)",
     "✓ ตอนที่ 12 แปลเสร็จสมบูรณ์ (23:21:17)",
