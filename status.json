@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:53:36+07:00",
+  "updated_at": "2026-11-10T20:53:43+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.984",
     "Ch.983"
   ],
-  "cpu_percent": 7.7,
-  "ram_percent": 63.7,
-  "speed_per_min": 1.6,
-  "speed_per_hour": 93,
-  "eta_text": "~5 ชม. 30 นาที (จบ ~02:23 น.)",
+  "cpu_percent": 9.5,
+  "ram_percent": 63.8,
+  "speed_per_min": 1.5,
+  "speed_per_hour": 88,
+  "eta_text": "~5 ชม. 52 นาที (จบ ~02:45 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1277 (แปลเสร็จจริง 1211/1739 ตอน)",
   "completed_count": 1211,
