@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:33:08+07:00",
+  "updated_at": "2026-11-10T20:33:15+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.991",
     "Ch.1022"
   ],
-  "cpu_percent": 10.9,
-  "ram_percent": 63.6,
-  "speed_per_min": 4.9,
-  "speed_per_hour": 296,
-  "eta_text": "~2 ชม. 31 นาที (จบ ~23:04 น.)",
+  "cpu_percent": 6.5,
+  "ram_percent": 63.7,
+  "speed_per_min": 4.8,
+  "speed_per_hour": 287,
+  "eta_text": "~2 ชม. 34 นาที (จบ ~23:07 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1049 (แปลเสร็จจริง 999/1739 ตอน)",
   "completed_count": 999,
