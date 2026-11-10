@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T06:30:16+07:00",
+  "updated_at": "2026-11-11T06:30:23+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.598",
     "Ch.599"
   ],
-  "cpu_percent": 30.5,
-  "ram_percent": 60.9,
-  "speed_per_min": 33.9,
-  "speed_per_hour": 2034,
-  "eta_text": "~12 นาที (จบ ~06:42 น.)",
+  "cpu_percent": 16.2,
+  "ram_percent": 61.0,
+  "speed_per_min": 30.4,
+  "speed_per_hour": 1826,
+  "eta_text": "~13 นาที (จบ ~06:43 น.)",
   "current_project": "七零：我辅导爹妈考大学",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 616 (แปลเสร็จจริง 609/1012 ตอน)",
   "completed_count": 609,
