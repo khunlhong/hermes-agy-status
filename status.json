@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T06:15:40+07:00",
+  "updated_at": "2026-11-11T06:15:47+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.127",
     "Ch.129"
   ],
-  "cpu_percent": 28.6,
+  "cpu_percent": 22.7,
   "ram_percent": 63.5,
-  "speed_per_min": 31.8,
-  "speed_per_hour": 1909,
-  "eta_text": "~27 นาที (จบ ~06:42 น.)",
+  "speed_per_min": 29.0,
+  "speed_per_hour": 1738,
+  "eta_text": "~30 นาที (จบ ~06:45 น.)",
   "current_project": "七零：我辅导爹妈考大学",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 148 (แปลเสร็จจริง 146/1012 ตอน)",
   "completed_count": 146,
