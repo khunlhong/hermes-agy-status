@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:09:09+07:00",
+  "updated_at": "2026-11-11T03:09:16+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.199",
     "Ch.189"
   ],
-  "cpu_percent": 23.4,
-  "ram_percent": 55.1,
-  "speed_per_min": 17.2,
-  "speed_per_hour": 1031,
-  "eta_text": "~47 นาที (จบ ~03:56 น.)",
+  "cpu_percent": 11.8,
+  "ram_percent": 55.4,
+  "speed_per_min": 16.1,
+  "speed_per_hour": 968,
+  "eta_text": "~50 นาที (จบ ~03:59 น.)",
   "current_project": "七零，踹白月光后下乡发家娶村花",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 226 (แปลเสร็จจริง 220/1020 ตอน)",
   "completed_count": 220,
