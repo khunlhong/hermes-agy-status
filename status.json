@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T04:32:35+07:00",
+  "updated_at": "2026-11-11T04:32:42+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.139",
     "Ch.166"
   ],
-  "cpu_percent": 3.9,
-  "ram_percent": 56.4,
-  "speed_per_min": 18.0,
-  "speed_per_hour": 1078,
-  "eta_text": "~21 นาที (จบ ~04:53 น.)",
+  "cpu_percent": 15.0,
+  "ram_percent": 55.8,
+  "speed_per_min": 16.4,
+  "speed_per_hour": 982,
+  "eta_text": "~23 นาที (จบ ~04:55 น.)",
   "current_project": "军婚超甜！闪婚后成了首长的心尖宠",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 186 (แปลเสร็จจริง 182/562 ตอน)",
   "completed_count": 182,
