@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T00:28:55+07:00",
+  "updated_at": "2026-11-11T00:29:02+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.283",
     "Ch.290"
   ],
-  "cpu_percent": 5.2,
-  "ram_percent": 60.1,
-  "speed_per_min": 4.3,
-  "speed_per_hour": 260,
-  "eta_text": "~3 นาที (จบ ~00:31 น.)",
+  "cpu_percent": 13.3,
+  "ram_percent": 60.0,
+  "speed_per_min": 4.2,
+  "speed_per_hour": 253,
+  "eta_text": "~3 นาที (จบ ~00:32 น.)",
   "current_project": "七零退婚嫌我瞎？我嫁军少旺全家",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 321 (แปลเสร็จจริง 311/323 ตอน)",
   "completed_count": 311,
