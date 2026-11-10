@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T22:01:19+07:00",
+  "updated_at": "2026-11-10T22:01:26+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.1644",
     "Ch.1650"
   ],
-  "cpu_percent": 19.7,
-  "ram_percent": 62.1,
-  "speed_per_min": 8.4,
-  "speed_per_hour": 505,
+  "cpu_percent": 6.1,
+  "ram_percent": 62.0,
+  "speed_per_min": 8.1,
+  "speed_per_hour": 483,
   "eta_text": "~10 นาที (จบ ~22:11 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1667 (แปลเสร็จจริง 1656/1739 ตอน)",
