@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-11T05:17:47+07:00",
+  "updated_at": "2026-11-11T05:17:53+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 1,
+  "agy_active_workers": 4,
   "worker_slots": [
+    "Ch.5",
+    "Ch.6",
+    "Ch.3",
     "Ch.20",
-    "IDLE",
-    "IDLE",
-    "IDLE",
     "IDLE",
     "IDLE",
     "IDLE",
@@ -25,22 +25,17 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 10.2,
-  "ram_percent": 56.7,
+  "cpu_percent": 19.2,
+  "ram_percent": 56.0,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "七零：她资本家小姐咋了？我就娶",
-  "current_step": "กำลังรันแปล Worker (1 สล็อต) | ล่าสุด: ตอนที่ 20 (แปลเสร็จจริง 1/256 ตอน)",
-  "completed_count": 1,
+  "current_step": "กำลังรันแปล Worker (4 สล็อต) | ล่าสุด: ตอนที่ 20 (แปลเสร็จจริง 4/256 ตอน)",
+  "completed_count": 4,
   "latest_chapter": 20,
   "total_count": 256,
   "history": [
-    {
-      "time": "05:16",
-      "completed": 233,
-      "ts": 1794348986.8035595
-    },
     {
       "time": "05:16",
       "completed": 235,
@@ -135,9 +130,17 @@
       "time": "05:17",
       "completed": 1,
       "ts": 1794349058.4106565
+    },
+    {
+      "time": "05:17",
+      "completed": 4,
+      "ts": 1794349073.3682423
     }
   ],
   "recent_chapters": [
+    "✓ ตอนที่ 5 แปลเสร็จสมบูรณ์ (05:17:53)",
+    "✓ ตอนที่ 6 แปลเสร็จสมบูรณ์ (05:17:53)",
+    "✓ ตอนที่ 3 แปลเสร็จสมบูรณ์ (05:17:53)",
     "✓ ตอนที่ 20 แปลเสร็จสมบูรณ์ (05:17:38)"
   ],
   "novel_queue": [
