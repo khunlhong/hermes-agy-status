@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:40:21+07:00",
+  "updated_at": "2026-11-10T20:40:28+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1079",
     "Ch.1074"
   ],
-  "cpu_percent": 4.7,
-  "ram_percent": 63.0,
-  "speed_per_min": 6.0,
-  "speed_per_hour": 363,
-  "eta_text": "~1 ชม. 54 นาที (จบ ~22:34 น.)",
+  "cpu_percent": 2.8,
+  "ram_percent": 62.9,
+  "speed_per_min": 5.8,
+  "speed_per_hour": 349,
+  "eta_text": "~1 ชม. 58 นาที (จบ ~22:38 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1103 (แปลเสร็จจริง 1057/1739 ตอน)",
   "completed_count": 1057,
