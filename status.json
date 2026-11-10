@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T06:14:51+07:00",
+  "updated_at": "2026-11-11T06:14:58+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.106",
     "Ch.108"
   ],
-  "cpu_percent": 14.7,
-  "ram_percent": 62.9,
-  "speed_per_min": 27.7,
-  "speed_per_hour": 1663,
-  "eta_text": "~32 นาที (จบ ~06:46 น.)",
+  "cpu_percent": 41.4,
+  "ram_percent": 63.1,
+  "speed_per_min": 25.2,
+  "speed_per_hour": 1514,
+  "eta_text": "~35 นาที (จบ ~06:49 น.)",
   "current_project": "七零：我辅导爹妈考大学",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 123 (แปลเสร็จจริง 122/1012 ตอน)",
   "completed_count": 122,
@@ -134,7 +134,7 @@
     {
       "time": "06:14",
       "completed": 122,
-      "ts": 1794352491.6410692
+      "ts": 1794352491.9902132
     }
   ],
   "recent_chapters": [
