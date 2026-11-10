@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:58:59+07:00",
+  "updated_at": "2026-11-10T20:59:06+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1286",
     "Ch.1284"
   ],
-  "cpu_percent": 19.4,
-  "ram_percent": 63.6,
-  "speed_per_min": 4.8,
-  "speed_per_hour": 286,
-  "eta_text": "~1 ชม. 42 นาที (จบ ~22:40 น.)",
+  "cpu_percent": 12.2,
+  "ram_percent": 63.3,
+  "speed_per_min": 4.6,
+  "speed_per_hour": 277,
+  "eta_text": "~1 ชม. 47 นาที (จบ ~22:46 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1311 (แปลเสร็จจริง 1248/1739 ตอน)",
   "completed_count": 1248,
