@@ -1,9 +1,12 @@
 {
-  "updated_at": "2026-11-11T00:55:22+07:00",
+  "updated_at": "2026-11-11T00:55:29+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 4,
+  "agy_active_workers": 7,
   "worker_slots": [
+    "Ch.8",
+    "Ch.3",
+    "Ch.2",
     "Ch.1",
     "Ch.9",
     "Ch.16",
@@ -20,37 +23,19 @@
     "IDLE",
     "IDLE",
     "IDLE",
-    "IDLE",
-    "IDLE",
-    "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 13.4,
-  "ram_percent": 60.8,
+  "cpu_percent": 6.7,
+  "ram_percent": 60.6,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "全宗门假失踪，我修成无上神通",
-  "current_step": "กำลังรันแปล Worker (4 สล็อต) | ล่าสุด: ตอนที่ 16 (แปลเสร็จจริง 4/453 ตอน)",
-  "completed_count": 4,
+  "current_step": "กำลังรันแปล Worker (7 สล็อต) | ล่าสุด: ตอนที่ 16 (แปลเสร็จจริง 7/453 ตอน)",
+  "completed_count": 7,
   "latest_chapter": 16,
   "total_count": 453,
   "history": [
-    {
-      "time": "00:54",
-      "completed": 438,
-      "ts": 1794333244.2914884
-    },
-    {
-      "time": "00:54",
-      "completed": 439,
-      "ts": 1794333249.0604916
-    },
-    {
-      "time": "00:54",
-      "completed": 440,
-      "ts": 1794333250.6106832
-    },
     {
       "time": "00:54",
       "completed": 442,
@@ -135,9 +120,27 @@
       "time": "00:55",
       "completed": 4,
       "ts": 1794333319.525891
+    },
+    {
+      "time": "00:55",
+      "completed": 5,
+      "ts": 1794333323.4664092
+    },
+    {
+      "time": "00:55",
+      "completed": 6,
+      "ts": 1794333326.6318028
+    },
+    {
+      "time": "00:55",
+      "completed": 7,
+      "ts": 1794333328.9921153
     }
   ],
   "recent_chapters": [
+    "✓ ตอนที่ 8 แปลเสร็จสมบูรณ์ (00:55:27)",
+    "✓ ตอนที่ 3 แปลเสร็จสมบูรณ์ (00:55:25)",
+    "✓ ตอนที่ 2 แปลเสร็จสมบูรณ์ (00:55:23)",
     "✓ ตอนที่ 1 แปลเสร็จสมบูรณ์ (00:55:17)",
     "✓ ตอนที่ 9 แปลเสร็จสมบูรณ์ (00:55:12)",
     "✓ ตอนที่ 16 แปลเสร็จสมบูรณ์ (00:55:12)",
