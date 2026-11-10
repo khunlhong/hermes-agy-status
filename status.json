@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:54:32+07:00",
+  "updated_at": "2026-11-10T20:54:39+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.998",
     "Ch.997"
   ],
-  "cpu_percent": 11.7,
+  "cpu_percent": 20.7,
   "ram_percent": 63.7,
-  "speed_per_min": 11.2,
-  "speed_per_hour": 672,
-  "eta_text": "~46 นาที (จบ ~21:40 น.)",
+  "speed_per_min": 10.6,
+  "speed_per_hour": 636,
+  "eta_text": "~48 นาที (จบ ~21:42 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1288 (แปลเสร็จจริง 1225/1739 ตอน)",
   "completed_count": 1225,
