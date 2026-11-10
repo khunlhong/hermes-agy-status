@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:45:45+07:00",
+  "updated_at": "2026-11-10T21:45:52+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1478",
     "Ch.1485"
   ],
-  "cpu_percent": 19.0,
+  "cpu_percent": 15.1,
   "ram_percent": 57.5,
-  "speed_per_min": 13.5,
-  "speed_per_hour": 811,
-  "eta_text": "~17 นาที (จบ ~22:02 น.)",
+  "speed_per_min": 11.6,
+  "speed_per_hour": 699,
+  "eta_text": "~20 นาที (จบ ~22:05 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1512 (แปลเสร็จจริง 1503/1739 ตอน)",
   "completed_count": 1503,
