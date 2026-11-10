@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:43:19+07:00",
+  "updated_at": "2026-11-10T20:43:26+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1118",
     "Ch.1109"
   ],
-  "cpu_percent": 8.1,
+  "cpu_percent": 11.2,
   "ram_percent": 64.3,
-  "speed_per_min": 9.6,
-  "speed_per_hour": 575,
-  "eta_text": "~1 ชม. 8 นาที (จบ ~21:51 น.)",
+  "speed_per_min": 9.0,
+  "speed_per_hour": 542,
+  "eta_text": "~1 ชม. 13 นาที (จบ ~21:56 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1129 (แปลเสร็จจริง 1083/1739 ตอน)",
   "completed_count": 1083,
@@ -134,7 +134,7 @@
     {
       "time": "20:43",
       "completed": 1083,
-      "ts": 1794318199.6173148
+      "ts": 1794318199.6727788
     }
   ],
   "recent_chapters": [
