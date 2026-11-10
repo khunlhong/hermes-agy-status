@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:20:30+07:00",
+  "updated_at": "2026-11-11T03:20:37+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.567",
     "Ch.552"
   ],
-  "cpu_percent": 17.4,
+  "cpu_percent": 4.9,
   "ram_percent": 56.1,
-  "speed_per_min": 28.5,
-  "speed_per_hour": 1707,
-  "eta_text": "~16 นาที (จบ ~03:36 น.)",
+  "speed_per_min": 25.8,
+  "speed_per_hour": 1545,
+  "eta_text": "~17 นาที (จบ ~03:37 น.)",
   "current_project": "七零，踹白月光后下乡发家娶村花",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 578 (แปลเสร็จจริง 573/1020 ตอน)",
   "completed_count": 573,
