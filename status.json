@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T23:59:45+07:00",
+  "updated_at": "2026-11-10T23:59:52+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.231",
     "Ch.228"
   ],
-  "cpu_percent": 6.8,
+  "cpu_percent": 6.2,
   "ram_percent": 60.4,
-  "speed_per_min": 8.4,
-  "speed_per_hour": 502,
+  "speed_per_min": 8.0,
+  "speed_per_hour": 480,
   "eta_text": "~0 นาที (จบ ~23:59 น.)",
   "current_project": "穿成反派他弟，靠沙雕苟成团宠",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 336 (แปลเสร็จจริง 332/336 ตอน)",
