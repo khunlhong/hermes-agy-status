@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:33:58+07:00",
+  "updated_at": "2026-11-11T05:34:05+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,8 +25,8 @@
     "Ch.206",
     "Ch.200"
   ],
-  "cpu_percent": 52.6,
-  "ram_percent": 54.4,
+  "cpu_percent": 18.7,
+  "ram_percent": 54.6,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "เสร็จสมบูรณ์ 100%!",
