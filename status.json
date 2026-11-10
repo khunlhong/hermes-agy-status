@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T22:00:20+07:00",
+  "updated_at": "2026-11-10T22:00:28+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1646",
     "Ch.1645"
   ],
-  "cpu_percent": 3.4,
+  "cpu_percent": 7.4,
   "ram_percent": 62.4,
-  "speed_per_min": 8.7,
-  "speed_per_hour": 521,
-  "eta_text": "~10 นาที (จบ ~22:10 น.)",
+  "speed_per_min": 8.3,
+  "speed_per_hour": 496,
+  "eta_text": "~11 นาที (จบ ~22:11 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1657 (แปลเสร็จจริง 1651/1739 ตอน)",
   "completed_count": 1651,
