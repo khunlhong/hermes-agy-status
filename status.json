@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:46:50+07:00",
+  "updated_at": "2026-11-10T21:46:57+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1505",
     "Ch.1491"
   ],
-  "cpu_percent": 16.7,
-  "ram_percent": 57.4,
-  "speed_per_min": 16.1,
-  "speed_per_hour": 967,
-  "eta_text": "~14 นาที (จบ ~22:00 น.)",
+  "cpu_percent": 18.4,
+  "ram_percent": 57.7,
+  "speed_per_min": 12.7,
+  "speed_per_hour": 761,
+  "eta_text": "~17 นาที (จบ ~22:03 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1525 (แปลเสร็จจริง 1518/1739 ตอน)",
   "completed_count": 1518,
@@ -69,7 +69,7 @@
     {
       "time": "21:46",
       "completed": 1518,
-      "ts": 1794322010.7503552
+      "ts": 1794322010.860268
     }
   ],
   "recent_chapters": [
