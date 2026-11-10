@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T01:03:34+07:00",
+  "updated_at": "2026-11-11T01:03:41+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.147",
     "Ch.136"
   ],
-  "cpu_percent": 25.0,
-  "ram_percent": 61.1,
-  "speed_per_min": 5.8,
-  "speed_per_hour": 345,
-  "eta_text": "~51 นาที (จบ ~01:54 น.)",
+  "cpu_percent": 6.1,
+  "ram_percent": 61.0,
+  "speed_per_min": 5.6,
+  "speed_per_hour": 334,
+  "eta_text": "~53 นาที (จบ ~01:56 น.)",
   "current_project": "全宗门假失踪，我修成无上神通",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 167 (แปลเสร็จจริง 158/453 ตอน)",
   "completed_count": 158,
