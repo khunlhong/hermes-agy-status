@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:55:38+07:00",
+  "updated_at": "2026-11-11T03:55:45+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.854",
     "Ch.845"
   ],
-  "cpu_percent": 2.8,
+  "cpu_percent": 2.6,
   "ram_percent": 55.3,
-  "speed_per_min": 10.3,
-  "speed_per_hour": 615,
+  "speed_per_min": 9.8,
+  "speed_per_hour": 589,
   "eta_text": "เสร็จสมบูรณ์ 100%!",
   "current_project": "全身瘫痪，系统让我每天五公里",
   "current_step": "แปลเสร็จสมบูรณ์ 100% (862/862 ตอน)",
