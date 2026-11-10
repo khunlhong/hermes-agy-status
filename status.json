@@ -1,9 +1,10 @@
 {
-  "updated_at": "2026-11-11T01:22:32+07:00",
+  "updated_at": "2026-11-11T01:22:39+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 3,
+  "agy_active_workers": 4,
   "worker_slots": [
+    "Ch.17",
     "Ch.10",
     "Ch.9",
     "Ch.13",
@@ -22,25 +23,19 @@
     "IDLE",
     "IDLE",
     "IDLE",
-    "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 37.1,
+  "cpu_percent": 24.6,
   "ram_percent": 60.6,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "十天后穿越：举国帮我伪造宗门令",
-  "current_step": "กำลังรันแปล Worker (3 สล็อต) | ล่าสุด: ตอนที่ 13 (แปลเสร็จจริง 3/553 ตอน)",
-  "completed_count": 3,
-  "latest_chapter": 13,
+  "current_step": "กำลังรันแปล Worker (4 สล็อต) | ล่าสุด: ตอนที่ 17 (แปลเสร็จจริง 4/553 ตอน)",
+  "completed_count": 4,
+  "latest_chapter": 17,
   "total_count": 553,
   "history": [
-    {
-      "time": "01:21",
-      "completed": 535,
-      "ts": 1794334866.1302493
-    },
     {
       "time": "01:21",
       "completed": 537,
@@ -135,9 +130,15 @@
       "time": "01:22",
       "completed": 3,
       "ts": 1794334951.6250594
+    },
+    {
+      "time": "01:22",
+      "completed": 4,
+      "ts": 1794334953.4481194
     }
   ],
   "recent_chapters": [
+    "✓ ตอนที่ 17 แปลเสร็จสมบูรณ์ (01:22:33)",
     "✓ ตอนที่ 10 แปลเสร็จสมบูรณ์ (01:22:30)",
     "✓ ตอนที่ 9 แปลเสร็จสมบูรณ์ (01:22:28)",
     "✓ ตอนที่ 13 แปลเสร็จสมบูรณ์ (01:22:25)"
