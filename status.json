@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:31:03+07:00",
+  "updated_at": "2026-11-11T05:31:10+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.206",
     "Ch.200"
   ],
-  "cpu_percent": 12.7,
-  "ram_percent": 54.2,
-  "speed_per_min": 23.0,
-  "speed_per_hour": 1378,
+  "cpu_percent": 13.3,
+  "ram_percent": 54.0,
+  "speed_per_min": 20.8,
+  "speed_per_hour": 1249,
   "eta_text": "เสร็จสมบูรณ์ 100%!",
   "current_project": "词条修仙：从凡女开始叩仙门",
   "current_step": "แปลเสร็จสมบูรณ์ 100% (218/218 ตอน)",
