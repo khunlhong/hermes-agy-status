@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-11T00:42:08+07:00",
+  "updated_at": "2026-11-11T00:42:15+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 1,
+  "agy_active_workers": 3,
   "worker_slots": [
+    "Ch.10",
+    "Ch.5",
     "Ch.6",
-    "IDLE",
-    "IDLE",
     "IDLE",
     "IDLE",
     "IDLE",
@@ -25,27 +25,17 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 28.4,
-  "ram_percent": 60.2,
+  "cpu_percent": 37.0,
+  "ram_percent": 60.4,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "你们惹她干嘛，小师妹有天道宠着",
-  "current_step": "กำลังรันแปล Worker (1 สล็อต) | ล่าสุด: ตอนที่ 6 (แปลเสร็จจริง 1/237 ตอน)",
-  "completed_count": 1,
-  "latest_chapter": 6,
+  "current_step": "กำลังรันแปล Worker (3 สล็อต) | ล่าสุด: ตอนที่ 10 (แปลเสร็จจริง 3/237 ตอน)",
+  "completed_count": 3,
+  "latest_chapter": 10,
   "total_count": 237,
   "history": [
-    {
-      "time": "00:41",
-      "completed": 212,
-      "ts": 1794332460.300011
-    },
-    {
-      "time": "00:41",
-      "completed": 217,
-      "ts": 1794332465.0768857
-    },
     {
       "time": "00:41",
       "completed": 218,
@@ -135,9 +125,21 @@
       "time": "00:42",
       "completed": 1,
       "ts": 1794332528.0302799
+    },
+    {
+      "time": "00:42",
+      "completed": 2,
+      "ts": 1794332529.202534
+    },
+    {
+      "time": "00:42",
+      "completed": 3,
+      "ts": 1794332532.762983
     }
   ],
   "recent_chapters": [
+    "✓ ตอนที่ 10 แปลเสร็จสมบูรณ์ (00:42:11)",
+    "✓ ตอนที่ 5 แปลเสร็จสมบูรณ์ (00:42:08)",
     "✓ ตอนที่ 6 แปลเสร็จสมบูรณ์ (00:42:07)"
   ],
   "novel_queue": [
