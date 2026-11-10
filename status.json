@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:30:14+07:00",
+  "updated_at": "2026-11-10T20:30:20+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1008",
     "Ch.1012"
   ],
-  "cpu_percent": 21.9,
-  "ram_percent": 63.6,
-  "speed_per_min": 11.4,
-  "speed_per_hour": 683,
-  "eta_text": "~1 ชม. 6 นาที (จบ ~21:36 น.)",
+  "cpu_percent": 8.5,
+  "ram_percent": 63.1,
+  "speed_per_min": 9.3,
+  "speed_per_hour": 560,
+  "eta_text": "~1 ชม. 21 นาที (จบ ~21:51 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1039 (แปลเสร็จจริง 988/1739 ตอน)",
   "completed_count": 988,
