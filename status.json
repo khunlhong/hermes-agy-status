@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T00:21:58+07:00",
+  "updated_at": "2026-11-11T00:22:06+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.224",
     "Ch.225"
   ],
-  "cpu_percent": 15.0,
-  "ram_percent": 60.9,
-  "speed_per_min": 17.8,
-  "speed_per_hour": 1068,
-  "eta_text": "~5 นาที (จบ ~00:26 น.)",
+  "cpu_percent": 3.3,
+  "ram_percent": 61.1,
+  "speed_per_min": 16.6,
+  "speed_per_hour": 997,
+  "eta_text": "~5 นาที (จบ ~00:27 น.)",
   "current_project": "七零退婚嫌我瞎？我嫁军少旺全家",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 242 (แปลเสร็จจริง 236/323 ตอน)",
   "completed_count": 236,
