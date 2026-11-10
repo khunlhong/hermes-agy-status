@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T00:25:59+07:00",
+  "updated_at": "2026-11-11T00:26:06+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.299",
     "Ch.289"
   ],
-  "cpu_percent": 15.5,
+  "cpu_percent": 15.0,
   "ram_percent": 60.5,
-  "speed_per_min": 15.5,
-  "speed_per_hour": 929,
-  "eta_text": "~1 นาที (จบ ~00:26 น.)",
+  "speed_per_min": 14.6,
+  "speed_per_hour": 878,
+  "eta_text": "~1 นาที (จบ ~00:27 น.)",
   "current_project": "七零退婚嫌我瞎？我嫁军少旺全家",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 313 (แปลเสร็จจริง 306/323 ตอน)",
   "completed_count": 306,
