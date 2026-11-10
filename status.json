@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T22:52:46+07:00",
+  "updated_at": "2026-11-10T22:52:53+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,8 +25,8 @@
     "Ch.983",
     "Ch.982"
   ],
-  "cpu_percent": 12.7,
-  "ram_percent": 61.9,
+  "cpu_percent": 5.3,
+  "ram_percent": 61.8,
   "speed_per_min": 0.2,
   "speed_per_hour": 9,
   "eta_text": "~5 นาที (จบ ~22:57 น.)",
@@ -100,6 +100,11 @@
       "time": "22:52",
       "completed": 1738,
       "ts": 1794325943.0691946
+    },
+    {
+      "time": "22:52",
+      "completed": 1738,
+      "ts": 1794325973.9783087
     }
   ],
   "recent_chapters": [
