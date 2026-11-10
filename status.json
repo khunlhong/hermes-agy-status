@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:50:03+07:00",
+  "updated_at": "2026-11-10T21:50:11+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1535",
     "Ch.1533"
   ],
-  "cpu_percent": 6.8,
+  "cpu_percent": 7.4,
   "ram_percent": 57.6,
-  "speed_per_min": 8.9,
-  "speed_per_hour": 535,
-  "eta_text": "~22 นาที (จบ ~22:12 น.)",
+  "speed_per_min": 8.5,
+  "speed_per_hour": 511,
+  "eta_text": "~23 นาที (จบ ~22:13 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1559 (แปลเสร็จจริง 1546/1739 ตอน)",
   "completed_count": 1546,
