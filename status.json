@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:40:07+07:00",
+  "updated_at": "2026-11-10T21:40:14+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1442",
     "Ch.1455"
   ],
-  "cpu_percent": 6.1,
+  "cpu_percent": 14.9,
   "ram_percent": 57.2,
-  "speed_per_min": 6.3,
-  "speed_per_hour": 381,
-  "eta_text": "~45 นาที (จบ ~22:25 น.)",
+  "speed_per_min": 5.9,
+  "speed_per_hour": 352,
+  "eta_text": "~48 นาที (จบ ~22:28 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1470 (แปลเสร็จจริง 1456/1739 ตอน)",
   "completed_count": 1456,
