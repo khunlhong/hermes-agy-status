@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:47:55+07:00",
+  "updated_at": "2026-11-10T20:48:02+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1185",
     "Ch.1175"
   ],
-  "cpu_percent": 22.1,
+  "cpu_percent": 15.9,
   "ram_percent": 64.2,
-  "speed_per_min": 14.7,
-  "speed_per_hour": 884,
-  "eta_text": "~40 นาที (จบ ~21:27 น.)",
+  "speed_per_min": 13.9,
+  "speed_per_hour": 831,
+  "eta_text": "~42 นาที (จบ ~21:30 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1200 (แปลเสร็จจริง 1157/1739 ตอน)",
   "completed_count": 1157,
