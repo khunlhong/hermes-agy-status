@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T06:12:18+07:00",
+  "updated_at": "2026-11-11T06:12:25+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.29",
     "Ch.36"
   ],
-  "cpu_percent": 22.3,
-  "ram_percent": 64.4,
-  "speed_per_min": 37.1,
-  "speed_per_hour": 2225,
-  "eta_text": "~26 นาที (จบ ~06:38 น.)",
+  "cpu_percent": 26.5,
+  "ram_percent": 64.7,
+  "speed_per_min": 30.6,
+  "speed_per_hour": 1833,
+  "eta_text": "~31 นาที (จบ ~06:43 น.)",
   "current_project": "七零：我辅导爹妈考大学",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 54 (แปลเสร็จจริง 52/1012 ตอน)",
   "completed_count": 52,
