@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T01:41:40+07:00",
+  "updated_at": "2026-11-11T01:41:47+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.365",
     "Ch.372"
   ],
-  "cpu_percent": 11.1,
-  "ram_percent": 61.9,
-  "speed_per_min": 127.1,
-  "speed_per_hour": 7625,
+  "cpu_percent": 20.9,
+  "ram_percent": 62.0,
+  "speed_per_min": 121.9,
+  "speed_per_hour": 7313,
   "eta_text": "~1 นาที (จบ ~01:42 น.)",
   "current_project": "十天后穿越：举国帮我伪造宗门令",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 396 (แปลเสร็จจริง 391/561 ตอน)",
