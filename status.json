@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:31:23+07:00",
+  "updated_at": "2026-11-10T20:31:30+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1003",
     "Ch.992"
   ],
-  "cpu_percent": 9.5,
+  "cpu_percent": 10.5,
   "ram_percent": 63.7,
-  "speed_per_min": 6.5,
-  "speed_per_hour": 392,
-  "eta_text": "~1 ชม. 55 นาที (จบ ~22:26 น.)",
+  "speed_per_min": 6.1,
+  "speed_per_hour": 366,
+  "eta_text": "~2 ชม. 2 นาที (จบ ~22:33 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1042 (แปลเสร็จจริง 993/1739 ตอน)",
   "completed_count": 993,
