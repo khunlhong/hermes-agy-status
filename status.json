@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:08:43+07:00",
+  "updated_at": "2026-11-11T05:08:50+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.696",
     "Ch.706"
   ],
-  "cpu_percent": 24.4,
-  "ram_percent": 56.0,
-  "speed_per_min": 25.2,
-  "speed_per_hour": 1514,
+  "cpu_percent": 15.2,
+  "ram_percent": 56.1,
+  "speed_per_min": 23.0,
+  "speed_per_hour": 1378,
   "eta_text": "~1 นาที (จบ ~05:09 น.)",
   "current_project": "修仙：恶仆开局，逃入宗门当杂役",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 726 (แปลเสร็จจริง 720/735 ตอน)",
