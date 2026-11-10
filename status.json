@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:49:27+07:00",
+  "updated_at": "2026-11-11T05:49:35+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.540",
     "Ch.536"
   ],
-  "cpu_percent": 22.8,
-  "ram_percent": 59.6,
-  "speed_per_min": 36.3,
-  "speed_per_hour": 2178,
+  "cpu_percent": 8.3,
+  "ram_percent": 59.2,
+  "speed_per_min": 31.0,
+  "speed_per_hour": 1861,
   "eta_text": "~0 นาที (จบ ~05:49 น.)",
   "current_project": "七零错嫁：糙汉军官宠上天了",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 556 (แปลเสร็จจริง 555/556 ตอน)",
