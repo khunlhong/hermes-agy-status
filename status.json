@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-11T06:10:48+07:00",
+  "updated_at": "2026-11-11T06:10:55+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 0,
+  "agy_active_workers": 1,
   "worker_slots": [
-    "IDLE",
+    "Ch.8",
     "IDLE",
     "IDLE",
     "IDLE",
@@ -25,22 +25,17 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 16.6,
-  "ram_percent": 64.4,
+  "cpu_percent": 28.1,
+  "ram_percent": 64.9,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "七零：我辅导爹妈考大学",
-  "current_step": "กำลังรันแปล Worker (0 สล็อต) | ล่าสุด: ตอนที่ 0 (แปลเสร็จจริง 0/1012 ตอน)",
-  "completed_count": 0,
-  "latest_chapter": 0,
+  "current_step": "กำลังรันแปล Worker (1 สล็อต) | ล่าสุด: ตอนที่ 8 (แปลเสร็จจริง 1/1012 ตอน)",
+  "completed_count": 1,
+  "latest_chapter": 8,
   "total_count": 1012,
   "history": [
-    {
-      "time": "06:00",
-      "completed": 118,
-      "ts": 1794351652.7503512
-    },
     {
       "time": "06:01",
       "completed": 118,
@@ -135,9 +130,16 @@
       "time": "06:10",
       "completed": 0,
       "ts": 1794352227.5252934
+    },
+    {
+      "time": "06:10",
+      "completed": 1,
+      "ts": 1794352254.6415741
     }
   ],
-  "recent_chapters": [],
+  "recent_chapters": [
+    "✓ ตอนที่ 8 แปลเสร็จสมบูรณ์ (06:10:54)"
+  ],
   "novel_queue": [
     {
       "title": "七零闪婚不见面，带娃炸翻家属院",
