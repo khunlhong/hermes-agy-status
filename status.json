@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T02:00:09+07:00",
+  "updated_at": "2026-11-11T02:00:16+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.567",
     "Ch.569"
   ],
-  "cpu_percent": 23.1,
-  "ram_percent": 58.4,
-  "speed_per_min": 18.5,
-  "speed_per_hour": 1112,
+  "cpu_percent": 15.5,
+  "ram_percent": 58.8,
+  "speed_per_min": 17.4,
+  "speed_per_hour": 1042,
   "eta_text": "เสร็จสมบูรณ์ 100%!",
   "current_project": "开局一碗蛋炒饭，馋哭全宗门",
   "current_step": "แปลเสร็จสมบูรณ์ 100% (589/561 ตอน)",
