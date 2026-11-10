@@ -1,9 +1,11 @@
 {
-  "updated_at": "2026-11-11T02:03:54+07:00",
+  "updated_at": "2026-11-11T02:04:01+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 7,
+  "agy_active_workers": 9,
   "worker_slots": [
+    "Ch.6",
+    "Ch.13",
     "Ch.7",
     "Ch.4",
     "Ch.10",
@@ -21,31 +23,19 @@
     "IDLE",
     "IDLE",
     "IDLE",
-    "IDLE",
-    "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 10.2,
-  "ram_percent": 58.2,
+  "cpu_percent": 18.6,
+  "ram_percent": 58.4,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "苟在宗门：我靠复制词条成仙了",
-  "current_step": "กำลังรันแปล Worker (7 สล็อต) | ล่าสุด: ตอนที่ 20 (แปลเสร็จจริง 7/561 ตอน)",
-  "completed_count": 7,
+  "current_step": "กำลังรันแปล Worker (9 สล็อต) | ล่าสุด: ตอนที่ 20 (แปลเสร็จจริง 9/561 ตอน)",
+  "completed_count": 9,
   "latest_chapter": 20,
   "total_count": 561,
   "history": [
-    {
-      "time": "02:02",
-      "completed": 625,
-      "ts": 1794337352.1802862
-    },
-    {
-      "time": "02:02",
-      "completed": 626,
-      "ts": 1794337354.5551488
-    },
     {
       "time": "02:02",
       "completed": 627,
@@ -135,9 +125,21 @@
       "time": "02:03",
       "completed": 7,
       "ts": 1794337433.6014986
+    },
+    {
+      "time": "02:03",
+      "completed": 8,
+      "ts": 1794337435.3871517
+    },
+    {
+      "time": "02:04",
+      "completed": 9,
+      "ts": 1794337440.183328
     }
   ],
   "recent_chapters": [
+    "✓ ตอนที่ 6 แปลเสร็จสมบูรณ์ (02:03:59)",
+    "✓ ตอนที่ 13 แปลเสร็จสมบูรณ์ (02:03:54)",
     "✓ ตอนที่ 7 แปลเสร็จสมบูรณ์ (02:03:53)",
     "✓ ตอนที่ 4 แปลเสร็จสมบูรณ์ (02:03:53)",
     "✓ ตอนที่ 10 แปลเสร็จสมบูรณ์ (02:03:53)",
