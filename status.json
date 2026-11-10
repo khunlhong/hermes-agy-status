@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:34:19+07:00",
+  "updated_at": "2026-11-10T20:34:26+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1015",
     "Ch.1042"
   ],
-  "cpu_percent": 5.8,
+  "cpu_percent": 17.1,
   "ram_percent": 64.2,
-  "speed_per_min": 5.9,
-  "speed_per_hour": 356,
-  "eta_text": "~2 ชม. 4 นาที (จบ ~22:38 น.)",
+  "speed_per_min": 5.7,
+  "speed_per_hour": 344,
+  "eta_text": "~2 ชม. 8 นาที (จบ ~22:42 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1054 (แปลเสร็จจริง 1010/1739 ตอน)",
   "completed_count": 1010,
@@ -134,7 +134,7 @@
     {
       "time": "20:34",
       "completed": 1010,
-      "ts": 1794317659.2589002
+      "ts": 1794317659.3077016
     }
   ],
   "recent_chapters": [
