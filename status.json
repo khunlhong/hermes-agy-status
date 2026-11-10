@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:54:10+07:00",
+  "updated_at": "2026-11-10T20:54:17+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.992",
     "Ch.991"
   ],
-  "cpu_percent": 15.0,
-  "ram_percent": 63.0,
+  "cpu_percent": 20.8,
+  "ram_percent": 63.5,
   "speed_per_min": 1.0,
-  "speed_per_hour": 61,
+  "speed_per_hour": 58,
   "eta_text": "~8 ชม. 40 นาที (จบ ~05:34 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1279 (แปลเสร็จจริง 1219/1739 ตอน)",
