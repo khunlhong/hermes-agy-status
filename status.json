@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T02:21:00+07:00",
+  "updated_at": "2026-11-11T02:21:07+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.622",
     "Ch.618"
   ],
-  "cpu_percent": 25.7,
-  "ram_percent": 56.0,
-  "speed_per_min": 24.8,
-  "speed_per_hour": 1486,
+  "cpu_percent": 16.1,
+  "ram_percent": 56.2,
+  "speed_per_min": 22.4,
+  "speed_per_hour": 1342,
   "eta_text": "~5 นาที (จบ ~02:26 น.)",
   "current_project": "苟在宗门：我靠复制词条成仙了",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 641 (แปลเสร็จจริง 635/750 ตอน)",
