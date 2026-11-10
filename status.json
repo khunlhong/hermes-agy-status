@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:01:13+07:00",
+  "updated_at": "2026-11-11T03:01:19+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.65",
     "Ch.62"
   ],
-  "cpu_percent": 7.4,
-  "ram_percent": 55.9,
-  "speed_per_min": 28.2,
-  "speed_per_hour": 1690,
-  "eta_text": "~40 นาที (จบ ~03:41 น.)",
+  "cpu_percent": 9.2,
+  "ram_percent": 56.2,
+  "speed_per_min": 24.7,
+  "speed_per_hour": 1482,
+  "eta_text": "~46 นาที (จบ ~03:47 น.)",
   "current_project": "七零，踹白月光后下乡发家娶村花",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 89 (แปลเสร็จจริง 77/1207 ตอน)",
   "completed_count": 77,
