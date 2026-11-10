@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:16:44+07:00",
+  "updated_at": "2026-11-11T05:16:52+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.228",
     "Ch.241"
   ],
-  "cpu_percent": 9.2,
-  "ram_percent": 56.0,
-  "speed_per_min": 37.4,
-  "speed_per_hour": 2244,
+  "cpu_percent": 16.4,
+  "ram_percent": 55.2,
+  "speed_per_min": 32.0,
+  "speed_per_hour": 1920,
   "eta_text": "~0 นาที (จบ ~05:16 น.)",
   "current_project": "失踪十年，小师妹让全宗门跪下迎接",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 255 (แปลเสร็จจริง 249/256 ตอน)",
