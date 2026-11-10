@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T06:02:21+07:00",
+  "updated_at": "2026-11-11T06:02:28+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 20,
+  "agy_active_workers": 18,
   "worker_slots": [
     "Ch.115",
     "Ch.113",
@@ -22,13 +22,13 @@
     "Ch.105",
     "Ch.101",
     "Ch.106",
-    "Ch.89",
-    "Ch.104"
+    "IDLE",
+    "IDLE"
   ],
-  "cpu_percent": 8.7,
+  "cpu_percent": 8.0,
   "ram_percent": 64.5,
-  "speed_per_min": 3.7,
-  "speed_per_hour": 219,
+  "speed_per_min": 3.0,
+  "speed_per_hour": 181,
   "eta_text": "เสร็จสมบูรณ์ 100%!",
   "current_project": "穿成六零炮灰，跟亲爹随军成团宠",
   "current_step": "แปลเสร็จสมบูรณ์ 100% (118/118 ตอน)",
@@ -36,11 +36,6 @@
   "latest_chapter": 118,
   "total_count": 118,
   "history": [
-    {
-      "time": "05:57",
-      "completed": 100,
-      "ts": 1794351445.9274802
-    },
     {
       "time": "05:57",
       "completed": 103,
@@ -135,6 +130,11 @@
       "time": "06:01",
       "completed": 118,
       "ts": 1794351714.6512752
+    },
+    {
+      "time": "06:02",
+      "completed": 118,
+      "ts": 1794351745.4714186
     }
   ],
   "recent_chapters": [
