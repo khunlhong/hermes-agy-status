@@ -1,9 +1,13 @@
 {
-  "updated_at": "2026-11-11T05:10:28+07:00",
+  "updated_at": "2026-11-11T05:10:35+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 2,
+  "agy_active_workers": 6,
   "worker_slots": [
+    "Ch.9",
+    "Ch.18",
+    "Ch.16",
+    "Ch.11",
     "Ch.8",
     "Ch.15",
     "IDLE",
@@ -19,33 +23,19 @@
     "IDLE",
     "IDLE",
     "IDLE",
-    "IDLE",
-    "IDLE",
-    "IDLE",
-    "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 12.5,
+  "cpu_percent": 14.6,
   "ram_percent": 56.2,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "失踪十年，小师妹让全宗门跪下迎接",
-  "current_step": "กำลังรันแปล Worker (2 สล็อต) | ล่าสุด: ตอนที่ 15 (แปลเสร็จจริง 2/735 ตอน)",
-  "completed_count": 2,
-  "latest_chapter": 15,
+  "current_step": "กำลังรันแปล Worker (6 สล็อต) | ล่าสุด: ตอนที่ 18 (แปลเสร็จจริง 6/735 ตอน)",
+  "completed_count": 6,
+  "latest_chapter": 18,
   "total_count": 735,
   "history": [
-    {
-      "time": "05:08",
-      "completed": 711,
-      "ts": 1794348514.8293056
-    },
-    {
-      "time": "05:08",
-      "completed": 712,
-      "ts": 1794348516.8941114
-    },
     {
       "time": "05:08",
       "completed": 713,
@@ -135,9 +125,23 @@
       "time": "05:10",
       "completed": 2,
       "ts": 1794348625.0725129
+    },
+    {
+      "time": "05:10",
+      "completed": 4,
+      "ts": 1794348630.2759807
+    },
+    {
+      "time": "05:10",
+      "completed": 6,
+      "ts": 1794348632.3307972
     }
   ],
   "recent_chapters": [
+    "✓ ตอนที่ 9 แปลเสร็จสมบูรณ์ (05:10:32)",
+    "✓ ตอนที่ 18 แปลเสร็จสมบูรณ์ (05:10:32)",
+    "✓ ตอนที่ 16 แปลเสร็จสมบูรณ์ (05:10:30)",
+    "✓ ตอนที่ 11 แปลเสร็จสมบูรณ์ (05:10:30)",
     "✓ ตอนที่ 8 แปลเสร็จสมบูรณ์ (05:10:24)",
     "✓ ตอนที่ 15 แปลเสร็จสมบูรณ์ (05:10:06)"
   ],
