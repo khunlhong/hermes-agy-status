@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T01:46:37+07:00",
+  "updated_at": "2026-11-11T01:46:44+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.122",
     "Ch.118"
   ],
-  "cpu_percent": 20.6,
+  "cpu_percent": 12.5,
   "ram_percent": 62.2,
-  "speed_per_min": 16.0,
-  "speed_per_hour": 960,
-  "eta_text": "~27 นาที (จบ ~02:13 น.)",
+  "speed_per_min": 15.1,
+  "speed_per_hour": 904,
+  "eta_text": "~28 นาที (จบ ~02:14 น.)",
   "current_project": "开局一碗蛋炒饭，馋哭全宗门",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 140 (แปลเสร็จจริง 131/561 ตอน)",
   "completed_count": 131,
