@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:42:51+07:00",
+  "updated_at": "2026-11-10T21:42:58+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1460",
     "Ch.1470"
   ],
-  "cpu_percent": 9.6,
-  "ram_percent": 56.8,
-  "speed_per_min": 5.3,
-  "speed_per_hour": 320,
-  "eta_text": "~50 นาที (จบ ~22:32 น.)",
+  "cpu_percent": 21.8,
+  "ram_percent": 57.0,
+  "speed_per_min": 4.9,
+  "speed_per_hour": 294,
+  "eta_text": "~54 นาที (จบ ~22:36 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1483 (แปลเสร็จจริง 1474/1739 ตอน)",
   "completed_count": 1474,
