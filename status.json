@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T04:23:39+07:00",
+  "updated_at": "2026-11-11T04:23:46+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.314",
     "Ch.301"
   ],
-  "cpu_percent": 2.2,
+  "cpu_percent": 13.7,
   "ram_percent": 56.0,
-  "speed_per_min": 19.5,
-  "speed_per_hour": 1173,
+  "speed_per_min": 17.8,
+  "speed_per_hour": 1066,
   "eta_text": "~0 นาที (จบ ~04:23 น.)",
   "current_project": "七零美人空间在手，首长老公宠妻无度",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 322 (แปลเสร็จจริง 320/322 ตอน)",
@@ -36,11 +36,6 @@
   "latest_chapter": 322,
   "total_count": 322,
   "history": [
-    {
-      "time": "04:22",
-      "completed": 290,
-      "ts": 1794345727.0342205
-    },
     {
       "time": "04:22",
       "completed": 291,
@@ -135,6 +130,11 @@
       "time": "04:23",
       "completed": 320,
       "ts": 1794345790.9465806
+    },
+    {
+      "time": "04:23",
+      "completed": 320,
+      "ts": 1794345821.6684093
     }
   ],
   "recent_chapters": [
