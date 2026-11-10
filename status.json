@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:23:22+07:00",
+  "updated_at": "2026-11-10T20:23:29+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,22 +25,17 @@
     "Ch.953",
     "Ch.949"
   ],
-  "cpu_percent": 7.4,
-  "ram_percent": 62.3,
-  "speed_per_min": 11.1,
-  "speed_per_hour": 667,
-  "eta_text": "~1 ชม. 13 นาที (จบ ~21:36 น.)",
+  "cpu_percent": 67.5,
+  "ram_percent": 62.7,
+  "speed_per_min": 10.5,
+  "speed_per_hour": 632,
+  "eta_text": "~1 ชม. 17 นาที (จบ ~21:40 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 971 (แปลเสร็จจริง 928/1739 ตอน)",
   "completed_count": 928,
   "latest_chapter": 971,
   "total_count": 1739,
   "history": [
-    {
-      "time": "20:21",
-      "completed": 906,
-      "ts": 1794316883.5861664
-    },
     {
       "time": "20:21",
       "completed": 907,
@@ -135,6 +130,11 @@
       "time": "20:22",
       "completed": 928,
       "ts": 1794316974.563043
+    },
+    {
+      "time": "20:23",
+      "completed": 928,
+      "ts": 1794317005.5791407
     }
   ],
   "recent_chapters": [
