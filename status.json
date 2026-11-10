@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:09:11+07:00",
+  "updated_at": "2026-11-11T05:09:18+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.721",
     "Ch.726"
   ],
-  "cpu_percent": 22.3,
+  "cpu_percent": 7.5,
   "ram_percent": 56.1,
-  "speed_per_min": 26.1,
-  "speed_per_hour": 1564,
+  "speed_per_min": 23.6,
+  "speed_per_hour": 1414,
   "eta_text": "~0 นาที (จบ ~05:09 น.)",
   "current_project": "修仙：恶仆开局，逃入宗门当杂役",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 733 (แปลเสร็จจริง 731/735 ตอน)",
@@ -134,7 +134,7 @@
     {
       "time": "05:09",
       "completed": 731,
-      "ts": 1794348551.4155269
+      "ts": 1794348551.613824
     }
   ],
   "recent_chapters": [
