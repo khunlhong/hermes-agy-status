@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:35:35+07:00",
+  "updated_at": "2026-11-10T20:35:42+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1051",
     "Ch.1025"
   ],
-  "cpu_percent": 7.4,
-  "ram_percent": 63.6,
-  "speed_per_min": 9.6,
-  "speed_per_hour": 576,
-  "eta_text": "~1 ชม. 15 นาที (จบ ~21:50 น.)",
+  "cpu_percent": 2.3,
+  "ram_percent": 63.8,
+  "speed_per_min": 9.1,
+  "speed_per_hour": 546,
+  "eta_text": "~1 ชม. 19 นาที (จบ ~21:54 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1065 (แปลเสร็จจริง 1020/1739 ตอน)",
   "completed_count": 1020,
