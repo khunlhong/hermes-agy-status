@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T04:38:20+07:00",
+  "updated_at": "2026-11-11T04:38:28+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.358",
     "Ch.330"
   ],
-  "cpu_percent": 19.3,
-  "ram_percent": 56.2,
-  "speed_per_min": 48.5,
-  "speed_per_hour": 2910,
-  "eta_text": "~4 นาที (จบ ~04:42 น.)",
+  "cpu_percent": 13.1,
+  "ram_percent": 56.1,
+  "speed_per_min": 41.5,
+  "speed_per_hour": 2488,
+  "eta_text": "~5 นาที (จบ ~04:43 น.)",
   "current_project": "军婚超甜！闪婚后成了首长的心尖宠",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 374 (แปลเสร็จจริง 372/562 ตอน)",
   "completed_count": 372,
