@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:30:05+07:00",
+  "updated_at": "2026-11-11T03:30:13+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.924",
     "Ch.921"
   ],
-  "cpu_percent": 33.4,
-  "ram_percent": 56.6,
-  "speed_per_min": 42.8,
-  "speed_per_hour": 2566,
+  "cpu_percent": 15.1,
+  "ram_percent": 56.4,
+  "speed_per_min": 36.8,
+  "speed_per_hour": 2208,
   "eta_text": "~2 นาที (จบ ~03:32 น.)",
   "current_project": "七零，踹白月光后下乡发家娶村花",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 939 (แปลเสร็จจริง 938/1020 ตอน)",
