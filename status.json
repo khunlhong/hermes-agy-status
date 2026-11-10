@@ -1,9 +1,10 @@
 {
-  "updated_at": "2026-11-11T00:55:15+07:00",
+  "updated_at": "2026-11-11T00:55:22+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 3,
+  "agy_active_workers": 4,
   "worker_slots": [
+    "Ch.1",
     "Ch.9",
     "Ch.16",
     "Ch.4",
@@ -22,25 +23,19 @@
     "IDLE",
     "IDLE",
     "IDLE",
-    "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 15.9,
+  "cpu_percent": 13.4,
   "ram_percent": 60.8,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "全宗门假失踪，我修成无上神通",
-  "current_step": "กำลังรันแปล Worker (3 สล็อต) | ล่าสุด: ตอนที่ 16 (แปลเสร็จจริง 3/453 ตอน)",
-  "completed_count": 3,
+  "current_step": "กำลังรันแปล Worker (4 สล็อต) | ล่าสุด: ตอนที่ 16 (แปลเสร็จจริง 4/453 ตอน)",
+  "completed_count": 4,
   "latest_chapter": 16,
   "total_count": 453,
   "history": [
-    {
-      "time": "00:54",
-      "completed": 437,
-      "ts": 1794333242.8482218
-    },
     {
       "time": "00:54",
       "completed": 438,
@@ -135,9 +130,15 @@
       "time": "00:55",
       "completed": 3,
       "ts": 1794333313.1245387
+    },
+    {
+      "time": "00:55",
+      "completed": 4,
+      "ts": 1794333319.525891
     }
   ],
   "recent_chapters": [
+    "✓ ตอนที่ 1 แปลเสร็จสมบูรณ์ (00:55:17)",
     "✓ ตอนที่ 9 แปลเสร็จสมบูรณ์ (00:55:12)",
     "✓ ตอนที่ 16 แปลเสร็จสมบูรณ์ (00:55:12)",
     "✓ ตอนที่ 4 แปลเสร็จสมบูรณ์ (00:55:10)"
