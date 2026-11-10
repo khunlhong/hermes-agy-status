@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:26:26+07:00",
+  "updated_at": "2026-11-11T03:26:33+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.776",
     "Ch.767"
   ],
-  "cpu_percent": 11.6,
-  "ram_percent": 56.1,
-  "speed_per_min": 40.9,
-  "speed_per_hour": 2456,
-  "eta_text": "~6 นาที (จบ ~03:32 น.)",
+  "cpu_percent": 11.0,
+  "ram_percent": 56.2,
+  "speed_per_min": 35.6,
+  "speed_per_hour": 2138,
+  "eta_text": "~7 นาที (จบ ~03:33 น.)",
   "current_project": "七零，踹白月光后下乡发家娶村花",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 788 (แปลเสร็จจริง 785/1020 ตอน)",
   "completed_count": 785,
@@ -134,7 +134,7 @@
     {
       "time": "03:26",
       "completed": 785,
-      "ts": 1794342386.329533
+      "ts": 1794342386.3939037
     }
   ],
   "recent_chapters": [
