@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T01:12:33+07:00",
+  "updated_at": "2026-11-11T01:12:40+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.294",
     "Ch.289"
   ],
-  "cpu_percent": 12.5,
-  "ram_percent": 60.6,
-  "speed_per_min": 15.8,
-  "speed_per_hour": 951,
-  "eta_text": "~15 นาที (จบ ~01:27 น.)",
+  "cpu_percent": 15.7,
+  "ram_percent": 60.7,
+  "speed_per_min": 14.8,
+  "speed_per_hour": 887,
+  "eta_text": "~16 นาที (จบ ~01:28 น.)",
   "current_project": "全宗门假失踪，我修成无上神通",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 312 (แปลเสร็จจริง 309/553 ตอน)",
   "completed_count": 309,
