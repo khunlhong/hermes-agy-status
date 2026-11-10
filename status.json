@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-11T04:44:07+07:00",
+  "updated_at": "2026-11-11T04:44:14+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 0,
+  "agy_active_workers": 4,
   "worker_slots": [
-    "IDLE",
-    "IDLE",
-    "IDLE",
-    "IDLE",
+    "Ch.9",
+    "Ch.10",
+    "Ch.12",
+    "Ch.4",
     "IDLE",
     "IDLE",
     "IDLE",
@@ -25,27 +25,17 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 19.9,
-  "ram_percent": 56.2,
+  "cpu_percent": 31.6,
+  "ram_percent": 55.6,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "修仙：恶仆开局，逃入宗门当杂役",
-  "current_step": "กำลังรันแปล Worker (0 สล็อต) | ล่าสุด: ตอนที่ 0 (แปลเสร็จจริง 0/562 ตอน)",
-  "completed_count": 0,
-  "latest_chapter": 0,
+  "current_step": "กำลังรันแปล Worker (4 สล็อต) | ล่าสุด: ตอนที่ 12 (แปลเสร็จจริง 4/562 ตอน)",
+  "completed_count": 4,
+  "latest_chapter": 12,
   "total_count": 562,
   "history": [
-    {
-      "time": "04:42",
-      "completed": 531,
-      "ts": 1794346939.049477
-    },
-    {
-      "time": "04:42",
-      "completed": 533,
-      "ts": 1794346941.4151282
-    },
     {
       "time": "04:42",
       "completed": 535,
@@ -135,9 +125,24 @@
       "time": "04:43",
       "completed": 0,
       "ts": 1794347033.3315213
+    },
+    {
+      "time": "04:44",
+      "completed": 1,
+      "ts": 1794347051.8226342
+    },
+    {
+      "time": "04:44",
+      "completed": 4,
+      "ts": 1794347054.2331612
     }
   ],
-  "recent_chapters": [],
+  "recent_chapters": [
+    "✓ ตอนที่ 9 แปลเสร็จสมบูรณ์ (04:44:14)",
+    "✓ ตอนที่ 10 แปลเสร็จสมบูรณ์ (04:44:13)",
+    "✓ ตอนที่ 12 แปลเสร็จสมบูรณ์ (04:44:13)",
+    "✓ ตอนที่ 4 แปลเสร็จสมบูรณ์ (04:44:11)"
+  ],
   "novel_queue": [
     {
       "title": "七零闪婚不见面，带娃炸翻家属院",
