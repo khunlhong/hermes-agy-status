@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:37:02+07:00",
+  "updated_at": "2026-11-10T21:37:10+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1424",
     "Ch.1412"
   ],
-  "cpu_percent": 7.1,
-  "ram_percent": 58.4,
-  "speed_per_min": 11.8,
-  "speed_per_hour": 706,
-  "eta_text": "~26 นาที (จบ ~22:03 น.)",
+  "cpu_percent": 4.5,
+  "ram_percent": 58.0,
+  "speed_per_min": 11.0,
+  "speed_per_hour": 659,
+  "eta_text": "~28 นาที (จบ ~22:05 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1439 (แปลเสร็จจริง 1431/1739 ตอน)",
   "completed_count": 1431,
