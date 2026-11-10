@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:34:05+07:00",
+  "updated_at": "2026-11-11T05:34:12+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,8 +25,8 @@
     "Ch.206",
     "Ch.200"
   ],
-  "cpu_percent": 18.7,
-  "ram_percent": 54.6,
+  "cpu_percent": 15.3,
+  "ram_percent": 54.7,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "เสร็จสมบูรณ์ 100%!",
@@ -60,6 +60,11 @@
       "time": "05:33",
       "completed": 218,
       "ts": 1794350021.2147336
+    },
+    {
+      "time": "05:34",
+      "completed": 218,
+      "ts": 1794350051.4318044
     }
   ],
   "recent_chapters": [
