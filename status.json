@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T00:20:37+07:00",
+  "updated_at": "2026-11-11T00:20:44+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.192",
     "Ch.196"
   ],
-  "cpu_percent": 9.7,
-  "ram_percent": 60.9,
-  "speed_per_min": 20.8,
-  "speed_per_hour": 1250,
-  "eta_text": "~5 นาที (จบ ~00:25 น.)",
+  "cpu_percent": 10.8,
+  "ram_percent": 61.0,
+  "speed_per_min": 18.9,
+  "speed_per_hour": 1134,
+  "eta_text": "~6 นาที (จบ ~00:26 น.)",
   "current_project": "七零退婚嫌我瞎？我嫁军少旺全家",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 218 (แปลเสร็จจริง 214/323 ตอน)",
   "completed_count": 214,
