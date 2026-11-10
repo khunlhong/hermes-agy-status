@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:31:57+07:00",
+  "updated_at": "2026-11-11T03:32:04+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.979",
     "Ch.988"
   ],
-  "cpu_percent": 22.8,
-  "ram_percent": 56.5,
-  "speed_per_min": 29.8,
-  "speed_per_hour": 1788,
-  "eta_text": "~7 นาที (จบ ~03:38 น.)",
+  "cpu_percent": 10.9,
+  "ram_percent": 56.7,
+  "speed_per_min": 26.7,
+  "speed_per_hour": 1605,
+  "eta_text": "~8 นาที (จบ ~03:40 น.)",
   "current_project": "七零，踹白月光后下乡发家娶村花",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1004 (แปลเสร็จจริง 1000/1207 ตอน)",
   "completed_count": 1000,
