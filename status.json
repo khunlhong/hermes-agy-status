@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T03:59:46+07:00",
+  "updated_at": "2026-11-11T03:59:54+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 7,
+  "agy_active_workers": 6,
   "worker_slots": [
     "Ch.854",
     "Ch.781",
@@ -10,7 +10,7 @@
     "Ch.622",
     "Ch.619",
     "Ch.535",
-    "Ch.861",
+    "IDLE",
     "IDLE",
     "IDLE",
     "IDLE",
@@ -25,8 +25,8 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 11.2,
-  "ram_percent": 55.4,
+  "cpu_percent": 4.6,
+  "ram_percent": 55.3,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "เสร็จสมบูรณ์ 100%!",
@@ -50,6 +50,11 @@
       "time": "03:59",
       "completed": 862,
       "ts": 1794344358.915207
+    },
+    {
+      "time": "03:59",
+      "completed": 862,
+      "ts": 1794344390.6992881
     }
   ],
   "recent_chapters": [
