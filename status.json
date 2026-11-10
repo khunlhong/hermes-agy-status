@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T01:49:46+07:00",
+  "updated_at": "2026-11-11T01:49:53+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.455",
     "Ch.454"
   ],
-  "cpu_percent": 11.0,
+  "cpu_percent": 23.4,
   "ram_percent": 61.6,
-  "speed_per_min": 294.4,
-  "speed_per_hour": 17666,
+  "speed_per_min": 261.4,
+  "speed_per_hour": 15686,
   "eta_text": "~0 นาที (จบ ~01:49 น.)",
   "current_project": "十天后穿越：举国帮我伪造宗门令",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 473 (แปลเสร็จจริง 471/561 ตอน)",
