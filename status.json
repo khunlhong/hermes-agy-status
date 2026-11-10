@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:02:29+07:00",
+  "updated_at": "2026-11-11T03:02:36+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.63",
     "Ch.71"
   ],
-  "cpu_percent": 10.8,
-  "ram_percent": 55.9,
-  "speed_per_min": 10.7,
-  "speed_per_hour": 644,
-  "eta_text": "~1 ชม. 45 นาที (จบ ~04:47 น.)",
+  "cpu_percent": 6.8,
+  "ram_percent": 56.0,
+  "speed_per_min": 10.1,
+  "speed_per_hour": 606,
+  "eta_text": "~1 ชม. 51 นาที (จบ ~04:53 น.)",
   "current_project": "七零，踹白月光后下乡发家娶村花",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 93 (แปลเสร็จจริง 83/1207 ตอน)",
   "completed_count": 83,
