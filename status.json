@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T00:02:24+07:00",
+  "updated_at": "2026-11-11T00:02:34+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 20,
+  "agy_active_workers": 19,
   "worker_slots": [
     "Ch.257",
     "Ch.294",
@@ -23,15 +23,15 @@
     "Ch.229",
     "Ch.232",
     "Ch.206",
-    "Ch.225"
+    "IDLE"
   ],
-  "cpu_percent": 6.4,
+  "cpu_percent": 17.0,
   "ram_percent": 60.2,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "穿成反派他弟，靠沙雕苟成团宠",
-  "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 336 (แปลเสร็จจริง 334/336 ตอน)",
+  "current_step": "กำลังรันแปล Worker (19 สล็อต) | ล่าสุด: ตอนที่ 336 (แปลเสร็จจริง 334/336 ตอน)",
   "completed_count": 334,
   "latest_chapter": 336,
   "total_count": 336,
@@ -45,6 +45,11 @@
       "time": "00:02",
       "completed": 334,
       "ts": 1794330121.59219
+    },
+    {
+      "time": "00:02",
+      "completed": 334,
+      "ts": 1794330152.3172529
     }
   ],
   "recent_chapters": [
