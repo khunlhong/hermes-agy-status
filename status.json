@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:34:27+07:00",
+  "updated_at": "2026-11-10T21:34:33+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1387",
     "Ch.1384"
   ],
-  "cpu_percent": 11.7,
-  "ram_percent": 58.3,
-  "speed_per_min": 0.0,
-  "speed_per_hour": 0,
-  "eta_text": "กำลังคำนวณสปีด...",
+  "cpu_percent": 18.8,
+  "ram_percent": 58.4,
+  "speed_per_min": 6.9,
+  "speed_per_hour": 412,
+  "eta_text": "~50 นาที (จบ ~22:24 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1404 (แปลเสร็จจริง 1397/1739 ตอน)",
   "completed_count": 1397,
