@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:07:10+07:00",
+  "updated_at": "2026-11-11T05:07:17+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.680",
     "Ch.656"
   ],
-  "cpu_percent": 13.9,
-  "ram_percent": 55.9,
-  "speed_per_min": 13.4,
-  "speed_per_hour": 805,
+  "cpu_percent": 14.9,
+  "ram_percent": 56.0,
+  "speed_per_min": 12.4,
+  "speed_per_hour": 744,
   "eta_text": "~4 นาที (จบ ~05:11 น.)",
   "current_project": "修仙：恶仆开局，逃入宗门当杂役",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 691 (แปลเสร็จจริง 688/735 ตอน)",
