@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:53:32+07:00",
+  "updated_at": "2026-11-10T21:53:40+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.1580",
     "Ch.1579"
   ],
-  "cpu_percent": 8.9,
-  "ram_percent": 58.2,
-  "speed_per_min": 12.1,
-  "speed_per_hour": 727,
+  "cpu_percent": 5.8,
+  "ram_percent": 57.7,
+  "speed_per_min": 11.4,
+  "speed_per_hour": 682,
   "eta_text": "~13 นาที (จบ ~22:06 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1604 (แปลเสร็จจริง 1586/1739 ตอน)",
