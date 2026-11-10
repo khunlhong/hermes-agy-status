@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T01:44:16+07:00",
+  "updated_at": "2026-11-11T01:44:23+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.78",
     "Ch.83"
   ],
-  "cpu_percent": 88.9,
-  "ram_percent": 62.6,
-  "speed_per_min": 12.8,
-  "speed_per_hour": 768,
-  "eta_text": "~36 นาที (จบ ~02:20 น.)",
+  "cpu_percent": 96.9,
+  "ram_percent": 62.8,
+  "speed_per_min": 12.1,
+  "speed_per_hour": 726,
+  "eta_text": "~38 นาที (จบ ~02:22 น.)",
   "current_project": "开局一碗蛋炒饭，馋哭全宗门",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 100 (แปลเสร็จจริง 96/561 ตอน)",
   "completed_count": 96,
