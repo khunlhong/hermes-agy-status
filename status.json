@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T01:17:30+07:00",
+  "updated_at": "2026-11-11T01:17:37+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.417",
     "Ch.403"
   ],
-  "cpu_percent": 30.8,
-  "ram_percent": 60.3,
-  "speed_per_min": 33.0,
-  "speed_per_hour": 1977,
+  "cpu_percent": 10.4,
+  "ram_percent": 60.7,
+  "speed_per_min": 29.6,
+  "speed_per_hour": 1774,
   "eta_text": "~4 นาที (จบ ~01:21 น.)",
   "current_project": "全宗门假失踪，我修成无上神通",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 429 (แปลเสร็จจริง 424/553 ตอน)",
