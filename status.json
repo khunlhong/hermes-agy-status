@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T06:26:40+07:00",
+  "updated_at": "2026-11-11T06:26:46+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.486",
     "Ch.491"
   ],
-  "cpu_percent": 22.9,
-  "ram_percent": 60.9,
-  "speed_per_min": 29.5,
-  "speed_per_hour": 1773,
-  "eta_text": "~17 นาที (จบ ~06:43 น.)",
+  "cpu_percent": 18.7,
+  "ram_percent": 60.6,
+  "speed_per_min": 26.6,
+  "speed_per_hour": 1597,
+  "eta_text": "~19 นาที (จบ ~06:45 น.)",
   "current_project": "七零：我辅导爹妈考大学",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 514 (แปลเสร็จจริง 511/1012 ตอน)",
   "completed_count": 511,
