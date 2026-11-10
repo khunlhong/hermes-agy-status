@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:19:18+07:00",
+  "updated_at": "2026-11-10T21:19:25+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.637",
     "Ch.634"
   ],
-  "cpu_percent": 6.9,
-  "ram_percent": 57.8,
-  "speed_per_min": 16.6,
-  "speed_per_hour": 996,
-  "eta_text": "~28 นาที (จบ ~21:47 น.)",
+  "cpu_percent": 6.5,
+  "ram_percent": 57.2,
+  "speed_per_min": 15.3,
+  "speed_per_hour": 919,
+  "eta_text": "~30 นาที (จบ ~21:49 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1311 (แปลเสร็จจริง 1276/1739 ตอน)",
   "completed_count": 1276,
@@ -134,7 +134,7 @@
     {
       "time": "21:19",
       "completed": 1276,
-      "ts": 1794320358.5758939
+      "ts": 1794320358.6060805
     }
   ],
   "recent_chapters": [
