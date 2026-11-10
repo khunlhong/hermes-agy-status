@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:29:45+07:00",
+  "updated_at": "2026-11-10T21:29:53+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1317",
     "Ch.1316"
   ],
-  "cpu_percent": 36.1,
-  "ram_percent": 57.9,
-  "speed_per_min": 6.5,
-  "speed_per_hour": 387,
-  "eta_text": "~1 ชม. 3 นาที (จบ ~22:32 น.)",
+  "cpu_percent": 5.7,
+  "ram_percent": 58.0,
+  "speed_per_min": 6.2,
+  "speed_per_hour": 374,
+  "eta_text": "~1 ชม. 6 นาที (จบ ~22:35 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1337 (แปลเสร็จจริง 1329/1739 ตอน)",
   "completed_count": 1329,
