@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T23:41:02+07:00",
+  "updated_at": "2026-11-10T23:41:09+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.320",
     "Ch.327"
   ],
-  "cpu_percent": 7.3,
+  "cpu_percent": 17.4,
   "ram_percent": 59.2,
-  "speed_per_min": 5.6,
-  "speed_per_hour": 336,
-  "eta_text": "~23 นาที (จบ ~00:04 น.)",
+  "speed_per_min": 5.4,
+  "speed_per_hour": 326,
+  "eta_text": "~24 นาที (จบ ~00:05 น.)",
   "current_project": "穿成反派他弟，靠沙雕苟成团宠",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 336 (แปลเสร็จจริง 205/336 ตอน)",
   "completed_count": 205,
