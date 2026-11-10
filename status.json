@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:19:29+07:00",
+  "updated_at": "2026-11-10T20:19:33+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 17,
@@ -25,10 +25,10 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 32.5,
-  "ram_percent": 63.7,
+  "cpu_percent": 13.7,
+  "ram_percent": 63.8,
   "speed_per_min": 0.4,
-  "speed_per_hour": 26,
+  "speed_per_hour": 25,
   "eta_text": "~35 ชม. 40 นาที (จบ ~07:59 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (17 สล็อต) | ล่าสุด: ตอนที่ 926 (แปลเสร็จจริง 883/1739 ตอน)",
