@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:42:22+07:00",
+  "updated_at": "2026-11-10T21:42:29+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1453",
     "Ch.1462"
   ],
-  "cpu_percent": 6.4,
+  "cpu_percent": 4.9,
   "ram_percent": 57.0,
-  "speed_per_min": 6.0,
-  "speed_per_hour": 359,
-  "eta_text": "~44 นาที (จบ ~22:26 น.)",
+  "speed_per_min": 5.2,
+  "speed_per_hour": 315,
+  "eta_text": "~51 นาที (จบ ~22:33 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1481 (แปลเสร็จจริง 1472/1739 ตอน)",
   "completed_count": 1472,
