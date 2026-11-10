@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:40:28+07:00",
+  "updated_at": "2026-11-10T21:40:35+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1447",
     "Ch.1450"
   ],
-  "cpu_percent": 2.3,
-  "ram_percent": 57.3,
-  "speed_per_min": 6.8,
-  "speed_per_hour": 407,
-  "eta_text": "~41 นาที (จบ ~22:21 น.)",
+  "cpu_percent": 4.5,
+  "ram_percent": 57.1,
+  "speed_per_min": 6.4,
+  "speed_per_hour": 383,
+  "eta_text": "~44 นาที (จบ ~22:24 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1474 (แปลเสร็จจริง 1459/1739 ตอน)",
   "completed_count": 1459,
