@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T04:45:18+07:00",
+  "updated_at": "2026-11-11T04:45:25+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.28",
     "Ch.35"
   ],
-  "cpu_percent": 3.8,
-  "ram_percent": 56.4,
-  "speed_per_min": 35.8,
-  "speed_per_hour": 2150,
-  "eta_text": "~19 นาที (จบ ~05:04 น.)",
+  "cpu_percent": 3.6,
+  "ram_percent": 56.3,
+  "speed_per_min": 31.8,
+  "speed_per_hour": 1909,
+  "eta_text": "~22 นาที (จบ ~05:07 น.)",
   "current_project": "修仙：恶仆开局，逃入宗门当杂役",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 46 (แปลเสร็จจริง 44/735 ตอน)",
   "completed_count": 44,
