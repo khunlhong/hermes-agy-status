@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T23:47:11+07:00",
+  "updated_at": "2026-11-10T23:47:18+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.265",
     "Ch.286"
   ],
-  "cpu_percent": 4.0,
-  "ram_percent": 60.0,
-  "speed_per_min": 9.4,
-  "speed_per_hour": 565,
-  "eta_text": "~9 นาที (จบ ~23:56 น.)",
+  "cpu_percent": 14.5,
+  "ram_percent": 60.2,
+  "speed_per_min": 9.0,
+  "speed_per_hour": 538,
+  "eta_text": "~10 นาที (จบ ~23:57 น.)",
   "current_project": "穿成反派他弟，靠沙雕苟成团宠",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 336 (แปลเสร็จจริง 248/336 ตอน)",
   "completed_count": 248,
