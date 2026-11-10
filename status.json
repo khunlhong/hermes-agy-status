@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:50:45+07:00",
+  "updated_at": "2026-11-10T20:50:52+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1232",
     "Ch.1218"
   ],
-  "cpu_percent": 16.7,
+  "cpu_percent": 9.9,
   "ram_percent": 63.9,
-  "speed_per_min": 10.7,
-  "speed_per_hour": 642,
-  "eta_text": "~51 นาที (จบ ~21:41 น.)",
+  "speed_per_min": 10.1,
+  "speed_per_hour": 603,
+  "eta_text": "~54 นาที (จบ ~21:44 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1251 (แปลเสร็จจริง 1194/1739 ตอน)",
   "completed_count": 1194,
