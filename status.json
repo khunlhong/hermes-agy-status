@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:24:52+07:00",
+  "updated_at": "2026-11-10T20:24:59+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.957",
     "Ch.955"
   ],
-  "cpu_percent": 12.3,
-  "ram_percent": 62.8,
-  "speed_per_min": 7.5,
-  "speed_per_hour": 447,
-  "eta_text": "~1 ชม. 47 นาที (จบ ~22:11 น.)",
+  "cpu_percent": 12.5,
+  "ram_percent": 62.6,
+  "speed_per_min": 7.2,
+  "speed_per_hour": 431,
+  "eta_text": "~1 ชม. 51 นาที (จบ ~22:15 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 983 (แปลเสร็จจริง 937/1739 ตอน)",
   "completed_count": 937,
