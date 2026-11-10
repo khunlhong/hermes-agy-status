@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:39:53+07:00",
+  "updated_at": "2026-11-11T05:40:00+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.117",
     "Ch.118"
   ],
-  "cpu_percent": 12.6,
+  "cpu_percent": 14.7,
   "ram_percent": 54.8,
-  "speed_per_min": 50.8,
-  "speed_per_hour": 3051,
-  "eta_text": "~8 นาที (จบ ~05:47 น.)",
+  "speed_per_min": 44.3,
+  "speed_per_hour": 2657,
+  "eta_text": "~10 นาที (จบ ~05:50 น.)",
   "current_project": "七零错嫁：糙汉军官宠上天了",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 139 (แปลเสร็จจริง 134/556 ตอน)",
   "completed_count": 134,
