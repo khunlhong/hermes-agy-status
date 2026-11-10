@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:52:59+07:00",
+  "updated_at": "2026-11-11T05:53:06+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.56",
     "Ch.62"
   ],
-  "cpu_percent": 16.1,
-  "ram_percent": 59.7,
-  "speed_per_min": 26.9,
-  "speed_per_hour": 1611,
-  "eta_text": "~2 นาที (จบ ~05:54 น.)",
+  "cpu_percent": 30.4,
+  "ram_percent": 60.3,
+  "speed_per_min": 24.5,
+  "speed_per_hour": 1470,
+  "eta_text": "~2 นาที (จบ ~05:55 น.)",
   "current_project": "古代娇娘穿七零，冷面军官沦陷了",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 92 (แปลเสร็จจริง 74/128 ตอน)",
   "completed_count": 74,
