@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T02:50:44+07:00",
+  "updated_at": "2026-11-11T02:50:51+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.938",
     "Ch.885"
   ],
-  "cpu_percent": 9.9,
-  "ram_percent": 55.9,
-  "speed_per_min": 38.9,
-  "speed_per_hour": 2332,
-  "eta_text": "~6 นาที (จบ ~02:56 น.)",
+  "cpu_percent": 26.2,
+  "ram_percent": 56.5,
+  "speed_per_min": 34.9,
+  "speed_per_hour": 2092,
+  "eta_text": "~7 นาที (จบ ~02:57 น.)",
   "current_project": "七零，抢婆婆空间后不再当窝囊媳",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 962 (แปลเสร็จจริง 957/1207 ตอน)",
   "completed_count": 957,
