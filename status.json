@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T01:08:03+07:00",
+  "updated_at": "2026-11-11T01:08:10+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.218",
     "Ch.208"
   ],
-  "cpu_percent": 53.7,
-  "ram_percent": 60.6,
-  "speed_per_min": 13.5,
-  "speed_per_hour": 812,
-  "eta_text": "~24 นาที (จบ ~01:32 น.)",
+  "cpu_percent": 13.7,
+  "ram_percent": 60.9,
+  "speed_per_min": 12.7,
+  "speed_per_hour": 764,
+  "eta_text": "~26 นาที (จบ ~01:34 น.)",
   "current_project": "全宗门假失踪，我修成无上神通",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 237 (แปลเสร็จจริง 229/553 ตอน)",
   "completed_count": 229,
