@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T04:55:23+07:00",
+  "updated_at": "2026-11-11T04:55:30+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.374",
     "Ch.373"
   ],
-  "cpu_percent": 18.0,
+  "cpu_percent": 17.6,
   "ram_percent": 56.6,
-  "speed_per_min": 27.4,
-  "speed_per_hour": 1645,
-  "eta_text": "~13 นาที (จบ ~05:08 น.)",
+  "speed_per_min": 24.8,
+  "speed_per_hour": 1485,
+  "eta_text": "~14 นาที (จบ ~05:09 น.)",
   "current_project": "修仙：恶仆开局，逃入宗门当杂役",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 397 (แปลเสร็จจริง 392/735 ตอน)",
   "completed_count": 392,
