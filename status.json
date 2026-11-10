@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T04:43:11+07:00",
+  "updated_at": "2026-11-11T04:43:18+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.544",
     "Ch.540"
   ],
-  "cpu_percent": 15.5,
-  "ram_percent": 56.5,
-  "speed_per_min": 33.4,
-  "speed_per_hour": 2005,
+  "cpu_percent": 14.8,
+  "ram_percent": 56.6,
+  "speed_per_min": 29.8,
+  "speed_per_hour": 1786,
   "eta_text": "~0 นาที (จบ ~04:43 น.)",
   "current_project": "军婚超甜！闪婚后成了首长的心尖宠",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 562 (แปลเสร็จจริง 560/562 ตอน)",
