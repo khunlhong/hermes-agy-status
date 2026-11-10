@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:58:14+07:00",
+  "updated_at": "2026-11-11T03:58:21+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,8 +25,8 @@
     "Ch.846",
     "Ch.513"
   ],
-  "cpu_percent": 5.4,
-  "ram_percent": 55.3,
+  "cpu_percent": 11.4,
+  "ram_percent": 55.1,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "เสร็จสมบูรณ์ 100%!",
@@ -37,19 +37,9 @@
   "total_count": 862,
   "history": [
     {
-      "time": "03:57",
-      "completed": 862,
-      "ts": 1794344223.519153
-    },
-    {
-      "time": "03:57",
-      "completed": 862,
-      "ts": 1794344254.3820965
-    },
-    {
       "time": "03:58",
       "completed": 862,
-      "ts": 1794344285.3211858
+      "ts": 1794344297.76544
     }
   ],
   "recent_chapters": [
