@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:30:48+07:00",
+  "updated_at": "2026-11-11T03:30:55+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.950",
     "Ch.957"
   ],
-  "cpu_percent": 1.9,
-  "ram_percent": 56.2,
-  "speed_per_min": 42.8,
-  "speed_per_hour": 2568,
+  "cpu_percent": 9.8,
+  "ram_percent": 56.4,
+  "speed_per_min": 37.7,
+  "speed_per_hour": 2260,
   "eta_text": "~1 นาที (จบ ~03:31 น.)",
   "current_project": "七零，踹白月光后下乡发家娶村花",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 973 (แปลเสร็จจริง 968/1020 ตอน)",
