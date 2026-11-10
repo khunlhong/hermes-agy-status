@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T23:11:51+07:00",
+  "updated_at": "2026-11-10T23:11:59+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 0,
@@ -25,8 +25,8 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 1.6,
-  "ram_percent": 62.6,
+  "cpu_percent": 9.9,
+  "ram_percent": 62.3,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
@@ -95,6 +95,11 @@
       "time": "23:11",
       "completed": 1738,
       "ts": 1794327088.1269338
+    },
+    {
+      "time": "23:11",
+      "completed": 1738,
+      "ts": 1794327119.29465
     }
   ],
   "recent_chapters": [
