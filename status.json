@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:39:46+07:00",
+  "updated_at": "2026-11-10T21:39:53+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1438",
     "Ch.1443"
   ],
-  "cpu_percent": 18.8,
+  "cpu_percent": 7.2,
   "ram_percent": 57.2,
-  "speed_per_min": 6.6,
-  "speed_per_hour": 393,
-  "eta_text": "~43 นาที (จบ ~22:22 น.)",
+  "speed_per_min": 5.9,
+  "speed_per_hour": 355,
+  "eta_text": "~48 นาที (จบ ~22:27 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1464 (แปลเสร็จจริง 1454/1739 ตอน)",
   "completed_count": 1454,
