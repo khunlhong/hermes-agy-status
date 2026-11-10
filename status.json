@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:50:24+07:00",
+  "updated_at": "2026-11-10T20:50:31+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1230",
     "Ch.1208"
   ],
-  "cpu_percent": 6.5,
-  "ram_percent": 64.4,
-  "speed_per_min": 12.0,
-  "speed_per_hour": 720,
-  "eta_text": "~46 นาที (จบ ~21:36 น.)",
+  "cpu_percent": 10.7,
+  "ram_percent": 64.3,
+  "speed_per_min": 11.2,
+  "speed_per_hour": 671,
+  "eta_text": "~49 นาที (จบ ~21:39 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1246 (แปลเสร็จจริง 1191/1739 ตอน)",
   "completed_count": 1191,
