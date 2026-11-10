@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:33:56+07:00",
+  "updated_at": "2026-11-11T03:34:03+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.6",
     "Ch.9"
   ],
-  "cpu_percent": 31.8,
-  "ram_percent": 56.3,
-  "speed_per_min": 40.2,
-  "speed_per_hour": 2414,
-  "eta_text": "~29 นาที (จบ ~04:02 น.)",
+  "cpu_percent": 21.2,
+  "ram_percent": 56.4,
+  "speed_per_min": 35.4,
+  "speed_per_hour": 2125,
+  "eta_text": "~33 นาที (จบ ~04:07 น.)",
   "current_project": "全身瘫痪，系统让我每天五公里",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 39 (แปลเสร็จจริง 37/1207 ตอน)",
   "completed_count": 37,
