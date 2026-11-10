@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T02:32:37+07:00",
+  "updated_at": "2026-11-11T02:32:44+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.255",
     "Ch.243"
   ],
-  "cpu_percent": 18.4,
+  "cpu_percent": 19.7,
   "ram_percent": 58.5,
-  "speed_per_min": 27.5,
-  "speed_per_hour": 1651,
-  "eta_text": "~17 นาที (จบ ~02:49 น.)",
+  "speed_per_min": 23.3,
+  "speed_per_hour": 1401,
+  "eta_text": "~20 นาที (จบ ~02:52 น.)",
   "current_project": "七零，抢婆婆空间后不再当窝囊媳",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 278 (แปลเสร็จจริง 276/750 ตอน)",
   "completed_count": 276,
