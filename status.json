@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T02:36:54+07:00",
+  "updated_at": "2026-11-11T02:37:01+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.404",
     "Ch.392"
   ],
-  "cpu_percent": 13.0,
-  "ram_percent": 57.0,
-  "speed_per_min": 45.4,
-  "speed_per_hour": 2726,
-  "eta_text": "~17 นาที (จบ ~02:53 น.)",
+  "cpu_percent": 26.4,
+  "ram_percent": 56.8,
+  "speed_per_min": 39.1,
+  "speed_per_hour": 2346,
+  "eta_text": "~20 นาที (จบ ~02:57 น.)",
   "current_project": "七零，抢婆婆空间后不再当窝囊媳",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 419 (แปลเสร็จจริง 419/1207 ตอน)",
   "completed_count": 419,
