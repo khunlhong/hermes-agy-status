@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T03:04:14+07:00",
+  "updated_at": "2026-11-11T03:04:21+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.100",
     "Ch.91"
   ],
-  "cpu_percent": 11.5,
-  "ram_percent": 55.8,
-  "speed_per_min": 20.1,
-  "speed_per_hour": 1206,
-  "eta_text": "~55 นาที (จบ ~03:59 น.)",
+  "cpu_percent": 29.1,
+  "ram_percent": 55.9,
+  "speed_per_min": 18.1,
+  "speed_per_hour": 1088,
+  "eta_text": "~1 ชม. 1 นาที (จบ ~04:05 น.)",
   "current_project": "七零，踹白月光后下乡发家娶村花",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 117 (แปลเสร็จจริง 109/1207 ตอน)",
   "completed_count": 109,
