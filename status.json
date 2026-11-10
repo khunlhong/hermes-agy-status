@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T00:54:53+07:00",
+  "updated_at": "2026-11-11T00:55:01+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 0,
@@ -25,8 +25,8 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 21.0,
-  "ram_percent": 60.7,
+  "cpu_percent": 10.5,
+  "ram_percent": 60.6,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
@@ -36,16 +36,6 @@
   "latest_chapter": 0,
   "total_count": 453,
   "history": [
-    {
-      "time": "00:53",
-      "completed": 430,
-      "ts": 1794333231.602174
-    },
-    {
-      "time": "00:53",
-      "completed": 431,
-      "ts": 1794333233.9772286
-    },
     {
       "time": "00:53",
       "completed": 433,
@@ -135,6 +125,16 @@
       "time": "00:54",
       "completed": 0,
       "ts": 1794333282.1332555
+    },
+    {
+      "time": "00:54",
+      "completed": 453,
+      "ts": 1794333298.0733652
+    },
+    {
+      "time": "00:55",
+      "completed": 0,
+      "ts": 1794333300.4479964
     }
   ],
   "recent_chapters": [],
