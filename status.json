@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:24:41+07:00",
+  "updated_at": "2026-11-10T21:24:48+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.843",
     "Ch.919"
   ],
-  "cpu_percent": 3.6,
+  "cpu_percent": 2.6,
   "ram_percent": 57.4,
-  "speed_per_min": 1.5,
-  "speed_per_hour": 93,
-  "eta_text": "~4 ชม. 53 นาที (จบ ~02:17 น.)",
+  "speed_per_min": 1.4,
+  "speed_per_hour": 85,
+  "eta_text": "~5 ชม. 14 นาที (จบ ~02:38 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1311 (แปลเสร็จจริง 1300/1739 ตอน)",
   "completed_count": 1300,
