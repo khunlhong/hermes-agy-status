@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-11T05:50:45+07:00",
+  "updated_at": "2026-11-11T05:50:52+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 0,
+  "agy_active_workers": 1,
   "worker_slots": [
-    "IDLE",
+    "Ch.16",
     "IDLE",
     "IDLE",
     "IDLE",
@@ -25,119 +25,31 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 30.8,
-  "ram_percent": 59.7,
+  "cpu_percent": 23.4,
+  "ram_percent": 59.9,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "古代娇娘穿七零，冷面军官沦陷了",
-  "current_step": "กำลังรันแปล Worker (0 สล็อต) | ล่าสุด: ตอนที่ 0 (แปลเสร็จจริง 0/556 ตอน)",
-  "completed_count": 0,
-  "latest_chapter": 0,
+  "current_step": "กำลังรันแปล Worker (1 สล็อต) | ล่าสุด: ตอนที่ 16 (แปลเสร็จจริง 1/556 ตอน)",
+  "completed_count": 1,
+  "latest_chapter": 16,
   "total_count": 556,
   "history": [
     {
-      "time": "05:48",
-      "completed": 533,
-      "ts": 1794350928.362585
-    },
-    {
-      "time": "05:48",
-      "completed": 534,
-      "ts": 1794350929.3264456
-    },
-    {
-      "time": "05:48",
-      "completed": 535,
-      "ts": 1794350933.1207368
-    },
-    {
-      "time": "05:48",
-      "completed": 536,
-      "ts": 1794350935.5556421
-    },
-    {
-      "time": "05:48",
-      "completed": 537,
-      "ts": 1794350935.6683776
-    },
-    {
-      "time": "05:48",
-      "completed": 539,
-      "ts": 1794350937.9403453
-    },
-    {
-      "time": "05:49",
-      "completed": 541,
-      "ts": 1794350942.0153174
-    },
-    {
-      "time": "05:49",
-      "completed": 543,
-      "ts": 1794350942.7570949
-    },
-    {
-      "time": "05:49",
-      "completed": 544,
-      "ts": 1794350945.2146206
-    },
-    {
-      "time": "05:49",
-      "completed": 545,
-      "ts": 1794350946.0789528
-    },
-    {
-      "time": "05:49",
-      "completed": 546,
-      "ts": 1794350946.1653059
-    },
-    {
-      "time": "05:49",
-      "completed": 548,
-      "ts": 1794350947.4990003
-    },
-    {
-      "time": "05:49",
-      "completed": 550,
-      "ts": 1794350950.2119424
-    },
-    {
-      "time": "05:49",
-      "completed": 551,
-      "ts": 1794350952.1551952
-    },
-    {
-      "time": "05:49",
-      "completed": 554,
-      "ts": 1794350954.6212587
-    },
-    {
-      "time": "05:49",
-      "completed": 555,
-      "ts": 1794350960.5472722
-    },
-    {
-      "time": "05:49",
-      "completed": 555,
-      "ts": 1794350991.4917998
-    },
-    {
-      "time": "05:50",
-      "completed": 555,
-      "ts": 1794351022.440798
-    },
-    {
-      "time": "05:50",
-      "completed": 556,
-      "ts": 1794351030.5482314
-    },
-    {
       "time": "05:50",
       "completed": 0,
-      "ts": 1794351034.8237386
+      "ts": 1794351047.2996173
+    },
+    {
+      "time": "05:50",
+      "completed": 1,
+      "ts": 1794351051.356121
     }
   ],
-  "recent_chapters": [],
+  "recent_chapters": [
+    "✓ ตอนที่ 16 แปลเสร็จสมบูรณ์ (05:50:50)"
+  ],
   "novel_queue": [
     {
       "title": "七零闪婚不见面，带娃炸翻家属院",
