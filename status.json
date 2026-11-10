@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T04:12:38+07:00",
+  "updated_at": "2026-11-11T04:12:45+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 0,
@@ -25,8 +25,8 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 10.2,
-  "ram_percent": 55.0,
+  "cpu_percent": 15.2,
+  "ram_percent": 55.3,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
