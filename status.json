@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-11T04:24:43+07:00",
+  "updated_at": "2026-11-11T04:24:50+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
-  "agy_active_workers": 0,
+  "agy_active_workers": 1,
   "worker_slots": [
-    "IDLE",
+    "Ch.14",
     "IDLE",
     "IDLE",
     "IDLE",
@@ -25,22 +25,17 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 2.3,
-  "ram_percent": 55.8,
+  "cpu_percent": 4.2,
+  "ram_percent": 55.7,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "กำลังคำนวณสปีด...",
   "current_project": "军婚超甜！闪婚后成了首长的心尖宠",
-  "current_step": "กำลังรันแปล Worker (0 สล็อต) | ล่าสุด: ตอนที่ 0 (แปลเสร็จจริง 0/322 ตอน)",
-  "completed_count": 0,
-  "latest_chapter": 0,
+  "current_step": "กำลังรันแปล Worker (1 สล็อต) | ล่าสุด: ตอนที่ 14 (แปลเสร็จจริง 1/322 ตอน)",
+  "completed_count": 1,
+  "latest_chapter": 14,
   "total_count": 322,
   "history": [
-    {
-      "time": "04:22",
-      "completed": 299,
-      "ts": 1794345745.5502195
-    },
     {
       "time": "04:22",
       "completed": 300,
@@ -135,9 +130,16 @@
       "time": "04:24",
       "completed": 0,
       "ts": 1794345881.568309
+    },
+    {
+      "time": "04:24",
+      "completed": 1,
+      "ts": 1794345890.1672206
     }
   ],
-  "recent_chapters": [],
+  "recent_chapters": [
+    "✓ ตอนที่ 14 แปลเสร็จสมบูรณ์ (04:24:48)"
+  ],
   "novel_queue": [
     {
       "title": "七零闪婚不见面，带娃炸翻家属院",
