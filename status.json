@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T01:40:16+07:00",
+  "updated_at": "2026-11-11T01:40:23+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.359",
     "Ch.367"
   ],
-  "cpu_percent": 18.7,
-  "ram_percent": 61.5,
-  "speed_per_min": 189.7,
-  "speed_per_hour": 11383,
+  "cpu_percent": 12.2,
+  "ram_percent": 61.7,
+  "speed_per_min": 178.7,
+  "speed_per_hour": 10720,
   "eta_text": "~1 นาที (จบ ~01:41 น.)",
   "current_project": "十天后穿越：举国帮我伪造宗门令",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 386 (แปลเสร็จจริง 382/561 ตอน)",
