@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:28:29+07:00",
+  "updated_at": "2026-11-11T05:28:36+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.113",
     "Ch.110"
   ],
-  "cpu_percent": 8.5,
-  "ram_percent": 55.4,
-  "speed_per_min": 37.2,
-  "speed_per_hour": 2230,
-  "eta_text": "~2 นาที (จบ ~05:30 น.)",
+  "cpu_percent": 14.0,
+  "ram_percent": 55.5,
+  "speed_per_min": 30.6,
+  "speed_per_hour": 1835,
+  "eta_text": "~3 นาที (จบ ~05:31 น.)",
   "current_project": "词条修仙：从凡女开始叩仙门",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 128 (แปลเสร็จจริง 125/218 ตอน)",
   "completed_count": 125,
