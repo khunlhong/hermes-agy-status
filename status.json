@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T04:19:54+07:00",
+  "updated_at": "2026-11-11T04:20:01+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.228",
     "Ch.225"
   ],
-  "cpu_percent": 4.9,
+  "cpu_percent": 6.2,
   "ram_percent": 55.7,
-  "speed_per_min": 19.8,
-  "speed_per_hour": 1186,
-  "eta_text": "~4 นาที (จบ ~04:23 น.)",
+  "speed_per_min": 15.4,
+  "speed_per_hour": 927,
+  "eta_text": "~5 นาที (จบ ~04:25 น.)",
   "current_project": "七零美人空间在手，首长老公宠妻无度",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 251 (แปลเสร็จจริง 238/322 ตอน)",
   "completed_count": 238,
