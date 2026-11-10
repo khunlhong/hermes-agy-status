@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T04:56:12+07:00",
+  "updated_at": "2026-11-11T04:56:19+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.396",
     "Ch.394"
   ],
-  "cpu_percent": 6.2,
-  "ram_percent": 56.2,
-  "speed_per_min": 22.3,
-  "speed_per_hour": 1338,
-  "eta_text": "~15 นาที (จบ ~05:11 น.)",
+  "cpu_percent": 4.0,
+  "ram_percent": 56.4,
+  "speed_per_min": 20.4,
+  "speed_per_hour": 1225,
+  "eta_text": "~16 นาที (จบ ~05:12 น.)",
   "current_project": "修仙：恶仆开局，逃入宗门当杂役",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 419 (แปลเสร็จจริง 411/735 ตอน)",
   "completed_count": 411,
