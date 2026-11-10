@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T00:24:13+07:00",
+  "updated_at": "2026-11-11T00:24:20+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.243",
     "Ch.264"
   ],
-  "cpu_percent": 22.1,
-  "ram_percent": 60.5,
-  "speed_per_min": 23.0,
-  "speed_per_hour": 1379,
+  "cpu_percent": 25.0,
+  "ram_percent": 60.3,
+  "speed_per_min": 20.7,
+  "speed_per_hour": 1240,
   "eta_text": "~2 นาที (จบ ~00:26 น.)",
   "current_project": "七零退婚嫌我瞎？我嫁军少旺全家",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 285 (แปลเสร็จจริง 281/323 ตอน)",
