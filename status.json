@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:35:01+07:00",
+  "updated_at": "2026-11-10T20:35:07+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1036",
     "Ch.1029"
   ],
-  "cpu_percent": 9.2,
-  "ram_percent": 63.9,
-  "speed_per_min": 6.8,
-  "speed_per_hour": 408,
-  "eta_text": "~1 ชม. 47 นาที (จบ ~22:22 น.)",
+  "cpu_percent": 21.1,
+  "ram_percent": 64.0,
+  "speed_per_min": 6.5,
+  "speed_per_hour": 393,
+  "eta_text": "~1 ชม. 52 นาที (จบ ~22:27 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1056 (แปลเสร็จจริง 1014/1739 ตอน)",
   "completed_count": 1014,
