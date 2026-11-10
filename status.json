@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T04:33:32+07:00",
+  "updated_at": "2026-11-11T04:33:39+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.192",
     "Ch.194"
   ],
-  "cpu_percent": 23.1,
-  "ram_percent": 55.7,
-  "speed_per_min": 19.6,
-  "speed_per_hour": 1178,
-  "eta_text": "~18 นาที (จบ ~04:51 น.)",
+  "cpu_percent": 8.5,
+  "ram_percent": 56.2,
+  "speed_per_min": 18.2,
+  "speed_per_hour": 1092,
+  "eta_text": "~20 นาที (จบ ~04:53 น.)",
   "current_project": "军婚超甜！闪婚后成了首长的心尖宠",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 214 (แปลเสร็จจริง 203/562 ตอน)",
   "completed_count": 203,
