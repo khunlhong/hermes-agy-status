@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T02:34:38+07:00",
+  "updated_at": "2026-11-11T02:34:45+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.319",
     "Ch.314"
   ],
-  "cpu_percent": 5.9,
-  "ram_percent": 57.7,
-  "speed_per_min": 35.5,
-  "speed_per_hour": 2131,
-  "eta_text": "~25 นาที (จบ ~02:59 น.)",
+  "cpu_percent": 23.5,
+  "ram_percent": 57.1,
+  "speed_per_min": 31.1,
+  "speed_per_hour": 1868,
+  "eta_text": "~28 นาที (จบ ~03:02 น.)",
   "current_project": "七零，抢婆婆空间后不再当窝囊媳",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 336 (แปลเสร็จจริง 332/1207 ตอน)",
   "completed_count": 332,
