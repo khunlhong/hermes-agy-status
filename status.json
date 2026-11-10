@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:43:16+07:00",
+  "updated_at": "2026-11-11T05:43:24+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.261",
     "Ch.256"
   ],
-  "cpu_percent": 12.9,
-  "ram_percent": 54.8,
-  "speed_per_min": 42.9,
-  "speed_per_hour": 2571,
-  "eta_text": "~6 นาที (จบ ~05:49 น.)",
+  "cpu_percent": 22.8,
+  "ram_percent": 55.1,
+  "speed_per_min": 36.9,
+  "speed_per_hour": 2211,
+  "eta_text": "~8 นาที (จบ ~05:51 น.)",
   "current_project": "七零错嫁：糙汉军官宠上天了",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 279 (แปลเสร็จจริง 278/556 ตอน)",
   "completed_count": 278,
