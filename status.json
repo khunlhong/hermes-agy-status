@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:56:47+07:00",
+  "updated_at": "2026-11-10T21:56:54+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.1613",
     "Ch.598"
   ],
-  "cpu_percent": 11.8,
+  "cpu_percent": 9.1,
   "ram_percent": 57.9,
-  "speed_per_min": 9.7,
-  "speed_per_hour": 582,
+  "speed_per_min": 9.2,
+  "speed_per_hour": 550,
   "eta_text": "~13 นาที (จบ ~22:09 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1628 (แปลเสร็จจริง 1617/1739 ตอน)",
