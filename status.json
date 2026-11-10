@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T04:27:11+07:00",
+  "updated_at": "2026-11-11T04:27:17+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.20",
     "Ch.27"
   ],
-  "cpu_percent": 6.2,
-  "ram_percent": 55.6,
-  "speed_per_min": 21.2,
-  "speed_per_hour": 1274,
-  "eta_text": "~24 นาที (จบ ~04:51 น.)",
+  "cpu_percent": 28.9,
+  "ram_percent": 56.2,
+  "speed_per_min": 19.3,
+  "speed_per_hour": 1160,
+  "eta_text": "~27 นาที (จบ ~04:54 น.)",
   "current_project": "军婚超甜！闪婚后成了首长的心尖宠",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 52 (แปลเสร็จจริง 46/562 ตอน)",
   "completed_count": 46,
