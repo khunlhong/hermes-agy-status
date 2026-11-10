@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T06:18:28+07:00",
+  "updated_at": "2026-11-11T06:18:35+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.219",
     "Ch.216"
   ],
-  "cpu_percent": 100.0,
-  "ram_percent": 65.1,
-  "speed_per_min": 31.8,
-  "speed_per_hour": 1907,
-  "eta_text": "~24 นาที (จบ ~06:42 น.)",
+  "cpu_percent": 18.5,
+  "ram_percent": 63.9,
+  "speed_per_min": 28.8,
+  "speed_per_hour": 1726,
+  "eta_text": "~27 นาที (จบ ~06:45 น.)",
   "current_project": "七零：我辅导爹妈考大学",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 238 (แปลเสร็จจริง 238/1012 ตอน)",
   "completed_count": 238,
