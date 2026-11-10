@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:58:35+07:00",
+  "updated_at": "2026-11-10T21:58:42+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1626",
     "Ch.1623"
   ],
-  "cpu_percent": 1.6,
-  "ram_percent": 62.6,
-  "speed_per_min": 9.6,
-  "speed_per_hour": 575,
-  "eta_text": "~11 นาที (จบ ~22:09 น.)",
+  "cpu_percent": 7.8,
+  "ram_percent": 62.5,
+  "speed_per_min": 9.1,
+  "speed_per_hour": 547,
+  "eta_text": "~12 นาที (จบ ~22:10 น.)",
   "current_project": "无敌天命",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1641 (แปลเสร็จจริง 1633/1739 ตอน)",
   "completed_count": 1633,
@@ -134,7 +134,7 @@
     {
       "time": "21:58",
       "completed": 1633,
-      "ts": 1794322715.0950935
+      "ts": 1794322715.1415198
     }
   ],
   "recent_chapters": [
