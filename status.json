@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T11:51:51+07:00",
+  "updated_at": "2026-11-11T11:51:58+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 0,
@@ -36,11 +36,6 @@
   "latest_chapter": 1826,
   "total_count": 1826,
   "history": [
-    {
-      "time": "11:40",
-      "completed": 1826,
-      "ts": 1794372026.3369954
-    },
     {
       "time": "11:41",
       "completed": 1826,
@@ -135,6 +130,11 @@
       "time": "11:51",
       "completed": 1826,
       "ts": 1794372683.7149253
+    },
+    {
+      "time": "11:51",
+      "completed": 1826,
+      "ts": 1794372718.7935174
     }
   ],
   "recent_chapters": [
