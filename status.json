@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:51:51+07:00",
+  "updated_at": "2026-11-11T07:51:58+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 0,
@@ -25,10 +25,10 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 5.4,
+  "cpu_percent": 6.4,
   "ram_percent": 54.8,
-  "speed_per_min": 7.0,
-  "speed_per_hour": 422,
+  "speed_per_min": 6.3,
+  "speed_per_hour": 378,
   "eta_text": "เสร็จสมบูรณ์ 100%!",
   "current_project": "让你修仙，没让你成为宗门钉子户",
   "current_step": "แปลเสร็จสมบูรณ์ 100% (1826/1826 ตอน)",
@@ -36,11 +36,6 @@
   "latest_chapter": 1826,
   "total_count": 1826,
   "history": [
-    {
-      "time": "07:45",
-      "completed": 1778,
-      "ts": 1794357902.1441708
-    },
     {
       "time": "07:45",
       "completed": 1783,
@@ -135,6 +130,11 @@
       "time": "07:51",
       "completed": 1826,
       "ts": 1794358284.207167
+    },
+    {
+      "time": "07:51",
+      "completed": 1826,
+      "ts": 1794358318.365356
     }
   ],
   "recent_chapters": [
