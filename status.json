@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:04:54+07:00",
+  "updated_at": "2026-11-11T07:05:01+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.400",
     "Ch.402"
   ],
-  "cpu_percent": 38.7,
-  "ram_percent": 59.3,
-  "speed_per_min": 16.1,
-  "speed_per_hour": 964,
-  "eta_text": "~1 ชม. 28 นาที (จบ ~08:32 น.)",
+  "cpu_percent": 33.0,
+  "ram_percent": 58.7,
+  "speed_per_min": 15.9,
+  "speed_per_hour": 952,
+  "eta_text": "~1 ชม. 29 นาที (จบ ~08:34 น.)",
   "current_project": "让你修仙，没让你成为宗门钉子户",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 425 (แปลเสร็จจริง 417/1826 ตอน)",
   "completed_count": 417,
