@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:37:12+07:00",
+  "updated_at": "2026-11-11T07:37:19+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,10 +25,10 @@
     "Ch.1407",
     "Ch.1408"
   ],
-  "cpu_percent": 12.2,
-  "ram_percent": 57.5,
-  "speed_per_min": 42.0,
-  "speed_per_hour": 2522,
+  "cpu_percent": 12.9,
+  "ram_percent": 57.8,
+  "speed_per_min": 39.9,
+  "speed_per_hour": 2397,
   "eta_text": "~10 นาที (จบ ~07:47 น.)",
   "current_project": "让你修仙，没让你成为宗门钉子户",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1427 (แปลเสร็จจริง 1426/1826 ตอน)",
