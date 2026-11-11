@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:50:00+07:00",
+  "updated_at": "2026-11-11T07:50:07+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -26,9 +26,9 @@
     "Ch.1810"
   ],
   "cpu_percent": 2.6,
-  "ram_percent": 54.8,
-  "speed_per_min": 12.2,
-  "speed_per_hour": 732,
+  "ram_percent": 54.9,
+  "speed_per_min": 11.9,
+  "speed_per_hour": 717,
   "eta_text": "เสร็จสมบูรณ์ 100%!",
   "current_project": "让你修仙，没让你成为宗门钉子户",
   "current_step": "แปลเสร็จสมบูรณ์ 100% (1826/1826 ตอน)",
