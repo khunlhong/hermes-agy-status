@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:27:28+07:00",
+  "updated_at": "2026-11-11T07:27:35+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1060",
     "Ch.1050"
   ],
-  "cpu_percent": 10.9,
-  "ram_percent": 58.0,
-  "speed_per_min": 38.3,
-  "speed_per_hour": 2298,
-  "eta_text": "~20 นาที (จบ ~07:47 น.)",
+  "cpu_percent": 35.4,
+  "ram_percent": 58.2,
+  "speed_per_min": 36.4,
+  "speed_per_hour": 2183,
+  "eta_text": "~21 นาที (จบ ~07:48 น.)",
   "current_project": "让你修仙，没让你成为宗门钉子户",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1074 (แปลเสร็จจริง 1073/1826 ตอน)",
   "completed_count": 1073,
