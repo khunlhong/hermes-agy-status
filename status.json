@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:02:53+07:00",
+  "updated_at": "2026-11-11T07:03:00+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.388",
     "Ch.387"
   ],
-  "cpu_percent": 62.3,
-  "ram_percent": 61.8,
-  "speed_per_min": 20.1,
-  "speed_per_hour": 1208,
-  "eta_text": "~1 ชม. 11 นาที (จบ ~08:13 น.)",
+  "cpu_percent": 3.9,
+  "ram_percent": 62.7,
+  "speed_per_min": 19.8,
+  "speed_per_hour": 1188,
+  "eta_text": "~1 ชม. 12 นาที (จบ ~08:15 น.)",
   "current_project": "让你修仙，没让你成为宗门钉子户",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 416 (แปลเสร็จจริง 408/1826 ตอน)",
   "completed_count": 408,
