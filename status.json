@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:15:08+07:00",
+  "updated_at": "2026-11-11T07:15:15+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.618",
     "Ch.616"
   ],
-  "cpu_percent": 47.2,
-  "ram_percent": 59.8,
-  "speed_per_min": 22.7,
-  "speed_per_hour": 1361,
-  "eta_text": "~52 นาที (จบ ~08:07 น.)",
+  "cpu_percent": 39.9,
+  "ram_percent": 60.3,
+  "speed_per_min": 21.7,
+  "speed_per_hour": 1304,
+  "eta_text": "~55 นาที (จบ ~08:10 น.)",
   "current_project": "让你修仙，没让你成为宗门钉子户",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 643 (แปลเสร็จจริง 638/1826 ตอน)",
   "completed_count": 638,
