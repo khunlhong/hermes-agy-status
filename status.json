@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:08:45+07:00",
+  "updated_at": "2026-11-11T07:08:52+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.472",
     "Ch.465"
   ],
-  "cpu_percent": 4.2,
-  "ram_percent": 59.8,
-  "speed_per_min": 27.0,
-  "speed_per_hour": 1623,
-  "eta_text": "~50 นาที (จบ ~07:58 น.)",
+  "cpu_percent": 14.1,
+  "ram_percent": 60.5,
+  "speed_per_min": 25.7,
+  "speed_per_hour": 1544,
+  "eta_text": "~52 นาที (จบ ~08:00 น.)",
   "current_project": "让你修仙，没让你成为宗门钉子户",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 488 (แปลเสร็จจริง 488/1826 ตอน)",
   "completed_count": 488,
