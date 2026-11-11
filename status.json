@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:03:49+07:00",
+  "updated_at": "2026-11-11T07:03:56+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.391",
     "Ch.393"
   ],
-  "cpu_percent": 15.9,
-  "ram_percent": 62.7,
-  "speed_per_min": 17.9,
-  "speed_per_hour": 1072,
-  "eta_text": "~1 ชม. 19 นาที (จบ ~08:22 น.)",
+  "cpu_percent": 34.6,
+  "ram_percent": 62.2,
+  "speed_per_min": 17.6,
+  "speed_per_hour": 1057,
+  "eta_text": "~1 ชม. 20 นาที (จบ ~08:23 น.)",
   "current_project": "让你修仙，没让你成为宗门钉子户",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 416 (แปลเสร็จจริง 410/1826 ตอน)",
   "completed_count": 410,
