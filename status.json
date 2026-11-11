@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:56:23+07:00",
+  "updated_at": "2026-11-11T07:56:30+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 0,
@@ -25,9 +25,9 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 3.3,
-  "ram_percent": 55.0,
-  "speed_per_min": 1.0,
+  "cpu_percent": 15.8,
+  "ram_percent": 54.9,
+  "speed_per_min": 0.9,
   "speed_per_hour": 57,
   "eta_text": "เสร็จสมบูรณ์ 100%!",
   "current_project": "让你修仙，没让你成为宗门钉子户",
