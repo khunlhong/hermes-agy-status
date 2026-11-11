@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:30:45+07:00",
+  "updated_at": "2026-11-11T07:30:52+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.1178",
     "Ch.1175"
   ],
-  "cpu_percent": 8.6,
+  "cpu_percent": 15.7,
   "ram_percent": 57.9,
-  "speed_per_min": 38.6,
-  "speed_per_hour": 2315,
-  "eta_text": "~16 นาที (จบ ~07:46 น.)",
+  "speed_per_min": 36.7,
+  "speed_per_hour": 2201,
+  "eta_text": "~17 นาที (จบ ~07:47 น.)",
   "current_project": "让你修仙，没让你成为宗门钉子户",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 1195 (แปลเสร็จจริง 1193/1826 ตอน)",
   "completed_count": 1193,
