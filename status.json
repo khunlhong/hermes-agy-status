@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:08:59+07:00",
+  "updated_at": "2026-11-11T07:09:06+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.473",
     "Ch.480"
   ],
-  "cpu_percent": 27.4,
-  "ram_percent": 60.7,
-  "speed_per_min": 25.8,
-  "speed_per_hour": 1550,
-  "eta_text": "~52 นาที (จบ ~08:00 น.)",
+  "cpu_percent": 19.6,
+  "ram_percent": 60.3,
+  "speed_per_min": 24.6,
+  "speed_per_hour": 1475,
+  "eta_text": "~54 นาที (จบ ~08:03 น.)",
   "current_project": "让你修仙，没让你成为宗门钉子户",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 494 (แปลเสร็จจริง 490/1826 ตอน)",
   "completed_count": 490,
