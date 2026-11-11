@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:12:48+07:00",
+  "updated_at": "2026-11-11T07:12:55+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.563",
     "Ch.571"
   ],
-  "cpu_percent": 15.8,
-  "ram_percent": 61.2,
-  "speed_per_min": 24.4,
-  "speed_per_hour": 1464,
-  "eta_text": "~51 นาที (จบ ~08:03 น.)",
+  "cpu_percent": 34.3,
+  "ram_percent": 61.1,
+  "speed_per_min": 23.3,
+  "speed_per_hour": 1398,
+  "eta_text": "~53 นาที (จบ ~08:05 น.)",
   "current_project": "让你修仙，没让你成为宗门钉子户",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 593 (แปลเสร็จจริง 583/1826 ตอน)",
   "completed_count": 583,
