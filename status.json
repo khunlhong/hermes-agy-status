@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:11:18+07:00",
+  "updated_at": "2026-11-11T07:11:25+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.531",
     "Ch.537"
   ],
-  "cpu_percent": 7.4,
-  "ram_percent": 60.2,
-  "speed_per_min": 26.6,
-  "speed_per_hour": 1596,
-  "eta_text": "~48 นาที (จบ ~07:59 น.)",
+  "cpu_percent": 22.9,
+  "ram_percent": 60.9,
+  "speed_per_min": 25.5,
+  "speed_per_hour": 1529,
+  "eta_text": "~50 นาที (จบ ~08:01 น.)",
   "current_project": "让你修仙，没让你成为宗门钉子户",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 557 (แปลเสร็จจริง 556/1826 ตอน)",
   "completed_count": 556,
