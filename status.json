@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:12:27+07:00",
+  "updated_at": "2026-11-11T07:12:34+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 20,
@@ -25,11 +25,11 @@
     "Ch.566",
     "Ch.555"
   ],
-  "cpu_percent": 9.2,
-  "ram_percent": 61.1,
-  "speed_per_min": 24.3,
-  "speed_per_hour": 1460,
-  "eta_text": "~51 นาที (จบ ~08:03 น.)",
+  "cpu_percent": 13.4,
+  "ram_percent": 61.0,
+  "speed_per_min": 23.2,
+  "speed_per_hour": 1394,
+  "eta_text": "~54 นาที (จบ ~08:06 น.)",
   "current_project": "让你修仙，没让你成为宗门钉子户",
   "current_step": "กำลังรันแปล Worker (20 สล็อต) | ล่าสุด: ตอนที่ 577 (แปลเสร็จจริง 577/1826 ตอน)",
   "completed_count": 577,
