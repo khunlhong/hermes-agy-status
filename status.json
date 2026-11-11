@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T11:39:43+07:00",
+  "updated_at": "2026-11-11T11:39:51+07:00",
   "hermes_status": "ONLINE",
   "agy_status": "WORKING",
   "agy_active_workers": 0,
@@ -25,8 +25,8 @@
     "IDLE",
     "IDLE"
   ],
-  "cpu_percent": 2.2,
-  "ram_percent": 55.9,
+  "cpu_percent": 10.0,
+  "ram_percent": 55.8,
   "speed_per_min": 0.0,
   "speed_per_hour": 0,
   "eta_text": "เสร็จสมบูรณ์ 100%!",
@@ -36,11 +36,6 @@
   "latest_chapter": 1826,
   "total_count": 1826,
   "history": [
-    {
-      "time": "11:28",
-      "completed": 1826,
-      "ts": 1794371295.6491227
-    },
     {
       "time": "11:28",
       "completed": 1826,
@@ -135,6 +130,11 @@
       "time": "11:39",
       "completed": 1826,
       "ts": 1794371956.0633225
+    },
+    {
+      "time": "11:39",
+      "completed": 1826,
+      "ts": 1794371990.9891202
     }
   ],
   "recent_chapters": [
